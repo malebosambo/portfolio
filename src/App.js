@@ -8,9 +8,13 @@ function App() {
         <p>
           Malebo Sambo Portfolio
         </p>
-        <p className="small">
-          My first React project.
+        <p>
+          View my projects on GitHub
         </p>
+        
+        <div>
+          <input type="submit" value="Resume"></input>
+        </div>
 
       </header>
     </div>
