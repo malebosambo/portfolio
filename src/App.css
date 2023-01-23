@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -18,14 +13,13 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Container {
+  float: left;
+  width: 100%;
 }
 
-.heart {
-  color: #ff0000;
-}
-
-.small {
-  font-size: 0.75rem;
+.Button {
+  display: inline;
+  margin: 0 10px;
+  width: 25%;
 }
