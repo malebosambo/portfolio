@@ -13,10 +13,18 @@ function App() {
         </p>
         
         <div className="Container">
-          <input className="Buttton" type="submit" value="Networking"></input>
-          <input className="Button" type="submit" value="Websites"></input>
-          <input className="Button" type="submit" value="Mobile Apps"></input>
-          <input className="Button" type="submit" value="IoT"></input>
+          <div className="Buttton">
+            <input type="submit" value="Networking"></input>
+          </div>
+          <div className="Button">
+            <input type="submit" value="Websites"></input>
+          </div>
+          <div className="Button">
+            <input  type="submit" value="Mobile Apps"></input>
+          </div>
+          <div className="Button">
+          <input  type="submit" value="IoT"></input>
+          </div>
         </div>
 
       </header>
