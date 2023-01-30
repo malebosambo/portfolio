@@ -6,7 +6,7 @@ function App() {
       <header className="App-header">
 
         <div className="Avatar">
-          <img src="/public/Malebo-Sambo.jpg" alt="Selfie" />
+          <img src="/public/Malebo-Sambo.jpg" alt="Selfie" ></img>
         </div>
         <p>
           Malebo Sambo Portfolio
