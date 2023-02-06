@@ -5,28 +5,19 @@ function App() {
     <div>
       <header>
 
-        <div className="Avatar">
-          <img src="/public/Malebo-Sambo.jpg" alt="Selfie" ></img>
-        </div>
-        <p>
-          Malebo Sambo Portfolio
-        </p>
-        <p>
-          View my projects on GitHub <a href="https://github.com/malebosambo">here</a>
-        </p>
-        
-        <div className="Container">
-          <div className="Buttton">
-            <input type="submit" value="Networking"></input>
+        <div className="site_nav">
+          <div id="title">
+            <p>Malebo Sambo</p>
           </div>
-          <div className="Button">
-            <input type="submit" value="Websites"></input>
-          </div>
-          <div className="Button">
-            <input  type="submit" value="Mobile Apps"></input>
-          </div>
-          <div className="Button">
-          <input  type="submit" value="IoT"></input>
+          <div id="menu">
+            <ul>
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Websites</a></li>
+              <li><a href="#">Apps</a></li>
+              <li><a href="#">IoT</a></li>
+              <li><a href="#">Networking</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
           </div>
         </div>
 
