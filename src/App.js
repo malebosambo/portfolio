@@ -6,11 +6,11 @@ function App() {
       <header>
 
         <div className="Site_Nav">
-          <div id="Title_Cont">
+          <div className="Title_Cont">
             <p className="Title">Malebo Sambo</p>
           </div>
           
-          <div id="Menu_Cont">
+          <div className="Menu_Cont">
             <button>Github</button>
             <button>Website</button>
             <button>Apps</button>
