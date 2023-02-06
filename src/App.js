@@ -2,8 +2,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <header>
 
         <div className="Avatar">
           <img src="/public/Malebo-Sambo.jpg" alt="Selfie" ></img>
