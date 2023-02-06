@@ -33,7 +33,26 @@ a {
   width: 25%;
 }
 
+.Menu_Cont {
+  display: inline;
+  float: right;
+  width: 70%;
+}
+
+.Site_Nav {
+  float: left;
+  width: 100%;
+}
+
 .Title {
   font-family: monospace;
   font-weight: bold;
+}
+
+.Title_Cont {
+  clear: left;
+  display: inline;
+  float: left;
+  padding-left: 20px;
+  width: 30%;
 }

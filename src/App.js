@@ -5,9 +5,17 @@ function App() {
     <div>
       <header>
 
-        <div className="site_nav">
-          <div id="title">
+        <div className="Site_Nav">
+          <div id="Title_Cont">
             <p className="Title">Malebo Sambo</p>
+          </div>
+          
+          <div id="Menu_Cont">
+            <button>Github</button>
+            <button>Website</button>
+            <button>Apps</button>
+            <button>IoT</button>
+            <button>Networking</button>
           </div>
         </div>
 
