@@ -11,12 +11,12 @@ function App() {
           </div>
           <div id="menu">
             <ul>
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">Websites</a></li>
-              <li><a href="#">Apps</a></li>
-              <li><a href="#">IoT</a></li>
-              <li><a href="#">Networking</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="www.google.com">GitHub</a></li>
+              <li><a href="www.google.com">Websites</a></li>
+              <li><a href="www.google.com">Apps</a></li>
+              <li><a href="www.google.com">IoT</a></li>
+              <li><a href="www.google.com">Networking</a></li>
+              <li><a href="www.google.com">Contact</a></li>
             </ul>
           </div>
         </div>
