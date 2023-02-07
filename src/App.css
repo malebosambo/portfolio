@@ -44,12 +44,18 @@ a {
   width: 100%;
 }
 
+.Site_Nav button {
+  border-bottom: 1px solid black;
+  margin-left: 10px;
+}
+
 .Title {
   font-family: monospace;
   font-weight: bold;
 }
 
 .Title_Cont {
+  background-color: mediumseagreen;
   clear: left;
   display: inline;
   float: left;
