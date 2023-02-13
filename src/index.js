@@ -1,14 +1,41 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-// import websites from '/src/components/websites.js';
+import HomeContentCont from './component/homeContentCont';
 import reportWebVitals from './reportWebVitals';
+
+const services = [
+  {
+    name: "GitHub",
+    ops: ["DevOps", "Collaboration", "Compute", "Version Control"],
+    imgUrl: "/public/1675430271622.jpeg"
+  },
+  {
+    name: "Websites",
+    ops: ["Hosting", "Frameworks"],
+    imgUrl: "/public/1675430271622.jpeg"
+  },
+  {
+    name: "Apps",
+    ops: ["AI", "ML"],
+    imgUrl: "/public/1675430271622.jpeg"
+  },
+  {
+    name: "IoT",
+    ops: ["Template", "Custom"],
+    imgUrl: "/public/1675430271622.jpeg"
+  },
+  {
+    name: "Network",
+    ops: ["Microservices", "VPN"],
+    imgUrl: "/public/1675430271622.jpeg"
+  }
+]
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <HomeContentCont />
   </React.StrictMode>
 );
 

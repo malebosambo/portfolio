@@ -1,10 +1,11 @@
 import './App.css';
+import homeContentCont from './components/homeContentCont'; 
 
 function App() {
   return (
     <div>
-      <header>
-
+    
+      <div className="Container">
         <div className="Site_Nav">
           <div className="Title_Cont">
             <p className="Title">Malebo Sambo</p>
@@ -18,8 +19,9 @@ function App() {
             <button>Networking</button>
           </div>
         </div>
-
-      </header>
+      </div>
+      
+      <homeContentCont />
     </div>
   );
 }

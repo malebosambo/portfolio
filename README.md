@@ -1,8 +1,12 @@
-Malebo Sambo Personal Portfolio
+<h1>Malebo Sambo Personal Portfolio</h1>
 
-This repository is using React.js module.
+Project Details:
 
-The code is run on GitHub Codespaces for VS Code Web.
+Development Details:
+<ul>
+<li>This repository is using React.js module.</li>
+<li>The code is run on GitHub Codespaces for VS Code Web.</li>
+</ul>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

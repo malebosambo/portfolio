@@ -1,14 +1,4 @@
-a {
-  color: white;
-  text-decoration: none;
-}
-
-.App {
-  text-align: center;
-}
-
 .App-header {
-  background-image: url("/public/Nissan-Universe-Shouts.jpg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,12 +8,9 @@ a {
   color: white;
 }
 
-.Avatar {
-  border-radius: 100px;
-}
-
 .Container {
-  float: left;
+  background-image: url("/public/Nissan-Universe-Shouts.jpg");
+  margin: 0 auto;
   width: 100%;
 }
 
