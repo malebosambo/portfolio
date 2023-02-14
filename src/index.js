@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import HomeContentCont from './component/homeContentCont';
+import HomeContentCont from './components/homeContentCont';
 import reportWebVitals from './reportWebVitals';
 
 const services = [
