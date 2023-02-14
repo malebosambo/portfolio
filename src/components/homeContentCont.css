@@ -2,6 +2,53 @@ html {
   font-family: monospace;
 }
 
+.Section_Cont {
+  float: left;
+  width: 100%;
+}
+
+.Section_Filters {
+  display: inline;
+  float: right;
+  width: 70%;
+}
+
+.Section_Filters ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+.Section_Name {
+  clear: left;
+  float: left;
+  padding: 20px;
+  width: 30%;
+}
+
 .Service_Content {
   padding: 10px;
+}
+
+.Site_Logo {
+  clear: left;
+  float: left;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+
+.Site_Menu {
+  display: inline;
+  float: right;
+  width: 70%;
+}
+
+.Site_Menu ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+.Site_Nav {
+  float: left;
+  width: 100%;
 }

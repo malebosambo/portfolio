@@ -6,26 +6,31 @@ import reportWebVitals from './reportWebVitals';
 
 const services = [
   {
+    id: 1,
     name: "GitHub",
     ops: ["DevOps", "Collaboration", "Compute", "Version Control"],
     imgUrl: "/public/1675430271622.jpeg"
   },
   {
+    id: 2,
     name: "Websites",
     ops: ["Hosting", "Frameworks"],
     imgUrl: "/public/1675430271622.jpeg"
   },
   {
+    id: 3,
     name: "Apps",
     ops: ["AI", "ML"],
     imgUrl: "/public/1675430271622.jpeg"
   },
   {
+    id: 4,
     name: "IoT",
     ops: ["Template", "Custom"],
     imgUrl: "/public/1675430271622.jpeg"
   },
   {
+    id: 5,
     name: "Network",
     ops: ["Microservices", "VPN"],
     imgUrl: "/public/1675430271622.jpeg"
@@ -35,7 +40,7 @@ const services = [
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HomeContentCont />
+    <HomeContentCont services={services} />
   </React.StrictMode>
 );
 
