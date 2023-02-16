@@ -2,50 +2,58 @@ html {
   font-family: monospace;
 }
 
+.Benefits {
+  padding: 20px;
+}
+
+.Benefits p {
+  font-weight: bold;
+}
+
+.Container {
+  margin: 0 auto;
+}
+
+.Image {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
 .Section_Cont {
-  float: left;
   width: 100%;
 }
 
 .Section_Filters {
-  display: inline;
-  float: right;
-  width: 70%;
+  float: left;
+  width: 100%;
 }
 
-.Section_Filters ul li {
-  display: inline;
-  list-style-type: none;
+.Section_Filters button {
+  border-radius: 50%;
 }
 
 .Section_Name {
-  clear: left;
-  float: left;
   padding: 20px;
-  width: 30%;
+  width: 100%;
 }
 
 .Service_Content {
-  padding: 10px;
+  padding: 30px;
 }
 
 .Site_Logo {
   clear: left;
+  display: inline;
   float: left;
+  font-weight: bold;
   padding: 20px;
-  text-align: center;
-  width: 30%;
+  width: 70%;
 }
 
 .Site_Menu {
   display: inline;
   float: right;
-  width: 70%;
-}
-
-.Site_Menu ul li {
-  display: inline;
-  list-style-type: none;
+  width: 30%;
 }
 
 .Site_Nav {
