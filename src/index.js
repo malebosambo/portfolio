@@ -8,7 +8,7 @@ const services = [
   {
     id: 1,
     name: "GitHub",
-    ops: ["DevOps", "Collaboration", "Compute", "Version Control"],
+    ops: ["DevOps", "Collaboration", "Compute", "Versioning"],
     imgUrl: "/public/1675430271622.jpeg",
     url: "/components/github"
   },
