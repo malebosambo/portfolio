@@ -16,7 +16,7 @@ class HomeContentCont extends Component {
         <hr/>
         <div className="Benefits">
           <p>Services:</p>
-          <ul>{ this.props.services.ops.map(op => <li key={op}>{op}</li>) }</ul>
+          <ul><li key={service.ops}>{service.ops}</li></ul>
         </div>
         <div className="Image">
           <img src={service.imgUrl} alt="Placeholder" />
