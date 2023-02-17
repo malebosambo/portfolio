@@ -38,6 +38,8 @@ html {
 }
 
 .Service_Content {
+  border: black 1px solid;
+  margin-bottom: 20px;
   padding: 30px;
 }
 

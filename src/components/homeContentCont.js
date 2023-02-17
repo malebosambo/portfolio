@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './homeContentCont.css';
+import serviceImage from './image.js';
 
 class HomeContentCont extends Component {
   // state = {};
@@ -19,7 +20,7 @@ class HomeContentCont extends Component {
           <ul><li key={service.ops}>{service.ops}</li></ul>
         </div>
         <div className="Image">
-          <img src={service.imgUrl} alt="Placeholder" />
+          <serviceImage />
         </div>
         
       </div>
