@@ -21,7 +21,7 @@ class HomeContentCont extends Component {
         <div className="Image">
           <img src={service.imgUrl} alt="Placeholder" />
         </div>
-        <Link to={service.url}>View More</Link>
+        
       </div>
     )
       
