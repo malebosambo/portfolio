@@ -8,35 +8,35 @@ const services = [
   {
     id: 1,
     name: "GitHub",
-    ops: ["DevOps", "Collaboration", "Compute", "Versioning"],
+    ops: ["DevOps"],
     imgUrl: "/public/1675430271622.jpeg",
     url: "/components/github"
   },
   {
     id: 2,
     name: "Websites",
-    ops: ["Hosting", "Frameworks"],
+    ops: ["Hosting"],
     imgUrl: "/public/1675430271622.jpeg",
     url: "/components/websites"
   },
   {
     id: 3,
     name: "Apps",
-    ops: ["AI", "ML"],
+    ops: ["AI"],
     imgUrl: "/public/1675430271622.jpeg",
     url: "/components/apps"
   },
   {
     id: 4,
     name: "IoT",
-    ops: ["Template", "Custom"],
+    ops: ["Template"],
     imgUrl: "/public/1675430271622.jpeg",
     url: "/components/iot"
   },
   {
     id: 5,
     name: "Network",
-    ops: ["Microservices", "VPN"],
+    ops: ["Microservices"],
     imgUrl: "/public/1675430271622.jpeg",
     url: "/components/network"
   }

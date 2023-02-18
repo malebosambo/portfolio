@@ -12,6 +12,7 @@ html {
 
 .Container {
   margin: 0 auto;
+  width: 100%;
 }
 
 .Image {
@@ -29,7 +30,8 @@ html {
 }
 
 .Section_Filters button {
-  border-radius: 50%;
+  border-radius: 20%;
+  margin-right: 20px;
 }
 
 .Section_Name {
@@ -37,8 +39,11 @@ html {
   width: 100%;
 }
 
+.Service {
+  border: solid 1px black;
+}
+
 .Service_Content {
-  border: black 1px solid;
   margin-bottom: 20px;
   padding: 30px;
 }

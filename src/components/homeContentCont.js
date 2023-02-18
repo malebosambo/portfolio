@@ -11,7 +11,7 @@ class HomeContentCont extends Component {
   render() {
     
     const content = this.props.services.map( (service) => 
-      <div key={service.id}>
+      <div className="Service" key={service.id}>
         <h2>{service.name}</h2>
         <hr/>
         <div className="Benefits">
@@ -26,7 +26,7 @@ class HomeContentCont extends Component {
     )
       
     return (
-      <div className="container">
+      <div className="Container">
       
         <div className="Site_Nav">
           <div className="Site_Logo">
