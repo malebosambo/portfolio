@@ -41,11 +41,15 @@ html {
 
 .Service {
   border: solid 1px black;
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 20px;
 }
 
 .Service_Content {
   margin-bottom: 20px;
-  padding: 30px;
 }
 
 .Site_Logo {
