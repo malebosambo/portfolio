@@ -12,7 +12,9 @@ class HomeContentCont extends Component {
     
     const content = this.props.services.map( (service) => 
       <div className="Service" key={service.id}>
-        <h2>{service.name}</h2>
+        <div className="Heading">
+          <h2>{service.name}</h2>
+        </div>
         <hr/>
         <div className="Benefits">
           <p>Services:</p>
@@ -31,9 +33,6 @@ class HomeContentCont extends Component {
         <div className="Site_Nav">
           <div className="Site_Logo">
             <p>Malebo Sambo</p>
-          </div>
-          <div className="Site_Menu">
-            <p>X</p>
           </div>
         </div>
         

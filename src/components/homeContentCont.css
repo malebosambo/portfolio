@@ -15,9 +15,12 @@ html {
   width: 100%;
 }
 
+.Heading {
+  padding: 20px;
+}
+
 .Image {
-  margin-bottom: 20px;
-  width: 100%;
+  padding: 20px;
 }
 
 .Section_Cont {
@@ -45,7 +48,7 @@ html {
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  margin-bottom: 20px;
+  margin: 0 10px 20px 10px;
 }
 
 .Service_Content {
