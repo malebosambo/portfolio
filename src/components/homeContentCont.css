@@ -45,7 +45,6 @@ html {
 
 .Site_Logo {
   clear: left;
-  display: inline;
   float: left;
   font-weight: bold;
   padding: 20px;
@@ -53,7 +52,6 @@ html {
 }
 
 .Site_Menu {
-  display: inline;
   float: right;
   width: 30%;
 }
