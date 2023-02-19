@@ -29,12 +29,6 @@ class HomeContentCont extends Component {
       
     return (
       <div className="Container">
-      
-        <div className="Site_Nav">
-          <div className="Site_Logo">
-            <p>Malebo Sambo</p>
-          </div>
-        </div>
         
         <div className="Service_Content">
         {content}
