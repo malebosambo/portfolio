@@ -28,7 +28,7 @@ const services = [
   },
   {
     id: 4,
-    name: "IoT",
+    name: "Internet of Things",
     ops: ["Template"],
     imgUrl: "/public/1675430271622.jpeg",
     url: "/components/iot"

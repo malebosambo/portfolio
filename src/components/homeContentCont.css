@@ -28,12 +28,11 @@ html {
 }
 
 .Section_Filters {
-  float: left;
+  padding: 20px;
   width: 100%;
 }
 
 .Section_Filters button {
-  border-radius: 20%;
   margin-right: 20px;
 }
 

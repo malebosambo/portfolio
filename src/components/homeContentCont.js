@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import './homeContentCont.css';
 
 class HomeContentCont extends Component {
-  // state = {};
+  state = {
+    imageUrl: "/public/1675430271622.jpeg"
+  };
   
   constructor (props) {
     super(props);
@@ -39,10 +41,10 @@ class HomeContentCont extends Component {
             <h1>Latest Issues</h1>
           </div>
           <div className="Section_Filters">
-            <button onClick="">Websites</button>
-            <button onClick="">Apps</button>
-            <button onClick="">IoT</button>
-            <button onClick="">Network</button>
+            <button className="btn btn-secondary btn-sm" onClick="">Websites</button>
+            <button className="" onClick="">Apps</button>
+            <button className="" onClick="">IoT</button>
+            <button className="" onClick="">Network</button>
           </div>
         </div>
         
