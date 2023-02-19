@@ -42,9 +42,9 @@ class HomeContentCont extends Component {
           </div>
           <div className="Section_Filters">
             <button className="btn btn-secondary btn-sm" onClick="">Websites</button>
-            <button className="" onClick="">Apps</button>
-            <button className="" onClick="">IoT</button>
-            <button className="" onClick="">Network</button>
+            <button className="btn btn-secondary btn-sm" onClick="">Apps</button>
+            <button className="btn btn-secondary btn-sm" onClick="">IoT</button>
+            <button className="btn btn-secondary btn-sm" onClick="">Network</button>
           </div>
         </div>
         
