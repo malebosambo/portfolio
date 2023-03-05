@@ -1,28 +1,49 @@
+import React from 'react';
 import './App.css';
-import homeContentCont from './components/homeContentCont'; 
+import HomeContentCont from './components/homeContentCont';
+import Login from './components/login';
+import Github from './components/github';
+import Websites from './components/websites';
+import Apps from './components/apps';
+import IoT from '.components/iot';
+import Network from './components/network';
+
+import {
+  BrowserRouter as Router, 
+  Link, 
+  Switch, 
+  Route
+} from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
     
-      <div className="Container">
-        <div className="Site_Nav">
-          <div className="Title_Cont">
-            <p className="Title">Malebo Sambo</p>
-          </div>
+      <Router>
+        <div>
+          <nav>
+            <ul>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/github">GitHub</Link></li>
+              <li><Link to="/websites">Websites</Link></li>
+              <li><Link to="/apps">Apps</Link></li>
+              <li><Link to="/iot">IoT</Link></li>
+              <li><Link to="/network">Network</Link></li>
+            </ul>
+          </nav>
           
-          <div className="Menu_Cont">
-            <button>Github</button>
-            <button>Website</button>
-            <button>Apps</button>
-            <button>IoT</button>
-            <button>Networking</button>
-          </div>
+          <switch>
+            <Route path="/github"><Github /></Route>
+            <Route path="/website"><Website /></Route>
+            <Route path="/apps"><Apps /></Route>
+            <Route path="/iot"><IoT /></Route>
+            <Route path="/network"><Network /></Route>
+            <Route path="/"><HomeContentCont /></Route>
+          </switch>
         </div>
-      </div>
+      </Router>
       
-      <homeContentCont />
-    </div>
+    </React.Fragment>
   );
 }
 

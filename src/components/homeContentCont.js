@@ -1,9 +1,46 @@
 import React, { Component } from 'react';
 import './homeContentCont.css';
+import LatestIssues from './latestIssues';
 
 class HomeContentCont extends Component {
   state = {
-    imageUrl: "/public/1675430271622.jpeg"
+    services = [
+      {
+        id: 1,
+        name: "GitHub",
+        ops: ["DevOps"],
+        imgUrl: "/public/1675430271622.jpeg",
+        url: "/components/github"
+      },
+      {
+        id: 2,
+        name: "Websites",
+        ops: ["Hosting"],
+        imgUrl: "/public/1675430271622.jpeg",
+        url: "/components/websites"
+      },
+      {
+        id: 3,
+        name: "Apps",
+        ops: ["AI"],
+        imgUrl: "/public/1675430271622.jpeg",
+        url: "/components/apps"
+      },
+      {
+        id: 4,
+        name: "Internet of Things",
+        ops: ["Template"],
+        imgUrl: "/public/1675430271622.jpeg",
+        url: "/components/iot"
+      },
+      {
+        id: 5,
+        name: "Network",
+        ops: ["Microservices"],
+        imgUrl: "/public/1675430271622.jpeg",
+        url: "/components/network"
+      }
+    ]
   };
   
   constructor (props) {
@@ -12,7 +49,7 @@ class HomeContentCont extends Component {
   
   render() {
     
-    const content = this.props.services.map( (service) => 
+    const content = this.state.services.map( (service) => 
       <div className="Service" key={service.id}>
         <div className="Heading">
           <h2>{service.name}</h2>
@@ -20,12 +57,14 @@ class HomeContentCont extends Component {
         <hr/>
         <div className="Benefits">
           <p>Services:</p>
-          <ul><li key={service.ops}>{service.ops}</li></ul>
+          <ul>{this.state.services.ops.map( (op) => <li key={op}>{op}</li>)}</ul>
         </div>
         <div className="Image">
           <p>Image placeholder</p>
         </div>
-        
+        <div className="Link">
+          <Link to={service.url}>View more</Link>
+        </div>
       </div>
     )
       
@@ -36,20 +75,8 @@ class HomeContentCont extends Component {
         {content}
         </div>
         
-        <div className="Section_Cont">
-          <div className="Section_Name">
-            <h1>Latest Issues</h1>
-          </div>
-          <div className="Section_Filters">
-            <button className="btn btn-secondary btn-sm" onClick="">Websites</button>
-            <button className="btn btn-secondary btn-sm" onClick="">Apps</button>
-            <button className="btn btn-secondary btn-sm" onClick="">IoT</button>
-            <button className="btn btn-secondary btn-sm" onClick="">Network</button>
-          </div>
-        </div>
-        
-        <div>
-          // Create a component for the table with latest issues
+        <div className="Latest_Issues">
+          <LatestIssues />
         </div>
         
       </div>

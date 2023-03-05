@@ -23,23 +23,13 @@ html {
   padding: 20px;
 }
 
-.Section_Cont {
-  width: 100%;
-}
-
-.Section_Filters {
-  padding: 20px;
-  width: 100%;
-}
-
-.Section_Name {
-  padding: 20px;
-  width: 100%;
+.Latest_Issues {
+  background-image: url("/public/Nissan-Universe-Shouts.jpg");
 }
 
 .Service {
   border: solid 1px black;
-  border-top-left-radius: 20px; 
+  border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -48,22 +38,4 @@ html {
 
 .Service_Content {
   margin-bottom: 20px;
-}
-
-.Site_Logo {
-  clear: left;
-  float: left;
-  font-weight: bold;
-  padding: 20px;
-  width: 70%;
-}
-
-.Site_Menu {
-  float: right;
-  width: 30%;
-}
-
-.Site_Nav {
-  float: left;
-  width: 100%;
 }
