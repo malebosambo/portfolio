@@ -3,7 +3,7 @@ import 'latestIssues.css';
 
 class LatestIssues extends Component {
   state = {
-    issues = [
+    issues : [
       { id: 1, title: "Build workflow failed", description: "Node requires v18, v12 has depracated", collaborator: " malebo sambo", status: "open", project: " portfolio" }
     ]
   }
