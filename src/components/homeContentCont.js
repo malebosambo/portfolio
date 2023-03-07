@@ -4,7 +4,7 @@ import LatestIssues from './latestIssues';
 
 class HomeContentCont extends Component {
   state = {
-    services = [
+    services : [
       {
         id: 1,
         name: "GitHub",
