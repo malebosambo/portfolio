@@ -29,17 +29,19 @@ function App() {
               <li><Link to="/apps">Apps</Link></li>
               <li><Link to="/iot">IoT</Link></li>
               <li><Link to="/network">Network</Link></li>
+              <li><Link to="/login">Login</Link></li>
             </ul>
           </nav>
           
-          <switch>
+          <Switch>
             <Route path="/github"><Github /></Route>
             <Route path="/websites"><Websites /></Route>
             <Route path="/apps"><Apps /></Route>
             <Route path="/iot"><IoT /></Route>
             <Route path="/network"><Network /></Route>
+            <Route path="/login"><Login /></Route>
             <Route path="/"><HomeContentCont /></Route>
-          </switch>
+          </Switch>
         </div>
       </Router>
       
