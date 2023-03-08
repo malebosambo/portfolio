@@ -34,7 +34,7 @@ function App() {
           
           <switch>
             <Route path="/github"><Github /></Route>
-            <Route path="/website"><Website /></Route>
+            <Route path="/websites"><Websites /></Route>
             <Route path="/apps"><Apps /></Route>
             <Route path="/iot"><IoT /></Route>
             <Route path="/network"><Network /></Route>
