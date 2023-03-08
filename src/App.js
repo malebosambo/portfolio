@@ -11,7 +11,8 @@ import Network from './components/network';
 import {
   BrowserRouter as Router, 
   Link, 
-  Route
+  Route,
+  Switch
 } from 'react-router-dom';
 
 function App() {
