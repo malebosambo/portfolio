@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './homeContentCont.css';
 import LatestIssues from './latestIssues';
 
@@ -10,35 +11,35 @@ class HomeContentCont extends Component {
         name: "GitHub",
         ops: ["DevOps"],
         imgUrl: "/public/1675430271622.jpeg",
-        url: "/components/github"
+        url: "/github"
       },
       {
         id: 2,
         name: "Websites",
         ops: ["Hosting"],
         imgUrl: "/public/1675430271622.jpeg",
-        url: "/components/websites"
+        url: "/websites"
       },
       {
         id: 3,
         name: "Apps",
         ops: ["AI"],
         imgUrl: "/public/1675430271622.jpeg",
-        url: "/components/apps"
+        url: "/apps"
       },
       {
         id: 4,
         name: "Internet of Things",
         ops: ["Template"],
         imgUrl: "/public/1675430271622.jpeg",
-        url: "/components/iot"
+        url: "/iot"
       },
       {
         id: 5,
         name: "Network",
         ops: ["Microservices"],
         imgUrl: "/public/1675430271622.jpeg",
-        url: "/components/network"
+        url: "/network"
       }
     ]
   };

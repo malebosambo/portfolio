@@ -5,7 +5,7 @@ import Login from './components/login';
 import Github from './components/github';
 import Websites from './components/websites';
 import Apps from './components/apps';
-import IoT from '.components/iot';
+import IoT from './components/iot';
 import Network from './components/network';
 
 import {
