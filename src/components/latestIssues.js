@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import 'latestIssues.css';
+import './latestIssues.css';
 
 class LatestIssues extends Component {
   state = {
