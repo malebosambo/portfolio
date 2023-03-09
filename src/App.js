@@ -12,7 +12,6 @@ import {
   BrowserRouter as Router, 
   Link, 
   Route,
-  Switch
 } from 'react-router-dom';
 
 function App() {
@@ -33,7 +32,7 @@ function App() {
             </ul>
           </nav>
           
-          <Switch>
+          <Routes>
             <Route path="/github"><Github /></Route>
             <Route path="/websites"><Websites /></Route>
             <Route path="/apps"><Apps /></Route>
@@ -41,7 +40,7 @@ function App() {
             <Route path="/network"><Network /></Route>
             <Route path="/login"><Login /></Route>
             <Route path="/"><HomeContentCont /></Route>
-          </Switch>
+          </Routes>
         </div>
       </Router>
       
