@@ -8,10 +8,6 @@ class LatestIssues extends Component {
     ]
   }
   
-  constructor(props) {
-    super(props);
-  }
-  
   filterIssues = (name, e) => {
     console.log('Filter button pressed:', {name})
   }
@@ -35,10 +31,10 @@ class LatestIssues extends Component {
           <h1>Latest Issues</h1>
           
           <div className="Section_Filters">
-            <button className="btn btn-secondary btn-sm" onClick={() => this.filterIssues("websites")}>Websites</button>
-            <button className="btn btn-secondary btn-sm" onClick={() => this.filterIssues("apps")}>Apps</button>
-            <button className="btn btn-secondary btn-sm" onClick={() => this.filterIssues("iot")}>IoT</button>
-            <button className="btn btn-secondary btn-sm" onClick={() => this.filterIssues("network")}>Network</button>
+            <button className="btn btn-secondary btn-sm" onClick={(e) => this.filterIssues("websites")}>Websites</button>
+            <button className="btn btn-secondary btn-sm" onClick={(e) => this.filterIssues("apps")}>Apps</button>
+            <button className="btn btn-secondary btn-sm" onClick={(e) => this.filterIssues("iot")}>IoT</button>
+            <button className="btn btn-secondary btn-sm" onClick={(e) => this.filterIssues("network")}>Network</button>
           </div>
       
           <table>

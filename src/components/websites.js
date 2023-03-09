@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
 class Websites extends Component {
-  // State object is used to render dynamic data
-  //state = {};
   
   render() {
     return (
@@ -20,7 +18,7 @@ class Websites extends Component {
         <div className="Website">
           <div className="Website_Iframe">
             <h2>Billing Portal</h2>
-            // Insert the iframe
+            
           </div>
           <div className="Website_Details">
             <h3>Project Details</h3>

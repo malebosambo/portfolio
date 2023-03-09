@@ -44,10 +44,6 @@ class HomeContentCont extends Component {
     ]
   };
   
-  constructor (props) {
-    super(props);
-  }
-  
   render() {
     
     const content = this.state.services.map( (service) => 
