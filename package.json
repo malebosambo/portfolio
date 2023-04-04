@@ -20,7 +20,7 @@
     "webpack": "5.77.0"
   },
   "scripts": {
-    "start": "BROWSER=none WDS_SOCKET_PORT=0 react-scripts start",
+    "start": "BROWSER=none WDS_SOCKET_PORT=0 react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
