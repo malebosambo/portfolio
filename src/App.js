@@ -19,7 +19,7 @@ function App() {
   return (
     <React.Fragment>
     
-      <Router>
+      <BrowserRouter>
         <div>
           <nav>
             <ul>
@@ -43,7 +43,7 @@ function App() {
             <Route path="/"><HomeContentCont /></Route>
           </Routes>
         </div>
-      </Router>
+      </BrowserRouter>
       
     </React.Fragment>
   );
