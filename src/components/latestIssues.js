@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import IssueItem from './issueitem';
 import './latestIssues.css';
 
 class LatestIssues extends Component {
@@ -13,20 +14,8 @@ class LatestIssues extends Component {
   }
   
   render() {
-    
-    const issues = this.state.issues.map( (issue) => 
-      <tr key={issue.id}>
-        <td>{issue.title}</td>
-        <td>{issue.description}</td>
-        <td>{issue.collaborator}</td>
-        <td>{issue.status}</td>
-        <td>{issue.project}</td>
-      </tr>
-    );
-    
     return (
-      <React.Fragment>
-      
+      <>
         <div className="Section">
           <h1>Latest Issues</h1>
           
@@ -48,12 +37,12 @@ class LatestIssues extends Component {
               </tr>
             </thead>
             <tbody>
-              {issues}
+              {this.state.issues.map((issue) => (<issueitem issue={state} />))}
             </tbody>
           </table>
         </div>
         
-      </React.Fragment>  
+      </>  
     )
   }
 }

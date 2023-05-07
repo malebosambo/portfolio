@@ -10,35 +10,35 @@ class HomeContentCont extends Component {
         id: 1,
         name: "GitHub",
         ops: ["DevOps"],
-        imgUrl: "/public/1675430271622.jpeg",
+        imgUrl: "./architecture.jpeg",
         url: "/github"
       },
       {
         id: 2,
         name: "Websites",
         ops: ["Hosting"],
-        imgUrl: "/public/1675430271622.jpeg",
+        imgUrl: "./architecture.jpeg",
         url: "/websites"
       },
       {
         id: 3,
         name: "Apps",
         ops: ["AI"],
-        imgUrl: "/public/1675430271622.jpeg",
+        imgUrl: "./architecture.jpeg",
         url: "/apps"
       },
       {
         id: 4,
         name: "Internet of Things",
         ops: ["Template"],
-        imgUrl: "/public/1675430271622.jpeg",
+        imgUrl: "./architecture.jpeg",
         url: "/iot"
       },
       {
         id: 5,
         name: "Network",
         ops: ["Microservices"],
-        imgUrl: "/public/1675430271622.jpeg",
+        imgUrl: "./architecture.jpeg",
         url: "/network"
       }
     ]
@@ -57,7 +57,7 @@ class HomeContentCont extends Component {
           <ul>{this.state.services.ops.map( (op) => <li key={op}>{op}</li>)}</ul>
         </div>
         <div className="Image">
-          <p>Image placeholder</p>
+          <img src={service.imgUrl} alt={service.name} />
         </div>
         <div className="Link">
           <Link to={service.url}>View more</Link>
