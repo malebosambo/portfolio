@@ -7,46 +7,56 @@ import Websites from './components/websites';
 import Apps from './components/apps';
 import IoT from './components/iot';
 import Network from './components/network';
+import Contact from './components/contact';
 
 import {
   BrowserRouter as Router, 
-  Link, 
   Route,
   Routes
 } from 'react-router-dom';
 
 function App() {
   return (
-    <React.Fragment>
-    
-      <BrowserRouter>
-        <div>
-          <nav>
-            <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/github">GitHub</Link></li>
-              <li><Link to="/websites">Websites</Link></li>
-              <li><Link to="/apps">Apps</Link></li>
-              <li><Link to="/iot">IoT</Link></li>
-              <li><Link to="/network">Network</Link></li>
-              <li><Link to="/login">Login</Link></li>
-            </ul>
-          </nav>
-          
-          <Routes>
-            <Route path="/github"><Github /></Route>
-            <Route path="/websites"><Websites /></Route>
-            <Route path="/apps"><Apps /></Route>
-            <Route path="/iot"><IoT /></Route>
-            <Route path="/network"><Network /></Route>
-            <Route path="/login"><Login /></Route>
-            <Route path="/"><HomeContentCont /></Route>
-          </Routes>
+    <div>
+      <div className="Header">
+        <div className="Logo">
+          <p>Malebo Sambo</p>
         </div>
-      </BrowserRouter>
-      
-    </React.Fragment>
-  );
+        <nav>
+          <Link to="#">Home</Link>
+          <Link to="/github">GitHub</Link>
+          <Link to="/websites">Websites</Link>
+          <Link to="/apps">Apps</Link>
+          <Link to="/iot">IoT</Link>
+          <Link to="/network">Network</Link>
+          <Link to="/contact">Contact Us</Link>
+          <Link to="/login">Login</Link>
+        </nav>
+      </div>
+      <HomeContentCont />
+    </div>
+  )
 }
-
-export default App;
+    
+export function Github() {
+  return (
+    <div>
+      <div className="Header">
+        <div className="Logo">
+          <p>Malebo Sambo</p>
+        </div>
+        <nav>
+          <Link to="#">Home</Link>
+          <Link to="/github">GitHub</Link>
+          <Link to="/websites">Websites</Link>
+          <Link to="/apps">Apps</Link>
+          <Link to="/iot">IoT</Link>
+          <Link to="/network">Network</Link>
+          <Link to="/contact">Contact Us</Link>
+          <Link to="/login">Login</Link>
+        </nav>
+      </div>
+      <Github />
+    </div>
+  )
+}
