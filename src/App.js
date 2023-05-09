@@ -15,7 +15,7 @@ import {
   Routes
 } from 'react-router-dom';
 
-function App() {
+function Home() {
   return (
     <div>
       <div className="Header">
@@ -46,8 +46,8 @@ export function Github() {
           <p>Malebo Sambo</p>
         </div>
         <nav>
-          <Link to="#">Home</Link>
-          <Link to="/github">GitHub</Link>
+          <Link to="/home">Home</Link>
+          <Link to="#">GitHub</Link>
           <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
           <Link to="/iot">IoT</Link>
@@ -59,4 +59,8 @@ export function Github() {
       <Github />
     </div>
   )
+}
+
+export function App() {
+  return <Home />
 }
