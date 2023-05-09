@@ -16,7 +16,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/github" element={<Github />} />
-        <Route path="/websites" element={<Website />} />
+        <Route path="/websites" element={<Websites />} />
         <Route path="/apps" element={<Apps />} />
         <Route path="/iot" element={<IoT />} />
         <Route path="/network" element={<Network />} />

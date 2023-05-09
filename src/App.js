@@ -1,5 +1,5 @@
-import React from 'react';
 import './App.css';
+import { Link} from 'react-router-dom';
 import HomeContentCont from './components/homeContentCont';
 import Login from './components/login';
 import Github from './components/github';
@@ -8,12 +8,6 @@ import Apps from './components/apps';
 import IoT from './components/iot';
 import Network from './components/network';
 import Contact from './components/contact';
-
-import {
-  BrowserRouter as Router, 
-  Route,
-  Routes
-} from 'react-router-dom';
 
 function Home() {
   return (
