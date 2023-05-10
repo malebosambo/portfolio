@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 class IssueItem extends Component {
-  
   render() {
       const {issue} = this.props;
     
@@ -12,7 +11,7 @@ class IssueItem extends Component {
           <td>{issue.description}</td>
           <td>{issue.collaborator}</td>
           <td>{issue.status}</td>
-          <td>{issue.projects}</td>
+          <td>{issue.project}</td>
         </tr>
       </>
     )

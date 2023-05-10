@@ -5,8 +5,27 @@ import './latestIssues.css';
 class LatestIssues extends Component {
   state = {
     issues : [
-      { id: 1, title: "Build workflow failed", description: "Node requires v18, v12 has depracated", collaborator: " malebo sambo", status: "open", project: " portfolio" }
+      { 
+        id: 1, 
+        title: "Build workflow failed", 
+        description: "Node requires v18, v12 has depracated", 
+        collaborator: "malebo sambo", 
+        status: "open", 
+        project: "portfolio" 
+      },
+      {
+        id: 2,
+        title: "Create architecture overview",
+        description: "Design a high level architecture overview for senior managemeny.",
+        collaborator: "malebo sambo",
+        status: "open",
+        project: "portfolio"
+      }
     ]
+  }
+  
+  constructor(props) {
+    super(props)
   }
   
   filterIssues = (name, e) => {
@@ -17,7 +36,7 @@ class LatestIssues extends Component {
     return (
       <>
         <div className="Section">
-          <h1>Latest Issues</h1>
+          <h1>Latest Issues <span>{this.state.issues.length}</span></h1>
           
           <div className="Section_Filters">
             <button className="btn btn-secondary btn-sm" onClick={(e) => this.filterIssues("websites")}>Websites</button>
@@ -37,7 +56,7 @@ class LatestIssues extends Component {
               </tr>
             </thead>
             <tbody>
-              {this.state.issues.map((issue) => (<issueitem issue={state} />))}
+              {this.state.issues.map((issue) => (<IssueItem issue={state} />))}
             </tbody>
           </table>
         </div>
