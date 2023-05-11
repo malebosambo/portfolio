@@ -24,10 +24,6 @@ class LatestIssues extends Component {
     ]
   }
   
-  constructor(props) {
-    super(props)
-  }
-  
   filterIssues = (name, e) => {
     console.log('Filter button pressed:', {name})
   }
