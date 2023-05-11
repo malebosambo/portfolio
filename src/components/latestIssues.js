@@ -56,7 +56,7 @@ class LatestIssues extends Component {
               </tr>
             </thead>
             <tbody>
-              {this.state.issues.map((issue) => (<IssueItem issue={state} />))}
+              {this.state.issues.map((issue) => (<IssueItem issue={issue} />))}
             </tbody>
           </table>
         </div>
