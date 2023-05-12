@@ -97,7 +97,7 @@ export function Apps() {
           <Link to="/login">Login</Link>
         </nav>
       </div>
-      <WebsitesContentCont />
+      <appsContentCont />
     </div>
   )
 }
