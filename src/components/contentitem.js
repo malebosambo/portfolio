@@ -4,7 +4,7 @@ import './homeContentCont.css';
 
 class ContentItem extends Component {
   render() {
-    const content = this.props;
+    const { content } = this.props;
     
     return (
       <>
