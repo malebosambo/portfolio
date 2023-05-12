@@ -45,11 +45,14 @@ class HomeContentCont extends Component {
   };
   
   render() {
+
+    const content = this.state.services.map((service) => <ContentItem content={service} />);
+
     return (
       <div className="Container">
         
         <div className="Service_Content">
-          {this.state.services.map((service) => (<ContentItem content={service} />))}
+          {content}
         </div>
         
         <div className="Latest_Issues">
