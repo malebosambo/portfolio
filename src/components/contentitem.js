@@ -15,7 +15,7 @@ class ContentItem extends Component {
           <hr/>
           <div className="Benefits">
             <p>Services:</p>
-            <ul>{content.ops.map( (op) => <li key={op}>{op}</li>)}</ul>
+            <ul>{content.ops.map((op) => (<li key={op}>{op}</li>))}</ul>
           </div>
           <div className="Image">
             <img src={content.imgUrl} alt={content.name} />
