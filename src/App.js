@@ -51,7 +51,7 @@ export function Github() {
           <Link to="/login">Login</Link>
         </nav>
       </div>
-      <Github />
+      <GithubContentCont />
     </div>
   )
 }
@@ -74,7 +74,7 @@ export function Websites() {
           <Link to="/login">Login</Link>
         </nav>
       </div>
-      <GithubContentCont />
+      <WebsitesContentCont />
     </div>
   )
 }
@@ -97,7 +97,7 @@ export function Apps() {
           <Link to="/login">Login</Link>
         </nav>
       </div>
-      <appsContentCont />
+      <AppsContentCont />
     </div>
   )
 }
