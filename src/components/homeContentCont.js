@@ -29,7 +29,7 @@ class HomeContentCont extends Component {
       },
       {
         id: 4,
-        name: "Internet of Things",
+        name: "IoT",
         ops: ["Security", "Utility"],
         imgUrl: "./architecture.jpeg",
         url: "/iot"
