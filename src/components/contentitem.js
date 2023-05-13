@@ -8,7 +8,7 @@ class ContentItem extends Component {
     
     return (
       <>
-        <div className="Service" key={content.id}>
+        <div className="col-sm-2" style={{margin: "10px"}} key={content.id}>
           <div className="Heading">
             <h2>{content.name}</h2>
           </div>

@@ -51,8 +51,10 @@ class HomeContentCont extends Component {
     return (
       <div className="Container">
         
-        <div className="Service_Content">
-          {content}
+        <div className="container">
+          <div className="row">
+            {content}
+          </div>
         </div>
         
         <div className="Latest_Issues">
