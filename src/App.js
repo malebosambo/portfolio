@@ -18,7 +18,7 @@ function Home() {
           <p>Malebo Sambo</p>
         </div>
         <nav>
-          <Link to="#">Home</Link>
+          <Link to="/home">Home</Link>
           <Link to="/github">GitHub</Link>
           <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
@@ -42,7 +42,7 @@ export function Github() {
         </div>
         <nav>
           <Link to="/home">Home</Link>
-          <Link to="#">GitHub</Link>
+          <Link to="/github">GitHub</Link>
           <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
           <Link to="/iot">IoT</Link>
@@ -66,7 +66,7 @@ export function Websites() {
         <nav>
           <Link to="/home">Home</Link>
           <Link to="/github">GitHub</Link>
-          <Link to="#">Websites</Link>
+          <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
           <Link to="/iot">IoT</Link>
           <Link to="/network">Network</Link>
@@ -90,7 +90,7 @@ export function Apps() {
           <Link to="/home">Home</Link>
           <Link to="/github">GitHub</Link>
           <Link to="/websites">Websites</Link>
-          <Link to="#">Apps</Link>
+          <Link to="/apps">Apps</Link>
           <Link to="/iot">IoT</Link>
           <Link to="/network">Network</Link>
           <Link to="/contact">Contact Us</Link>
@@ -114,7 +114,7 @@ export function IoT() {
           <Link to="/github">GitHub</Link>
           <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
-          <Link to="#">IoT</Link>
+          <Link to="/iot">IoT</Link>
           <Link to="/network">Network</Link>
           <Link to="/contact">Contact Us</Link>
           <Link to="/login">Login</Link>
@@ -138,7 +138,7 @@ export function Network() {
           <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
           <Link to="/iot">IoT</Link>
-          <Link to="#">Network</Link>
+          <Link to="/network">Network</Link>
           <Link to="/contact">Contact Us</Link>
           <Link to="/login">Login</Link>
         </nav>
@@ -162,7 +162,7 @@ export function Contact() {
           <Link to="/apps">Apps</Link>
           <Link to="/iot">IoT</Link>
           <Link to="/network">Network</Link>
-          <Link to="#">Contact Us</Link>
+          <Link to="/contact">Contact Us</Link>
           <Link to="/login">Login</Link>
         </nav>
       </div>
@@ -186,7 +186,7 @@ export function Login() {
           <Link to="/iot">IoT</Link>
           <Link to="/network">Network</Link>
           <Link to="/contact">Contact Us</Link>
-          <Link to="#">Login</Link>
+          <Link to="/login">Login</Link>
         </nav>
       </div>
       <LoginComp />
