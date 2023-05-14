@@ -14,18 +14,22 @@ function Home() {
   return (
     <div>
       <div className="Header">
-        <div className="Logo">
-          <p>Malebo Sambo</p>
-        </div>
-        <nav>
-          <Link to="/home">Home</Link>
-          <Link to="/github">GitHub</Link>
-          <Link to="/websites">Websites</Link>
-          <Link to="/apps">Apps</Link>
-          <Link to="/iot">IoT</Link>
-          <Link to="/network">Network</Link>
-          <Link to="/contact">Contact Us</Link>
-          <Link to="/login">Login</Link>
+        <nav className="navbar navbar-default">
+          <div className="navbar-header">
+            <a className="navbar-brand" href="/home">Malebo Sambo</a>
+          </div>
+          <div>
+            <ul className="nav navbar-nav">
+              <li className="active"><Link to="/home">Home</Link></li>
+              <li><Link to="/github">GitHub</Link></li>
+              <li><Link to="/websites">Websites</Link></li>
+              <li><Link to="/apps">Apps</Link></li>
+              <li><Link to="/iot">IoT</Link></li>
+              <li><Link to="/network">Network</Link></li>
+              <li><Link to="/contact">Contact Us</Link></li>
+              <li><Link to="/login">Login</Link></li>
+            </ul>
+          </div>
         </nav>
       </div>
       <HomeContentCont />
