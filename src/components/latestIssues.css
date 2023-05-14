@@ -1,3 +1,11 @@
+button {
+  padding: 10px;
+}
+
+caption {
+  padding: 10px;
+}
+
 table {
   border-collapse: collapse;
   border: 1px solid grey;
@@ -17,6 +25,10 @@ td {
   background-color: lightgrey;
 }
 
-caption {
+.Section h1 {
+  margin-bottom: 20px;
+}
+
+.Section_Filters {
   padding: 10px;
 }
