@@ -28,7 +28,7 @@ class Login extends Component {
     return (
       <div>
         <h1>Login</h1>
-        <form role="form" onSubmit={(e) => this.onSubmit(e)}>
+        <form onSubmit={(e) => this.onSubmit(e)}>
           <div className="form-group">
             <label htmlFor="username">Username</label>
             <input type="text" name="username" />
