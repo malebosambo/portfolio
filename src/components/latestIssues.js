@@ -32,7 +32,7 @@ class LatestIssues extends Component {
     return (
       <>
         <div className="Section">
-          <h1>Latest Issues <span className="badge">{this.state.issues.length}</span></h1>
+          <h1>Latest Issues <span className="badge badge-primary">{this.state.issues.length}</span></h1>
           
           <div className="btn-group">
             <button className="btn btn-default" onClick={(e) => this.filterIssues("websites")}>Websites</button>
