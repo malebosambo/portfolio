@@ -18,7 +18,7 @@ class ContentItem extends Component {
             <ul>{content.ops.map((op) => (<li key={op}>{op}</li>))}</ul>
           </div>
           <div className="Image">
-            <img src={content.imgUrl} alt={content.name} />
+            <img src={content.imgUrl} className="img-responsive" alt={content.name} />
           </div>
           <div className="Link">
             <Link to={content.url}>View more</Link>
