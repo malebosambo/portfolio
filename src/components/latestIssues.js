@@ -34,7 +34,7 @@ class LatestIssues extends Component {
         <div className="Section">
           <h1>Latest Issues <span className="badge">{this.state.issues.length}</span></h1>
           
-          <div className="Section_Filters">
+          <div className="btn-group">
             <button className="btn btn-default" onClick={(e) => this.filterIssues("websites")}>Websites</button>
             <button className="btn btn-default" onClick={(e) => this.filterIssues("apps")}>Apps</button>
             <button className="btn btn-default" onClick={(e) => this.filterIssues("iot")}>IoT</button>
