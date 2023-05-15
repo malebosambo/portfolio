@@ -20,7 +20,7 @@ class LatestIssues extends Component {
         description: "Design a high level architecture overview for senior managemeny.",
         collaborator: "malebo sambo",
         status: "open",
-        project: "portfolio"
+        project: "portfolio",
         type: "website"
       }
     ]
@@ -28,6 +28,7 @@ class LatestIssues extends Component {
   
   filterIssues = name => {
     console.log('Filter button pressed:' + name);
+    
   }
   
   render() {
