@@ -12,6 +12,7 @@ class IssueItem extends Component {
           <td>{issue.collaborator}</td>
           <td>{issue.status}</td>
           <td>{issue.project}</td>
+          <td>{issue.type}</td>
         </tr>
       </>
     )
