@@ -11,7 +11,8 @@ class LatestIssues extends Component {
         description: "Node requires v18, v12 has depracated", 
         collaborator: "malebo sambo", 
         status: "open", 
-        project: "portfolio" 
+        project: "portfolio",
+        type: "website" 
       },
       {
         id: 2,
@@ -20,12 +21,13 @@ class LatestIssues extends Component {
         collaborator: "malebo sambo",
         status: "open",
         project: "portfolio"
+        type: "website"
       }
     ]
   }
   
   filterIssues = name => {
-    console.log('Filter button pressed:' + name)
+    console.log('Filter button pressed:' + name);
   }
   
   render() {
