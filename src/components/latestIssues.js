@@ -51,6 +51,7 @@ class LatestIssues extends Component {
                 <th>Collaborator</th>
                 <th>Status</th>
                 <th>Project</th>
+                <th>Type</th>
               </tr>
             </thead>
             <tbody>
