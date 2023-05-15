@@ -24,8 +24,8 @@ class LatestIssues extends Component {
     ]
   }
   
-  filterIssues = (name, e) => {
-    console.log('Filter button pressed:', {name})
+  filterIssues = name => {
+    console.log('Filter button pressed:' + name)
   }
   
   render() {
@@ -35,10 +35,10 @@ class LatestIssues extends Component {
           <h1>Latest Issues <span className="badge badge-primary">{this.state.issues.length}</span></h1>
           
           <div className="btn-group">
-            <button className="btn btn-default" onClick={(e) => this.filterIssues("websites")}>Websites</button>
-            <button className="btn btn-default" onClick={(e) => this.filterIssues("apps")}>Apps</button>
-            <button className="btn btn-default" onClick={(e) => this.filterIssues("iot")}>IoT</button>
-            <button className="btn btn-default" onClick={(e) => this.filterIssues("network")}>Network</button>
+            <button className="btn btn-primary" onClick={() => this.filterIssues("websites")}>Websites</button>
+            <button className="btn btn-primary" onClick={() => this.filterIssues("apps")}>Apps</button>
+            <button className="btn btn-primary" onClick={() => this.filterIssues("iot")}>IoT</button>
+            <button className="btn btn-primary" onClick={() => this.filterIssues("network")}>Network</button>
           </div>
       
           <table>
