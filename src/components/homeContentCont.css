@@ -24,6 +24,12 @@ li {
   width: 100%;
 }
 
+.ContentLink {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .Heading {
   padding: 20px;
 }
