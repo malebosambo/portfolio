@@ -20,7 +20,7 @@ class ContentItem extends Component {
           <div className="Image">
             <img src={content.imgUrl} className="img-responsive img-rounded" alt={content.name} />
           </div>
-          <div className="Link">
+          <div className="ContentLink">
             <Link to={content.url}>View more</Link>
           </div>
         </div>
