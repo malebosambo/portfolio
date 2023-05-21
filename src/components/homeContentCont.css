@@ -17,6 +17,7 @@ li {
 
 .Benefits p {
   font-weight: bold;
+  padding-bottom: 20px;
 }
 
 .Container {
@@ -25,6 +26,10 @@ li {
 }
 
 .ContentLink {
+  padding: 20px;
+}
+
+.ContentLink Link {
   color: black;
   font-weight: bold;
   text-decoration: none;
