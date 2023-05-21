@@ -10,35 +10,35 @@ class HomeContentCont extends Component {
         id: 1,
         name: "GitHub",
         ops: ["DevOps", "Virtualization", "Security"],
-        imgUrl: "./architecture.jpeg",
+        imgUrl: "./GitHub.png",
         url: "/github"
       },
       {
         id: 2,
         name: "Websites",
         ops: ["Fintech", "eCommerce", "AI", "Community"],
-        imgUrl: "./architecture.jpeg",
+        imgUrl: "./Websites.png",
         url: "/websites"
       },
       {
         id: 3,
         name: "Apps",
         ops: ["Fintech", "eCommerce", "AI", "Community"],
-        imgUrl: "./architecture.jpeg",
+        imgUrl: "./Mobile-Apps.png",
         url: "/apps"
       },
       {
         id: 4,
         name: "IoT",
         ops: ["Security", "Utility"],
-        imgUrl: "./architecture.jpeg",
+        imgUrl: "./IoT.png",
         url: "/iot"
       },
       {
         id: 5,
         name: "Network",
         ops: ["Internet", "Cybersecurity"],
-        imgUrl: "./architecture.jpeg",
+        imgUrl: "./Networks.png",
         url: "/network"
       }
     ]
