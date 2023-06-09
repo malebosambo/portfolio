@@ -9,28 +9,13 @@ import AppsContentCont from './components/appsContentCont';
 import IoTContentCont from './components/iotContentCont';
 import NetworkContentCont from './components/networkContentCont';
 import ContactComp from './components/contactComp';
+import NavbarComp from './components/navbarComp';
 
 function Home() {
   return (
     <div>
       <div className="Header">
-        <nav className="navbar navbar-default">
-          <div className="navbar-header">
-            <a className="navbar-brand" href="/home">Malebo Sambo</a>
-          </div>
-          <div>
-            <ul className="nav navbar-nav">
-              <li className="active"><Link to="/home">Home</Link></li>
-              <li><Link to="/github">GitHub</Link></li>
-              <li><Link to="/websites">Websites</Link></li>
-              <li><Link to="/apps">Apps</Link></li>
-              <li><Link to="/iot">IoT</Link></li>
-              <li><Link to="/network">Network</Link></li>
-              <li><Link to="/contact">Contact Us</Link></li>
-              <li><Link to="/login">Login</Link></li>
-            </ul>
-          </div>
-        </nav>
+        <NavbarComp />
       </div>
       <HomeContentCont />
     </div>

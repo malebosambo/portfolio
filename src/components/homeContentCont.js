@@ -17,28 +17,28 @@ class HomeContentCont extends Component {
         id: 2,
         name: "Websites",
         ops: ["Fintech", "eCommerce", "AI", "Community"],
-        imgUrl: "./Websites.png",
+        imgUrl: "./Web-App.jpg",
         url: "/websites"
       },
       {
         id: 3,
         name: "Apps",
         ops: ["Fintech", "eCommerce", "AI", "Community"],
-        imgUrl: "./Mobile-Apps.png",
+        imgUrl: "./Mobile-App.png",
         url: "/apps"
       },
       {
         id: 4,
         name: "IoT",
         ops: ["Security", "Utility"],
-        imgUrl: "./IoT.png",
+        imgUrl: "./Edge-Computing.png",
         url: "/iot"
       },
       {
         id: 5,
         name: "Network",
         ops: ["Internet", "Cybersecurity"],
-        imgUrl: "./Networks.png",
+        imgUrl: "./Networking.jpg",
         url: "/network"
       }
     ]

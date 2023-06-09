@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import IssueItem from './issueitem';
 import './latestIssues.css';
+import './../App.css';
 
 class LatestIssues extends Component {
   state = {
@@ -44,23 +45,23 @@ class LatestIssues extends Component {
             <button className="btn btn-primary" onClick={() => this.filterIssues("network")}>Network</button>
           </div>
       
-        <div style={{ overflow-x: "auto" }}>
-          <table>
-            <thead>
-              <tr>
-                <th>Title</th>
-                <th>Description</th>
-                <th>Collaborator</th>
-                <th>Status</th>
-                <th>Project</th>
-                <th>Type</th>
-              </tr>
-            </thead>
-            <tbody>
+          <div className="TableResponse">
+            <table>
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Description</th>
+                  <th>Collaborator</th>
+                  <th>Status</th>
+                  <th>Project</th>
+                  <th>Type</th>
+                </tr>
+              </thead>
+              <tbody>
               {this.state.issues.map((issue) => (<IssueItem issue={issue} />))}
-            </tbody>
-          </table>
-        </div>
+              </tbody>
+            </table>
+          </div>
 
         </div>
       </>  
