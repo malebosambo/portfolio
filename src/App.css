@@ -3,6 +3,15 @@
     font-size: 30px;
   }
   
+  nav {
+    display: none;
+  }
+
+  .Logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
   .TableResponse {
     overflow-x: auto;
   }
