@@ -15,7 +15,19 @@ function Home() {
   return (
     <div>
       <div className="Header">
-        <NavbarComp />
+        <div className="Logo">
+          <p>Malebo Sambo</p>
+        </div>
+        <nav>
+          <Link to="/home">Home</Link>
+          <Link to="/github">GitHub</Link>
+          <Link to="/websites">Websites</Link>
+          <Link to="/apps">Apps</Link>
+          <Link to="/iot">IoT</Link>
+          <Link to="/network">Network</Link>
+          <Link to="/contact">Contact Us</Link>
+          <Link to="/login">Login</Link>
+        </nav>
       </div>
       <HomeContentCont />
     </div>
