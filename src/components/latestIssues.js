@@ -4,11 +4,16 @@ import './latestIssues.css';
 
 function LatestIssues() {
   const [issues, setIssues] = useState([]);
+  const [errors, setErrors] = useState(null);
+
   const fetchIssues = () => {
     fetch("https://api.github.com/repos/malebosambo/portfolio/issues")
     .then((response) => response.json())
-    .then((data) => setIssues(data.issues));
-  }
+    .then((response) => { setIssues(response);
+  setError(null);
+})
+  .catch(setError);
+}
 
   useEffect(() => {
     fetchIssues()
