@@ -7,7 +7,9 @@ function LatestIssues() {
   const [errors, setErrors] = useState(null);
 
   const fetchIssues = () => {
-    fetch("https://api.github.com/repos/malebosambo/portfolio/issues")
+    fetch("https://api.github.com/repos/malebosambo/portfolio/issues", {
+  headers: {
+    accept: "application/vnd:github+json")
     .then((response) => response.json())
     .then((response) => { setIssues(response);
   setError(null);
