@@ -1,17 +1,18 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import IssueItem from './issueitem';
 import './latestIssues.css';
 
 function LatestIssues() {
   const [issues, setIssues] = useState([]);
-  const [errors, setErrors] = useState(null);
+  const [error, setError] = useState(null);
 
   const fetchIssues = () => {
     fetch("https://api.github.com/repos/malebosambo/portfolio/issues", {
       headers: {
         Accept: `application/vnd.github+json`,
         Authorization: process.env.GITHUB_TOKEN,
-      }
+      }}
     )
     .then((response) => response.json())
     .then((data) => { 
@@ -33,7 +34,7 @@ function LatestIssues() {
   return (
     <>
       <div className="Section">
-        <h1>Latest Issues <span className="badge badge-primary">{issues.length()}</span></h1>
+        <h1>Latest Issues <span className="badge badge-primary">{issues.length}</span></h1>
           
         <div className="btn-group">
           <button className="btn btn-primary m-2" onClick={(e) => this.filterIssues("websites")}>Web</button>
