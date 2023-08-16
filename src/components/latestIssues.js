@@ -11,7 +11,7 @@ function LatestIssues() {
   headers: {
     accept: "application/vnd.github+json")
     .then((response) => response.json())
-    .then((response) => { setIssues(response);
+    .then((data) => { setIssues(data);
   setError(null);
 })
   .catch(setError);
@@ -19,7 +19,7 @@ function LatestIssues() {
 
   useEffect( async () => {
     await fetchIssues()
-  }, []);
+  });
   
   const filterIssues = name => {
     console.log('Filter button pressed:' + name);
