@@ -8,10 +8,6 @@ function LatestIssues() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const fetchIssues = () => {
-    
-  }
-
   useEffect(() => {
     fetch("https://api.github.com/repos/malebosambo/portfolio/issues", {
       headers: {
