@@ -9,7 +9,7 @@ function LatestIssues() {
   const fetchIssues = () => {
     fetch("https://api.github.com/repos/malebosambo/portfolio/issues", {
   headers: {
-    accept: "application/vnd:github+json")
+    accept: "application/vnd.github+json")
     .then((response) => response.json())
     .then((response) => { setIssues(response);
   setError(null);
@@ -17,8 +17,8 @@ function LatestIssues() {
   .catch(setError);
 }
 
-  useEffect(() => {
-    fetchIssues()
+  useEffect( async () => {
+    await fetchIssues()
   }, []);
   
   const filterIssues = name => {
