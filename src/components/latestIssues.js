@@ -5,9 +5,14 @@ import './latestIssues.css';
 
 function LatestIssues() {
   const [issues, setIssues] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   const fetchIssues = () => {
+    
+  }
+
+  useEffect(() => {
     fetch("https://api.github.com/repos/malebosambo/portfolio/issues", {
       headers: {
         Accept: `application/vnd.github+json`,
@@ -19,12 +24,11 @@ function LatestIssues() {
       setIssues(data);
       setError(null);
     })
-    .catch(setError);
-  }
+    .catch(setError(error));
+  }, []);
 
-  useEffect( async () => {
-    await fetchIssues()
-  });
+  if (loading) return <p>Loading data...</p>;
+  if (error) return <p>Error!</p>;
   
   const filterIssues = (name, e) => {
     console.log(`Filter button pressed: ${name}`);
