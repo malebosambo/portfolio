@@ -8,34 +8,36 @@ function LatestIssues() {
 
   const fetchIssues = () => {
     fetch("https://api.github.com/repos/malebosambo/portfolio/issues", {
-  headers: {
-    Accept: `application/vnd.github+json`,
-    Authorization: process.env.GITHUB_TOKEN,)
+      headers: {
+        Accept: `application/vnd.github+json`,
+        Authorization: process.env.GITHUB_TOKEN,
+      }
+    )
     .then((response) => response.json())
-    .then((data) => { setIssues(data);
-  setError(null);
-})
-  .catch(setError);
-}
+    .then((data) => { 
+      setIssues(data);
+      setError(null);
+    })
+    .catch(setError);
+  }
 
   useEffect( async () => {
     await fetchIssues()
   });
   
-  const filterIssues = name => {
-    console.log('Filter button pressed:' + name);
+  const filterIssues = (name, e) => {
+    console.log(`Filter button pressed: ${name}`);
+    console.log(e.target);
   }
   
   return (
     <>
       <div className="Section">
-        <h1>Latest Issues <span className="badge badge-primary">{this.state.issues.length}</span></h1>
+        <h1>Latest Issues <span className="badge badge-primary">{issues.length()}</span></h1>
           
         <div className="btn-group">
-          <button className="btn btn-primary m-2" onClick={() => this.filterIssues("websites")}>Websites</button>
-          <button className="btn btn-primary m-2" onClick={() => this.filterIssues("apps")}>Apps</button>
-          <button className="btn btn-primary m-2" onClick={() => this.filterIssues("iot")}>IoT</button>
-          <button className="btn btn-primary" onClick={() => this.filterIssues("network")}>Network</button>
+          <button className="btn btn-primary m-2" onClick={(e) => this.filterIssues("websites")}>Web</button>
+          <button className="btn btn-primary m-2" onClick={(e) => this.filterIssues("apps")}>Mobile</button>
         </div>
       
         <div className="TableResponse">
@@ -51,7 +53,7 @@ function LatestIssues() {
               </tr>
             </thead>
             <tbody>
-              {this.state.issues.map((issue) => (<IssueItem issue={issue} />))}
+              {issues.map((issue) => (<IssueItem issue={issue} />))}
             </tbody>
           </table>
         </div>
