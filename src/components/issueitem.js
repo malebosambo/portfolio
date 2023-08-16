@@ -8,11 +8,9 @@ class IssueItem extends Component {
       <>
         <tr key={issue.id}>
           <td>{issue.title}</td>
-          <td>{issue.description}</td>
-          <td>{issue.collaborator}</td>
-          <td>{issue.status}</td>
-          <td>{issue.project}</td>
-          <td>{issue.type}</td>
+          <td>{issue.body}</td>
+          <td>{issue.assignees[0]}</td>
+          <td>{issue.state}</td>
         </tr>
       </>
     )
