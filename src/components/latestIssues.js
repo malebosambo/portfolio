@@ -9,7 +9,8 @@ function LatestIssues() {
   const fetchIssues = () => {
     fetch("https://api.github.com/repos/malebosambo/portfolio/issues", {
   headers: {
-    accept: "application/vnd.github+json")
+    Accept: `application/vnd.github+json`,
+    Authorization: process.env.GITHUB_TOKEN,)
     .then((response) => response.json())
     .then((data) => { setIssues(data);
   setError(null);
