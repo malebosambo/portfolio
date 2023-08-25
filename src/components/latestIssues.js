@@ -16,7 +16,8 @@ function LatestIssues() {
       }}
     )
     .then((response) => response.json())
-    .then((data) => { 
+    .then((data) => {
+      console.log(data); 
       setIssues(data);
       setError(null);
     })
