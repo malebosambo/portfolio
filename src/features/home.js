@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './homeContentCont.css';
-import LatestIssues from './latestIssues';
-import ContentItem from './contentitem';
+import LatestIssues from '../components/latestIssues';
+import ContentItem from '../components/contentitem';
 
 class HomeContentCont extends Component {
   state = {

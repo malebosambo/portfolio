@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import IssueItem from './issueitem';
+import IssueItem from './issueItem';
 import './latestIssues.css';
 import './../App.css';
 
