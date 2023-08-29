@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
 import { Link} from 'react-router-dom';
-import HomeContentCont from './components/homeContentCont';
-import LoginComp from './components/loginComp';
-import GithubContentCont from './components/githubContentCont';
-import WebsitesContentCont from './components/websitesContentCont';
-import AppsContentCont from './components/appsContentCont';
-import IoTContentCont from './components/iotContentCont';
-import NetworkContentCont from './components/networkContentCont';
-import ContactComp from './components/contactComp';
-import NavbarComp from './components/navbarComp';
+import Home from './features/home';
+import Login from './security/login';
+import GithubProfile from './features/githubProfile';
+import WebsiteApps from './features/websiteApps';
+import MobileApps from './features/mobileApps';
+import ContactUs from './features/contactUs';
+import Navbar from './components/navbar';
 
 function Home() {
   return (
@@ -29,7 +27,7 @@ function Home() {
           <Link to="/login">Login</Link>
         </nav>
       </div>
-      <HomeContentCont />
+      <Home />
     </div>
   )
 }
@@ -52,7 +50,7 @@ export function Github() {
           <Link to="/login">Login</Link>
         </nav>
       </div>
-      <GithubContentCont />
+      <GithubProfile />
     </div>
   )
 }
@@ -75,7 +73,7 @@ export function Websites() {
           <Link to="/login">Login</Link>
         </nav>
       </div>
-      <WebsitesContentCont />
+      <WebsiteApps />
     </div>
   )
 }
@@ -98,7 +96,7 @@ export function Apps() {
           <Link to="/login">Login</Link>
         </nav>
       </div>
-      <AppsContentCont />
+      <MobileApps />
     </div>
   )
 }
