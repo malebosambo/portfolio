@@ -9,10 +9,11 @@ function LatestIssues() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("https://api.github.com/repos/malebosambo/portfolio/issues", {
+    fetch('https://api.github.com/repos/malebosambo/portfolio/issues', {
       headers: {
         Accept: `application/vnd.github+json`,
         Authorization: process.env.GITHUB_TOKEN,
+        X-GitHub-Api-Version: `2022-11-08`
       }}
     )
     .then((response) => response.json())
