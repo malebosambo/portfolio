@@ -13,7 +13,7 @@ function LatestIssues() {
       headers: {
         Accept: `application/vnd.github+json`,
         Authorization: process.env.GITHUB_TOKEN,
-        X-GitHub-Api-Version: `2022-11-08`
+        X-GitHub-Api-Version: `2022-11-28`
       }}
     )
     .then((response) => response.json())
