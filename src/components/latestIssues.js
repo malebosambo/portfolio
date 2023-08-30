@@ -56,7 +56,7 @@ function LatestIssues() {
               </tr>
             </thead>
             <tbody>
-              {issues.map((issue) => <IssueItem issue={issue} />)}
+              {issues.map((issue) => (<IssueItem issue={issue} />))}
             </tbody>
           </table>
         </div>
