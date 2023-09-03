@@ -1,5 +1,4 @@
-import React from 'react';
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import IssueItem from './issueitem';
 import './latestIssues.css';
 
@@ -9,7 +8,7 @@ function LatestIssues() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('https://api.github.com/repos/malebosambo/portfolio/issues', {
+    fetch("https://api.github.com/repos/malebosambo/portfolio/issues", {
       headers: {
         Accept: `application/vnd.github+json`,
         Authorization: process.env.GITHUB_TOKEN,
@@ -17,10 +16,11 @@ function LatestIssues() {
       }}
     )
     .then((response) => response.json())
-    .then((data) => {
-      console.log(data); 
-      setIssues(data);
+    .then((result) => {
+      console.log(result); 
+      setIssues(result);
       setError(null);
+      setLoading(false);
     })
     .catch(setError(error));
   }, []);
