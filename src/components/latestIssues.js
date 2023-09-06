@@ -15,18 +15,11 @@ function LatestIssues() {
         X-GitHub-Api-Version: `2022-11-28`
       }}
     )
-    .then((response) => response.json())
-    .then((result) => {
-      console.log(result); 
-      setIssues(result);
-      setError(null);
-      setLoading(false);
-    })
-    .catch(setError(error));
+    .then(response => response.json())
+    .then(result =>
+      console.log(result))
+    .catch(error => console.error(error));
   }, []);
-
-  if (loading) return <p>Loading data...</p>;
-  if (error) return <p>Error!</p>;
   
   const filterIssues = (name, e) => {
     console.log(`Filter button pressed: ${name}`);
