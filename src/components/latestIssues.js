@@ -3,7 +3,7 @@ import IssueItem from './issueitem';
 import './latestIssues.css';
 
 function LatestIssues() {
-  const [issues, setIssues] = useState(result);
+  const [issues, setIssues] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -15,12 +15,28 @@ function LatestIssues() {
         X-GitHub-Api-Version: `2022-11-28`
       }}
     )
-    .then(response => response.json())
-    .then(result =>
-      console.log(result))
-    .catch(error => console.error(error));
+    .then(response => {
+      if (response.ok) {
+        return response.json()
+      }
+      throw response;
+    })
+    .then(result => {
+      console.log(result);
+      setIssues(result);
+    })
+    .catch(error => {
+      console.error("Error fetching data: ", error);
+      setError(error);
+    })
+    .finally(() => {
+      setLoading(false);
+    })
   }, []);
   
+  if (loading) return "Loading...";
+  if (error) return "Error!";
+
   const filterIssues = (name, e) => {
     console.log(`Filter button pressed: ${name}`);
     console.log(e.target);
