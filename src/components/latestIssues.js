@@ -3,7 +3,7 @@ import IssueItem from './issueitem';
 import './latestIssues.css';
 
 function LatestIssues() {
-  const [issues, setIssues] = useState([]);
+  const [issues, setIssues] = useState(result);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
