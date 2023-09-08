@@ -14,3 +14,5 @@ const issueItem = (props) {
     </>
   )
 }
+
+export default IssueItem;
