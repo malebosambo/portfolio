@@ -1,6 +1,6 @@
 import React from 'react';
 
-const issueItem = (props) {
+export default function IssueItem(props) {
   const {issue} = this.props;
     
   return (
@@ -12,7 +12,5 @@ const issueItem = (props) {
         <td>{issue.state}</td>
       </tr>
     </>
-  )
+  );
 }
-
-export default IssueItem;
