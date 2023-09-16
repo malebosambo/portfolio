@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import IssueItem from './issueitem';
 import './latestIssues.css';
 
-function LatestIssues() {
+export default function LatestIssues() {
   const [issues, setIssues] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -75,4 +75,3 @@ function LatestIssues() {
   );
 }
 
-export default LatestIssues;
