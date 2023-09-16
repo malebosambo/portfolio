@@ -4,7 +4,7 @@ import LatestIssues from './latestIssues';
 import ContentItem from './contentitem';
 
 export default function HomeContentCont() {
-  state = {
+  contentItem = {
     services : [
       {
         id: 1,
@@ -60,5 +60,5 @@ export default function HomeContentCont() {
       </div>
         
     </div>
-  )
+  );
 }
