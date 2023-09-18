@@ -10,7 +10,7 @@ export default function LatestIssues() {
   useEffect(() => {
     fetch("https://api.github.com/repos/malebosambo/portfolio/issues", {
       headers: {
-        Accept: `application/vnd.github+json`,
+        Accept: `application/json`,
         Authorization: process.env.GITHUB_TOKEN,
         X-GitHub-Api-Version: `2022-11-28`
       }}
