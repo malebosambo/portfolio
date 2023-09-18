@@ -10,11 +10,11 @@ export default function LatestIssues() {
   useEffect(() => {
     fetch("https://api.github.com/repos/malebosambo/portfolio/issues", {
       headers: {
-        Accept: `application/json`,
-        Authorization: process.env.GITHUB_TOKEN,
-        X-GitHub-Api-Version: `2022-11-28`
-      }}
-    )
+        "Accept": "application/json",
+        "Authorization": Bearer process.env.GITHUB_TOKEN,
+        "X-GitHub-Api-Version": "2022-11-28"
+      },
+    })
     .then(response => {
       if (response.ok) {
         return response.json()
@@ -26,7 +26,7 @@ export default function LatestIssues() {
       setIssues(result);
     })
     .catch(error => {
-      console.error("Error fetching data: ", error);
+      console.log("Error fetching data: ", error);
       setError(error);
     })
     .finally(() => {
