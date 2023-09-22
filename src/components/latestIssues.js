@@ -3,39 +3,17 @@ import IssueItem from './issueitem';
 import './latestIssues.css';
 
 export default function LatestIssues() {
-  const [issues, setIssues] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [data, setdata] = useState([]);
+
+  const fetchData = async () => {
+    const response = await fetch("https://api.github.com/repos/malebosambo/portfolio/issues");
+    const jsonData = await response.json();
+    setData(jsonData);
+  };
 
   useEffect(() => {
-    fetch("https://api.github.com/repos/malebosambo/portfolio/issues", {
-      headers: {
-        "Accept": "application/json",
-        "Authorization": Bearer process.env.GITHUB_TOKEN,
-        "X-GitHub-Api-Version": "2022-11-28"
-      },
-    })
-    .then(response => {
-      if (response.ok) {
-        return response.json()
-      }
-      throw response;
-    })
-    .then(result => {
-      console.log(result);
-      setIssues(result);
-    })
-    .catch(error => {
-      console.log("Error fetching data: ", error);
-      setError(error);
-    })
-    .finally(() => {
-      setLoading(false);
-    })
+    fetchData();
   }, []);
-  
-  if (loading) return "Loading...";
-  if (error) return "Error!";
 
   const filterIssues = (name, e) => {
     console.log(`Filter button pressed: ${name}`);
@@ -65,7 +43,7 @@ export default function LatestIssues() {
               </tr>
             </thead>
             <tbody>
-              {issues.map((issue) => (<IssueItem issue={issue} />))}
+              {data.map((issue) => (<IssueItem issue={issue} />))}
             </tbody>
           </table>
         </div>
