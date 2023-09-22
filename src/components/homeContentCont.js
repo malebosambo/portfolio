@@ -4,8 +4,7 @@ import LatestIssues from './latestIssues';
 import ContentItem from './contentitem';
 
 export default function HomeContentCont() {
-  contentItem = {
-    services : [
+  const services = [
       {
         id: 1,
         name: "GitHub",
@@ -41,10 +40,9 @@ export default function HomeContentCont() {
         imgUrl: "./Networking.jpg",
         url: "/network"
       }
-    ]
-  };
+    ];
   
-  const content = this.state.services.map((service) => <ContentItem content={service} />);
+  const content = services.map((service) => <ContentItem content={service} />);
 
   return (
     <div className="Container">
