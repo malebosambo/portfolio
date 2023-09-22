@@ -3,7 +3,7 @@ import IssueItem from './issueitem';
 import './latestIssues.css';
 
 export default function LatestIssues() {
-  const [data, setdata] = useState([]);
+  const [data, setData] = useState([]);
 
   const fetchData = async () => {
     const response = await fetch("https://api.github.com/repos/malebosambo/portfolio/issues");
@@ -23,7 +23,7 @@ export default function LatestIssues() {
   return (
     <>
       <div className="Section">
-        <h1>Latest Issues <span className="badge badge-primary">{issues.length}</span></h1>
+        <h1>Latest Issues</h1>
           
         <div className="btn-group">
           <button className="btn btn-primary m-2" onClick={(e) => this.filterIssues("websites")}>Web</button>
