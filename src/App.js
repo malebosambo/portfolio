@@ -9,7 +9,7 @@ import AppsContentCont from './components/appsContentCont';
 import IoTContentCont from './components/iotContentCont';
 import NetworkContentCont from './components/networkContentCont';
 import ContactComp from './components/contactComp';
-import NavbarComp from './components/navbarComp';
+
 
 function Home() {
   return (
