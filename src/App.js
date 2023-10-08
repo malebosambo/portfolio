@@ -25,20 +25,23 @@ export function App() {
   return (
     <div>
       <div className="Header">
+
         <div className="Logo">
           <p>Malebo Sambo</p>
+          <button onClick={responsive()}>X</button>
         </div>
-        <nav>
+
+        <div className="Menu">
           <Link to="/home">Home</Link>
           <Link to="/github">GitHub</Link>
           <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
           <Link to="/contact">Contacts</Link>
-        </nav>
-        <div className="MobileMenu">
-          <button onClick={responsive()}>X</button>
         </div>
-      </div>
+        
+      </div> 
+      // close Header
+
       <Home />
     </div>
   )
