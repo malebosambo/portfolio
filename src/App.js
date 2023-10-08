@@ -14,10 +14,10 @@ export function App() {
   const responsive = (e) => {
     const currClass = e.target.className;
 
-    if (currClass == "closed") {
-      setNewClass("open");
+    if (currClass == "MenuClosed") {
+      setNewClass("MenuOpen");
     } else {
-      setNewClass("closed");
+      setNewClass("MenuClosed");
     }
     
   };
@@ -31,7 +31,7 @@ export function App() {
           <button onClick={responsive()}>X</button>
         </div>
 
-        <div className="Menu">
+        <div className="MenuClosed">
           <Link to="/home">Home</Link>
           <Link to="/github">GitHub</Link>
           <Link to="/websites">Websites</Link>
