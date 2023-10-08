@@ -3,7 +3,7 @@ import './homeContentCont.css';
 import LatestIssues from '../components/latestIssues';
 import ContentItem from '../components/contentitem';
 
-export default function HomeContentCont() {
+export default function Home() {
 
   services : [
     {
