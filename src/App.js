@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { Link} from 'react-router-dom';
 import Home from './features/home';
@@ -9,9 +9,18 @@ import ContactUs from './features/contactUs';
 
 export function App() {
   
-  responsive = () => {
+  const [ newClass, setNewClass ] = useState('closed');
+
+  const responsive = (e) => {
+    const currClass = e.target.className;
+
+    if (currClass == "closed") {
+      setNewClass("open");
+    } else {
+      setNewClass("closed");
+    }
     
-  }
+  };
 
   return (
     <div>
