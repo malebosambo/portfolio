@@ -3,18 +3,25 @@
   h1 {
     font-size: 30px;
   }
-  
-  nav {
-    display: none;
-  }
 
   .Header {
     display: flex;
+    flex-direction: column;
   }
 
-  .Logo {
+  .Logo p {
     font-size: 15px;
     font-weight: bold;
+  }
+
+  .MenuClosed {
+    display: none;
+  }
+
+  .MenuOpen {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
   }
 
   .TableResponse {
