@@ -9,7 +9,7 @@ import ContactUs from './features/contactUs';
 
 export function App() {
   
-  const [ newClass, setNewClass ] = useState('closed');
+  const [ newClass, setNewClass ] = useState('MenuClosed');
 
   const responsive = (e) => {
     const currClass = e.target.className;
