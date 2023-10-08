@@ -1,5 +1,5 @@
 import React from 'react';
-import './homeContentCont.css';
+import '../styles/homeContentCont.css';
 import LatestIssues from './latestIssues';
 import ContentItem from './contentItem';
 
