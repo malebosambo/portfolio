@@ -19,10 +19,7 @@ root.render(
         <Route path="/github" element={<Github />} />
         <Route path="/websites" element={<Websites />} />
         <Route path="/apps" element={<Apps />} />
-        <Route path="/iot" element={<IoT />} />
-        <Route path="/network" element={<Network />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
