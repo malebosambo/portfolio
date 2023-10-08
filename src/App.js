@@ -7,7 +7,6 @@ import GithubProfile from './features/githubProfile';
 import WebsiteApps from './features/websiteApps';
 import MobileApps from './features/mobileApps';
 import ContactUs from './features/contactUs';
-import Navbar from './components/navbar';
 
 function Home() {
   return (
