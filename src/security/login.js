@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-class Login extends Component {
+class LoginComp extends Component {
   // State object is used to render dynamic data
   // state = {};
   
@@ -44,4 +44,4 @@ class Login extends Component {
   }
 }
 
-export default Login;
+export default LoginComp;
