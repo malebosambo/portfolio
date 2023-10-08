@@ -5,7 +5,7 @@ import ContentItem from '../components/contentitem';
 
 export default function Home() {
 
-  services : [
+  const services = [
     {
       id: 1,
       name: "GitHub",
