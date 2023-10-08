@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import { App, Github, Websites, Apps, IoT, Network, Contact, Login } from './App';
+import { App, Github, Websites, Apps, Contact } from './App';
 import {
   BrowserRouter,
   Routes,
