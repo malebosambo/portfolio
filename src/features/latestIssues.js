@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import IssueItem from './issueItem';
-import './latestIssues.css';
-import './../App.css';
+import '../styles/latestIssues.css';
+import '../App.css';
 
 class LatestIssues extends Component {
   state = {
