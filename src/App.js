@@ -8,6 +8,11 @@ import MobileApps from './features/mobileApps';
 import ContactUs from './features/contactUs';
 
 export function App() {
+  
+  responsive = () => {
+    
+  }
+
   return (
     <div>
       <div className="Header">
@@ -21,6 +26,9 @@ export function App() {
           <Link to="/apps">Apps</Link>
           <Link to="/contact">Contacts</Link>
         </nav>
+        <div className="MobileMenu">
+          <button onClick={responsive()}>X</button>
+        </div>
       </div>
       <Home />
     </div>
