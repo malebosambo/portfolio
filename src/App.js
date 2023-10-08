@@ -116,7 +116,7 @@ export function Contact() {
           <Link to="/login">Login</Link>
         </nav>
       </div>
-      <ContactComp />
+      <ContactUs />
     </div>
   )
 }
