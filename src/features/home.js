@@ -1,7 +1,7 @@
 import React from 'react';
 import './homeContentCont.css';
 import LatestIssues from '../components/latestIssues';
-import ContentItem from '../components/contentitem';
+import ContentItem from '../components/contentItem';
 
 export default function Home() {
 
