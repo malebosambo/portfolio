@@ -21,10 +21,7 @@ function Home() {
           <Link to="/github">GitHub</Link>
           <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
-          <Link to="/iot">IoT</Link>
-          <Link to="/network">Network</Link>
-          <Link to="/contact">Contact Us</Link>
-          <Link to="/login">Login</Link>
+          <Link to="/contact">Contacts</Link>
         </nav>
       </div>
       <Home />
