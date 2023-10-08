@@ -8,7 +8,7 @@ import WebsiteApps from './features/websiteApps';
 import MobileApps from './features/mobileApps';
 import ContactUs from './features/contactUs';
 
-function Home() {
+export function App() {
   return (
     <div>
       <div className="Header">
@@ -187,8 +187,4 @@ export function Login() {
       <LoginComp />
     </div>
   )
-}
-
-export function App() {
-  return <Home />
 }
