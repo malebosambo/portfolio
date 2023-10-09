@@ -28,7 +28,7 @@ export function App() {
 
         <div className="Logo">
           <p>Malebo Sambo</p>
-          <button onClick={responsive}>X</button>
+          <button className="MobileButton" onClick={responsive}>X</button>
         </div>
 
         <div className="MenuClosed">
