@@ -5,22 +5,21 @@
   }
 
   .Header {
+    background-color: azure;
     display: flex;
     flex-direction: column;
     padding: 5px;
   }
 
-  .Logo {
-    display: inline;
-  }
-
-  .Logo p {
+  .Logo, p {
     font-size: 15px;
     font-weight: bold;
   }
 
-  .MenuClosed {
-    display: none;
+  .Menu, a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
   }
 
   .MenuOpen {

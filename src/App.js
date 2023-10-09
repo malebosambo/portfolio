@@ -28,7 +28,7 @@ export function App() {
 
         <div className="Logo">
           <p>Malebo Sambo</p>
-          <button className="MobileButton" onClick={responsive}>X</button>
+          <span><button className="MobileButton" onClick={responsive}>X</button></span>
         </div>
 
         <div className="MenuClosed">
@@ -40,7 +40,6 @@ export function App() {
         </div>
         
       </div> 
-      // close Header
 
       <Home />
     </div>
