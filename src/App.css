@@ -9,6 +9,10 @@
     flex-direction: column;
   }
 
+  .Logo {
+    display: inline;
+  }
+
   .Logo p {
     font-size: 15px;
     font-weight: bold;
@@ -22,6 +26,10 @@
     display: flex;
     flex-direction: column;
     align-content: center;
+  }
+
+  .MobileButton {
+    padding: 5px;
   }
 
   .TableResponse {
