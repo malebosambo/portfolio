@@ -12,31 +12,22 @@ class Github extends Component {
     return (
       <div>
       
-        <h1>GitHub Profile</h1>
+        <h1>GitHub Statistics</h1>
         
         <div className='GithubProfile_Stats'>
-          <div>
-            <h5>Repositories</h5><span>{this.state.repositories}</span>
-          </div>
-          <div>
-            <h5>Issues</h5><span>{this.state.issues}</span>
-          </div>
-          <div>
-            <h5>Collaborators</h5><span>{this.state.collaborators}</span>
-          </div>
-        </div>
-        
-        <div>
-          <div className="Github_Filters">
-            <p>Filters</p><button>Reset</button>
-            <ul>
-              <li><input type="checkbox" id="internal" name="internal" value="internal" /><label htmlFor="internal">Internal</label></li>
-              <li><input type="checkbox" id="external" name="external" value="external" /><label htmlFor="external">External</label></li>
-              <li><input type="checkbox" id="compute" name="compute" value="compite" /><label htmlFor="compute">Compute</label></li>
-            </ul>
-          </div>
-          <div className="Github_Repos">
-          </div>
+
+<div><h5>Repositories</h5></div>
+
+<div><h5>Issues</h5></div>
+
+<div><h5>Collaborators</h5></div>
+
+<div><h5>Pulls</h5></div>
+
+<div><h5>Commits</h5></div>
+
+<div><h5>Branches</h5></div>
+
         </div>
         
       </div>
