@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/homeContentCont.css';
-import LatestIssues from './latestIssues';
 import ContentItem from './contentItem';
 
 export default function Home() {
@@ -38,10 +37,6 @@ export default function Home() {
         <div className="row">
           {content}
         </div>
-      </div>
-        
-      <div className="Latest_Issues">
-        <LatestIssues />
       </div>
         
     </div>
