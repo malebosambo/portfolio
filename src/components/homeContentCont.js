@@ -1,6 +1,5 @@
 import React from 'react';
 import './homeContentCont.css';
-import LatestIssues from './latestIssues';
 import ContentItem from './contentitem';
 
 export default function HomeContentCont() {
@@ -52,11 +51,7 @@ export default function HomeContentCont() {
           {content}
         </div>
       </div>
-        
-      <div className="Latest_Issues">
-        <LatestIssues />
-      </div>
-        
+       
     </div>
   );
 }
