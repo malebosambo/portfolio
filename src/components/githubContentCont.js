@@ -6,6 +6,9 @@ export default function Github {
   useEffect(() => {
     (async () => {
       try {
+        const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+
+
       } catch (error) {
       
       }
