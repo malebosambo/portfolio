@@ -8,6 +8,8 @@ export default function Github {
       try {
         const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 
+        await octokit.request('GET
+        /orgs/{org}/repos', { 
 
       } catch (error) {
       
