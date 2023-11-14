@@ -17,6 +17,10 @@ app.get("/", (req, res, next) => {
   res.json({ "message": "OK" });
 });
 
+app.get("/github-stats", (req, res, next) => {
+  res.json({ "message": "OK" });
+});
+
 app.use(function (req, res) {
   res.status(404);
 });
