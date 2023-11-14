@@ -16,7 +16,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/github" element={<Github />} />
+        <Route path="/github-stats" element={<Github />} />
         <Route path="/websites" element={<Websites />} />
         <Route path="/apps" element={<Apps />} />
         <Route path="/iot" element={<IoT />} />
