@@ -1,5 +1,7 @@
 var express = require('express');
 var cors = require('cors');
+const moduletofetch = require('./lib/github');
+const getDatabase = moduletofetch.getDatabase;
 
 var app = express();
 app.use(cors());
@@ -13,12 +15,13 @@ app.listen(HTTP_PORT, () => {
   console.log("Server running on port %PORT%".replace("%PORT%", HTTP_PORT)
 )};
 
-app.get("/", (req, res, next) => {
+app.get("/", async (req, res, next) => {
   res.json({ "message": "OK" });
 });
 
-app.get("/github-stats", (req, res, next) => {
-  res.json({ "message": "OK" });
+app.get("/github-stats", async (req, res, next) => {
+  const repos = await getDatabase();
+  res.json(repos);
 });
 
 app.use(function (req, res) {
