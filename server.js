@@ -19,7 +19,7 @@ app.get("/", async (req, res, next) => {
   res.json({ "message": "OK" });
 });
 
-app.get("/github-stats", async (req, res, next) => {
+app.get("/github-stats", async (req, res) => {
   const repos = await getDatabase();
   res.json(repos);
 });
