@@ -20,7 +20,7 @@ function Home() {
         </div>
         <nav>
           <Link to="/home">Home</Link>
-          <Link to="/github">GitHub</Link>
+          <Link to="/github-stats">GitHub</Link>
           <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
           <Link to="/iot">IoT</Link>
@@ -43,7 +43,7 @@ export function Github() {
         </div>
         <nav>
           <Link to="/home">Home</Link>
-          <Link to="/github">GitHub</Link>
+          <Link to="/github-stats">GitHub</Link>
           <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
           <Link to="/iot">IoT</Link>
