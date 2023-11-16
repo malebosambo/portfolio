@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Octokit, App } from 'octokit';
+import { getDatabase } from '.../lib/github';
 
 export default function Github {
   const [loading, setLoading] = useState(false);
