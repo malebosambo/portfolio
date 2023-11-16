@@ -6,10 +6,10 @@ export default function IssueItem(props) {
   return (
     <>
       <tr key={issue.id}>
-        <td>{issue.title}</td>
-        <td>{issue.body}</td>
-        <td>{issue.assignees[0]}</td>
-        <td>{issue.state}</td>
+        <td>{issue.id}</td>
+        <td>{issue.name}</td>
+        <td></td>
+        <td></td>
       </tr>
     </>
   );
