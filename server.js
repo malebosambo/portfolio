@@ -6,16 +6,12 @@ const getDatabase = moduletofetch.getDatabase;
 var app = express();
 app.use(cors());
 
-var bodyParser = require('body-parser');
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
-
 var HTTP_PORT = 8000;
 app.listen(HTTP_PORT, () => {
   console.log("Server running on port %PORT%".replace("%PORT%", HTTP_PORT)
 )};
 
-app.get("/", async (req, res, next) => {
+app.get("/", async (req, res) => {
   res.json({ "message": "OK" });
 });
 
