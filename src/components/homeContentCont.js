@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './homeContentCont.css';
 import ContentItem from './contentitem';
 
@@ -42,6 +42,20 @@ export default function HomeContentCont() {
     ];
   
   const content = services.map((service) => <ContentItem content={service} />);
+
+  useEffect(() => {
+        const handleUpdate = async () => {
+              try {
+                      const data = await fetchGitHubUserData('your-username');
+                              setGithubData(data);
+                                    } catch (error) {
+                                            console.error('Error fetching data:', error);
+                                                  }
+                                                      };
+
+                                                          handleUpdate();
+                                                            }, []);
+  })
 
   return (
     <div className="Container">
