@@ -44,9 +44,9 @@ export default function HomeContentCont() {
   const content = services.map((service) => <ContentItem content={service} />);
 
   useEffect(() => {
-        const handleUpdate = async () => {
-              try {
-                      const data = await fetchGitHubUserData('your-username');
+    const handleUpdate = async () => {
+      try {
+        const data = await fetchRepos('malebosambo');
                               setGithubData(data);
                                     } catch (error) {
                                             console.error('Error fetching data:', error);
