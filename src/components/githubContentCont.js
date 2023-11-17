@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { getDatabase } from '../../lib/github';
 import IssueItem from './issueitem';
 import './latestIssues.css';
 
 export default function Github() {
   const [loading, setLoading] = useState(false);
-
-  const issues = getDatabase();
 
   return (
     <>
@@ -32,7 +29,7 @@ export default function Github() {
               </tr>
             </thead>
             <tbody>
-              {issues.map((issue) => (<IssueItem issue={issue} />))}
+              
             </tbody>
           </table>
         </div>
