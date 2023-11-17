@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getDatabase } from '../lib/github';
+import { getDatabase } from '../../lib/github';
 import IssueItem from './issueitem';
 import 'latestIssues.css';
 
