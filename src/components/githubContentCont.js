@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { getDatabase } from '../../lib/github';
 import IssueItem from './issueitem';
-import 'latestIssues.css';
+import './latestIssues.css';
 
 export default function Github() {
   const [loading, setLoading] = useState(false);
