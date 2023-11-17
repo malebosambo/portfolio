@@ -1,6 +1,6 @@
 var express = require('express');
 var cors = require('cors');
-const moduletofetch = require('./lib/github');
+const moduletofetch = require('./src/lib/github');
 const getDatabase = moduletofetch.getDatabase;
 
 var app = express();
@@ -8,8 +8,8 @@ app.use(cors());
 
 var HTTP_PORT = 8000;
 app.listen(HTTP_PORT, () => {
-  console.log("Server running on port %PORT%".replace("%PORT%", HTTP_PORT)
-)};
+  console.log("Server running on port %PORT%".replace("%PORT%", HTTP_PORT))
+});
 
 app.get("/", async (req, res) => {
   res.json({ "message": "OK" });
