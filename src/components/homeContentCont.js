@@ -12,9 +12,9 @@ export default function HomeContentCont() {
   useEffect(() => {
     const handleUpdate = async () => {
       try {
-        const data = await fetchGithubRepos('malebosambo');
-        setGithubRepos(data);
-        console.log(data);
+        const githubRepos = await fetchGithubRepos('malebosambo');
+        setGithubRepos(githubRepos);
+        console.log(githubRepos);
       } catch (error) {
           console.error('Error fetching data:', error);
         }
