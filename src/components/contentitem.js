@@ -2,24 +2,24 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './homeContentCont.css';
 
-export default function ContentItem({ service }) {
+export default function ContentItem(props) {
     
   return (
     <>
-      <div className="card" style={{margin: "10px"}} key={service.id}>
-        <div className="Heading">
-            <h2 className="card-title">{service.name}</h2>
+      <div className="card" style={{margin: "10px"}} key={props.id}>
+        <div>
+            <h2 className="card-title">{props.name}</h2>
         </div>
         <hr/>
         <div className="card-body">
           <p>Services:</p>
-            <ul>{service.ops.map((op) => (<li key={op}>{op}</li>))}</ul>
+           
         </div>
         <div className="Image">
-          <img src={service.imgUrl} className="card-img-top" alt={service.name} />
+          <img src={props.imgUrl} className="card-img-top" alt={props.name} />
         </div>
         <div className="ContentLink">
-          <Link to={service.url} className="card-link">View more</Link>
+          <Link to={props.url} className="card-link">View more</Link>
         </div>
       </div>
     </>
