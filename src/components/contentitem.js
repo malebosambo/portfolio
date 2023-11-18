@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './homeContentCont.css';
 
-export default function ContentItem(props) {
+export default function ContentItem({ props }) {
     
   return (
     <>
