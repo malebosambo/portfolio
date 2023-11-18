@@ -13,14 +13,15 @@ export default function HomeContentCont() {
     const handleUpdate = async () => {
       try {
         const data = await fetchGithubRepos('malebosambo');
-        setGithubData(data);
+        setGithubRepos(data);
+        console.log(data);
       } catch (error) {
           console.error('Error fetching data:', error);
         }
     };
 
     handleUpdate();
-    console.log(data);
+    
   }, []);
   
   
