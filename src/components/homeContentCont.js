@@ -20,6 +20,7 @@ export default function HomeContentCont() {
     };
 
     handleUpdate();
+    console.log(data);
   }, []);
   
   
