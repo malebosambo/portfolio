@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import IssueItem from './issueitem';
+import React, { useState } from 'react';
+
 import './latestIssues.css';
 
 export default function Github() {
