@@ -6,20 +6,20 @@ export default function ContentItem({ service }) {
     
   return (
     <>
-      <div className="col-sm-2" style={{margin: "10px"}} key={service.id}>
+      <div className="card" style={{margin: "10px"}} key={service.id}>
         <div className="Heading">
-            <h2>{service.name}</h2>
+            <h2 className="card-title">{service.name}</h2>
         </div>
         <hr/>
-        <div className="Benefits">
+        <div className="card-body">
           <p>Services:</p>
             <ul>{service.ops.map((op) => (<li key={op}>{op}</li>))}</ul>
         </div>
         <div className="Image">
-          <img src={service.imgUrl} className="img-responsive img-rounded" alt={service.name} />
+          <img src={service.imgUrl} className="card-img-top" alt={service.name} />
         </div>
         <div className="ContentLink">
-          <Link to={service.url}>View more</Link>
+          <Link to={service.url} className="card-link">View more</Link>
         </div>
       </div>
     </>
