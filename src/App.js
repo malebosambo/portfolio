@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Link} from 'react-router-dom';
 import Home from './features/home';
+import CurriculumVitae from './features/curriculumVitae';
 import GithubProfile from './features/githubProfile';
 import WebsiteApps from './features/websiteApps';
 import MobileApps from './features/mobileApps';
