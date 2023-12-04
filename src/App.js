@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import { Link} from 'react-router-dom';
 import Home from './features/home';
@@ -8,19 +8,6 @@ import MobileApps from './features/mobileApps';
 import ContactUs from './features/contactUs';
 
 export function App() {
-  
-  const [ newClass, setNewClass ] = useState('MenuClosed');
-
-  const responsive = (e) => {
-    const currClass = e.target.className;
-
-    if (currClass == "MenuClosed") {
-      setNewClass("MenuOpen");
-    } else {
-      setNewClass("MenuClosed");
-    }
-    
-  };
 
   return (
     <div>
@@ -28,12 +15,12 @@ export function App() {
 
         <div className="Logo">
           <p>Malebo Sambo</p>
-          <span><button className="MobileButton" onClick={responsive}>X</button></span>
         </div>
 
         <div className="MenuClosed">
           <Link to="/home">Home</Link>
-          <Link to="/github">GitHub</Link>
+          <Link to="/cv">CV</Link>
+          <Link to="/github">Repos</Link>
           <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
           <Link to="/contact">Contacts</Link>
@@ -42,6 +29,27 @@ export function App() {
       </div> 
 
       <Home />
+    </div>
+  )
+}
+
+export function CV() {
+  return (
+    <div>
+      <div>
+        <div>
+          <p>Malebo Sambo</p>
+        </div>
+        <nav>
+          <Link to="/home">Home</Link>
+          <Link to="/cv">CV</Link>
+          <Link to="/github">Repos</Link>
+          <Link to="/websites">Websites</Link>
+          <Link to="/apps">Apps</Link>
+          <Link to="/contacts">Contacts</Link>
+        </nav>
+      </div>
+      <CurriculumVitae />
     </div>
   )
 }
