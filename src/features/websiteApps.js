@@ -1,16 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Websites extends Component {
-  
-  render() {
-    return (
-      <div>
-      
-        <h1>Website Development</h1>
-        
+export default function WebsiteApps() {
+
+  return (
+    <>
+      <div className="banner web-app">
+        <h1>Web App Repos</h1>
       </div>
-    );
-  }
+    </>
+  )
 }
-
-export default Websites;
