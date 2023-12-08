@@ -1,15 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Apps extends Component {
-  // state = {}
-  
-  render() {
-    return (
-      <div>
-        <h1>Mobile Apps</h1>
+export default function MobileApps() {
+
+  return (
+    <>
+      <div className="intro">
+        <h1>Mobile Apps Repos</h1>
       </div>
-    )
-  }
+    </>
+  )
 }
-
-export default Apps;
