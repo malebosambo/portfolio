@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/homeContentCont.css';
 
 export default function ContentItem(props) {
    
