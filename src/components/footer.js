@@ -13,5 +13,5 @@ export default function Footer() {
         <p>Cell: +27630013711<\p>
       <\div>
     <\>
-  );
+  )
 }
