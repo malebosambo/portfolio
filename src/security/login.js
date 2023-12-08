@@ -1,32 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-class LoginComp extends Component {
-  // State object is used to render dynamic data
-  // state = {};
-  
-  // Use arrow functions if creating event handlers that have args
-  
-  constructor(props) {
-    super(props);
-    
-    this.state = {
-      username : '', 
-      password : ''
-    }
-    
-  }
-  
-  onSubmit = (e) => {
-    e.PreventDefault();
-    
-    console.log('Logging in started');
-  }
-  
-  render() {
-    return (
+export default function Login() {
+
+  return (
+    <>
       <div>
-        <h1>Login</h1>
+        <h1>Login</h1><br/>
         <form onSubmit={() => this.onSubmit()}>
           <div className="form-group">
             <label htmlFor="username">Username</label>
@@ -40,8 +20,6 @@ class LoginComp extends Component {
         </form>
         <p>To reset your password, please click <span><Link to="/reset">here</Link></span></p>
       </div>
-    );
-  }
+    </>
+  )
 }
-
-export default LoginComp;
