@@ -1,38 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Github extends Component {
-  // State object is used to render dynamic data
-  state = {
-    repositories: 3,
-    issues: 1,
-    collaborators: 0
-  };
-  
-  render() {
-    return (
-      <div>
-      
-        <h1>GitHub Statistics</h1>
-        
-        <div className='GithubProfile_Stats'>
+export default function GithubStats() {
 
-<div><h5>Repositories</h5></div>
-
-<div><h5>Issues</h5></div>
-
-<div><h5>Collaborators</h5></div>
-
-<div><h5>Pulls</h5></div>
-
-<div><h5>Commits</h5></div>
-
-<div><h5>Branches</h5></div>
-
-        </div>
-        
+  return (
+    <>
+      <div className="github-account">
+        <h1>@malebosambo</h1>
       </div>
-    )
-  }
+    </>
+  )
 }
-
-export default Github;
