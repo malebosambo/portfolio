@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/homeContentCont.css';
 
 export default function ContentItem(props) {
-    
+   
+  const content = props;
+ 
   return (
     <>
       <div className="col-sm-2" style={{margin: "10px"}} key={content.id}>
