@@ -12,16 +12,16 @@ export default function ContentItem(props) {
           <img src={content.imgUrl} className="card-img-top img-responsive" alt={content.name} />
         </div>
         <div className="card-body">
-          <div className="Heading">
-            <h2>{content.name}</h2>
+          <div>
+            <h2 className="card-title">{content.name}</h2>
           </div>
           <hr/>
-          <div className="Benefits">
+          <div>
             <p>Services:</p>
-            <ul>{content.ops.map((op) => (<li key={op}>{op}</li>))}</ul>
+            <ul class name="list-group list-group-flush">{content.ops.map((op) => (<li class name="list-group-item" key={op}>{op}</li>))}</ul>
           </div>
         </div>
-        <div className="ContentLink">
+        <div>
           <Link className="btn btn-primary" to={content.url}>View more</Link>
         </div>
       </div>
