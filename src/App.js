@@ -34,7 +34,7 @@ export function App() {
   )
 }
 
-export function CV() {
+export function CurriculumVitae() {
   return (
     <div>
       <div>
