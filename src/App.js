@@ -3,7 +3,7 @@ import './App.css';
 import { Link} from 'react-router-dom';
 import Home from './features/home';
 import CurriculumVitae from './features/curriculumVitae';
-import GithubProfile from './features/githubProfile';
+import Repositories from './features/repositories';
 import WebsiteApps from './features/websiteApps';
 import MobileApps from './features/mobileApps';
 import ContactUs from './features/contactUs';
@@ -67,7 +67,7 @@ export function Repos() {
           <Link to="/contacts">Contacts</Link>
         </nav>
       </div>
-      <GithubProfile />
+      <Repositories />
     </div>
   )
 }
