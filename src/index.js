@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import { App, CurriculumVitae, Repos, Websites, Apps, Contacts } from './App';
+import { App, CVresume, Repos, Websites, Apps, Contacts } from './App';
 import {
   BrowserRouter,
   Routes,
@@ -16,7 +16,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/cv-resume" element={<CurriculumVitae />} />
+        <Route path="/cv-resume" element={<CVresume />} />
         <Route path="/repos" element={<Repos />} />
         <Route path="/websites" element={<Websites />} />
         <Route path="/apps" element={<Apps />} />

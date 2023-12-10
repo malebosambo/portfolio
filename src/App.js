@@ -32,7 +32,7 @@ export function App() {
   )
 }
 
-export function CurriculumVitae() {
+export function CVresume() {
   return (
     <div>
       <div className="Header">
