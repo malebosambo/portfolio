@@ -27,6 +27,7 @@ export function App() {
         </div>  
       </div> 
       <Home />
+      <Footer />
     </div>
   )
 }
