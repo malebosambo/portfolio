@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import { App, Github, Websites, Apps, Contact } from './App';
+import { App, CurriculumVitae, Repos, Websites, Apps, Contact } from './App';
 import {
   BrowserRouter,
   Routes,
@@ -16,10 +16,11 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/github" element={<Github />} />
+        <Route path="/cv-resume" element={<CurriculumVitae />} />
+        <Route path="/repos" element={<Repos />} />
         <Route path="/websites" element={<Websites />} />
         <Route path="/apps" element={<Apps />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contacts" element={<Contacts />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
