@@ -13,22 +13,18 @@ export function App() {
   return (
     <div>
       <div className="Header">
-
         <div className="Logo">
           <p>Malebo Sambo</p>
         </div>
-
-        <div className="MenuClosed">
+        <div>
           <Link to="/home">Home</Link>
-          <Link to="/cv">CV</Link>
-          <Link to="/github">Repos</Link>
+          <Link to="/cv-resume">CV</Link>
+          <Link to="/repos">Repos</Link>
           <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
-          <Link to="/contact">Contacts</Link>
-        </div>
-        
+          <Link to="/contacts">Contacts</Link>
+        </div>  
       </div> 
-
       <Home />
     </div>
   )
@@ -37,14 +33,14 @@ export function App() {
 export function CurriculumVitae() {
   return (
     <div>
-      <div>
-        <div>
+      <div className="Header">
+        <div className="Logo">
           <p>Malebo Sambo</p>
         </div>
         <nav>
           <Link to="/home">Home</Link>
-          <Link to="/cv">CV</Link>
-          <Link to="/github">Repos</Link>
+          <Link to="/cv-resume">CV</Link>
+          <Link to="/repos">Repos</Link>
           <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
           <Link to="/contacts">Contacts</Link>
@@ -55,7 +51,7 @@ export function CurriculumVitae() {
   )
 }
     
-export function Github() {
+export function Repos() {
   return (
     <div>
       <div className="Header">
@@ -64,13 +60,11 @@ export function Github() {
         </div>
         <nav>
           <Link to="/home">Home</Link>
-          <Link to="/github">GitHub</Link>
+          <Link to="/cv-resume">CV</Link>
+          <Link to="/repos">Repos</Link>
           <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
-          <Link to="/iot">IoT</Link>
-          <Link to="/network">Network</Link>
-          <Link to="/contact">Contact Us</Link>
-          <Link to="/login">Login</Link>
+          <Link to="/contacts">Contacts</Link>
         </nav>
       </div>
       <GithubProfile />
@@ -87,13 +81,11 @@ export function Websites() {
         </div>
         <nav>
           <Link to="/home">Home</Link>
-          <Link to="/github">GitHub</Link>
+          <Link to="/cv-resume">CV</Link>
+          <Link to="/repos">Repos</Link>
           <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
-          <Link to="/iot">IoT</Link>
-          <Link to="/network">Network</Link>
-          <Link to="/contact">Contact Us</Link>
-          <Link to="/login">Login</Link>
+          <Link to="/contacts">Contacts</Link>
         </nav>
       </div>
       <WebsiteApps />
@@ -110,13 +102,10 @@ export function Apps() {
         </div>
         <nav>
           <Link to="/home">Home</Link>
-          <Link to="/github">GitHub</Link>
+          <Link to="/repos">Repos</Link>
           <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
-          <Link to="/iot">IoT</Link>
-          <Link to="/network">Network</Link>
-          <Link to="/contact">Contact Us</Link>
-          <Link to="/login">Login</Link>
+          <Link to="/contacts">Contacts</Link>
         </nav>
       </div>
       <MobileApps />
@@ -126,7 +115,7 @@ export function Apps() {
 
 
 
-export function Contact() {
+export function Contacts() {
   return (
     <div>
       <div className="Header">
@@ -135,13 +124,11 @@ export function Contact() {
         </div>
         <nav>
           <Link to="/home">Home</Link>
-          <Link to="/github">GitHub</Link>
+          <Link to="/cv-resume">CV</Link>
+          <Link to="/repos">Repos</Link>
           <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
-          <Link to="/iot">IoT</Link>
-          <Link to="/network">Network</Link>
-          <Link to="/contact">Contact Us</Link>
-          <Link to="/login">Login</Link>
+          <Link to="/contacts">Contacts</Link>
         </nav>
       </div>
       <ContactUs />
