@@ -7,22 +7,29 @@ export default function Home() {
   const services = [
     {
       id: 1,
-      name: "GitHub Profile",
-      ops: ["DevOps", "Virtualization", "Security"],
-      imgUrl: "./GitHub.png",
-      url: "/github"
+      name: "Curriculum Vitae",
+      ops: ["Personal Details", "Education Details", "Skills", "Employment History"],
+      imgUrl: "",
+      url: "/cv-resume"
     },
     {
       id: 2,
+      name: "Repositories",
+      ops: ["Public Repos", "Issues", "Contributors", "Discussions"],
+      imgUrl: "./github.jpg",
+      url: "/repos"
+    },
+    {
+      id: 3,
       name: "Web Apps",
-      ops: ["Fintech", "eCommerce", "AI", "Community"],
+      ops: ["Static", "Dynamic", "SPA", "PWA"],
       imgUrl: "./Web-App.jpg",
       url: "/websites"
     },
     {
-      id: 3,
+      id: 4,
       name: "Mobile Apps",
-      ops: ["Fintech", "eCommerce", "AI", "Community"],
+      ops: ["Android", "iOS", "App Gallery", "Community"],
       imgUrl: "./Mobile-App.png",
       url: "/apps"
     }
