@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import { App, CurriculumVitae, Repos, Websites, Apps, Contact } from './App';
+import { App, CurriculumVitae, Repos, Websites, Apps, Contacts } from './App';
 import {
   BrowserRouter,
   Routes,
