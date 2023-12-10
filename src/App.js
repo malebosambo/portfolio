@@ -17,7 +17,7 @@ export function App() {
           <p>Malebo Sambo</p>
         </div>
         <div>
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
           <Link to="/websites">Websites</Link>
@@ -38,7 +38,7 @@ export function CurriculumVitae() {
           <p>Malebo Sambo</p>
         </div>
         <nav>
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
           <Link to="/websites">Websites</Link>
@@ -59,7 +59,7 @@ export function Repos() {
           <p>Malebo Sambo</p>
         </div>
         <nav>
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
           <Link to="/websites">Websites</Link>
@@ -80,7 +80,7 @@ export function Websites() {
           <p>Malebo Sambo</p>
         </div>
         <nav>
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
           <Link to="/websites">Websites</Link>
@@ -101,7 +101,8 @@ export function Apps() {
           <p>Malebo Sambo</p>
         </div>
         <nav>
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
+          <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
           <Link to="/websites">Websites</Link>
           <Link to="/apps">Apps</Link>
@@ -123,7 +124,7 @@ export function Contacts() {
           <p>Malebo Sambo</p>
         </div>
         <nav>
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
           <Link to="/websites">Websites</Link>
