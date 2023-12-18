@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 export default function ContentItem(props) {
    
   const content = props;
+  console.log(content);
  
   return (
     <>
