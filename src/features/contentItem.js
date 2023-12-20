@@ -1,29 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function ContentItem(props) {
-   
-  const content = props;
-  console.log(content);
+export default function ContentItem({ id, name, ops, imgUrl, url }) {
+
+
  
   return (
     <>
-      <div className="card col-sm-2" style={{margin: "10px"}} key={content.id}>
+      <div className="card col-sm-2" style={{margin: "10px"}} key={id}>
         <div className="Image">
-          <img src={content.imgUrl} className="card-img-top img-responsive" alt={content.name} />
+          <img src={imgUrl} className="card-img-top img-responsive" alt={name} />
         </div>
         <div className="card-body">
           <div>
-            <h2 className="card-title">{content.name}</h2>
+            <h2 className="card-title">{name}</h2>
           </div>
           <hr/>
           <div>
             <p>Services:</p>
-            <ul class name="list-group list-group-flush">{content.ops.map((op) => (<li class name="list-group-item" key={op}>{op}</li>))}</ul>
+            
           </div>
         </div>
         <div>
-          <Link className="btn btn-primary" to={content.url}>View more</Link>
+          <Link className="btn btn-primary" to={url}>View more</Link>
         </div>
       </div>
     </>
