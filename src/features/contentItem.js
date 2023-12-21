@@ -1,19 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function ContentItem({ id, name, ops, imgUrl, url }) {
+export default function ContentItem({ props }) {
 
 
  
   return (
     <>
-      <div className="card col-sm-2" style={{margin: "10px"}} key={id}>
+      <div className="card col-sm-2" style={{margin: "10px"}} key={props.id}>
         <div className="Image">
-          <img src={imgUrl} className="card-img-top img-responsive" alt={name} />
+          <img src={props.imgUrl} className="card-img-top img-responsive" alt={name} />
         </div>
         <div className="card-body">
           <div>
-            <h2 className="card-title">{name}</h2>
+            <h2 className="card-title">{props.name}</h2>
           </div>
           <hr/>
           <div>
@@ -22,7 +22,7 @@ export default function ContentItem({ id, name, ops, imgUrl, url }) {
           </div>
         </div>
         <div>
-          <Link className="btn btn-primary" to={url}>View more</Link>
+          <Link className="btn btn-primary" to={props.url}>View more</Link>
         </div>
       </div>
     </>
