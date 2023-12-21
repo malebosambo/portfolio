@@ -21,13 +21,12 @@ export function App() {
           <Link to="/">Home</Link>
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
-          <Link to="/websites">Websites</Link>
-          <Link to="/apps">Apps</Link>
+
           <Link to="/contacts">Contacts</Link>
         </div>  
       </div> 
       <Home />
-      <Footer />
+
     </div>
   )
 }
