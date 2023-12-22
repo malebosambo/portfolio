@@ -9,7 +9,7 @@ export default function ContentItem({ props }) {
     <>
       <div className="card col-sm-2" style={{margin: "10px"}} key={props.id}>
         <div className="Image">
-          <img src={props.imgUrl} className="card-img-top img-responsive" alt={name} />
+          <img src={props.imgUrl} className="card-img-top img-responsive" alt={props.name} />
         </div>
         <div className="card-body">
           <div>
