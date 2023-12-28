@@ -20,7 +20,14 @@ export default function CurriculumVitae() {
       </div>
       <div className="cv-body">
         <div className="column1">
-          <div className="address-details">
+          <div className="accordion-item address-details">
+            <h2 className="accordion-header">
+              <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapse one">Address Details</button>
+            </h2>
+            <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="accordionCV">
+              <div className="accordion-body">
+              </div>
+            </div>
           </div>
           <div className="education-details">
           </div>
