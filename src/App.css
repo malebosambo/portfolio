@@ -47,6 +47,16 @@
     font-size: 50px;
   }
 
+  .Avatar {
+    background-color: azure;
+    margin: 50px;
+  }
+
+  .CVoverview {
+    display: flex;
+    flex-direction: row;
+  }
+
   .Footer {
     display: flex;
   }
