@@ -20,18 +20,29 @@ export default function CurriculumVitae() {
       </div>
       <div className="cv-body">
         <div className="column1">
-          <div className="accordion-item address-details">
-            <h2 className="accordion-header">
-              <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapse one">Address Details</button>
-            </h2>
-            <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="accordionCV">
-              <div className="accordion-body">
+          <div className="accordion" id="accordionColumn1">
+            <div className="accordion-item address-details">
+              <h2 className="accordion-header">
+                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapse one">Address Details</button>
+              </h2>
+              <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionColumn1">
+                <div className="accordion-body">
+                </div>
+              </div>
+            </div>
+      
+            <div className="accordion-item education-details">
+              <h2 className="accordion-header">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapse Two">Education Details</button>
+              </h2>
+              <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionColumn1">
+                <div className="accordion-body">
+                </div>
               </div>
             </div>
           </div>
-          <div className="education-details">
-          </div>
         </div>
+
         <div className="column2">
           <div className="personal-details">
           </div>
