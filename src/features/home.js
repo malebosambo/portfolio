@@ -40,7 +40,13 @@ export default function Home() {
 
   return (
     <div className="Container">
-        
+      <div className="C overview">
+        <div className="Avatar">
+        </div>
+        <div className="Basic-Details">
+        </div>
+      </div>
+ 
       <div className="container">
         <div className="row">
           {content}
