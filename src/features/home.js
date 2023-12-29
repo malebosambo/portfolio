@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <div className="Container">
 
-      <div className="CV overview">
+      <div className="CVoverview">
         <div className="Avatar">
         </div>
         <div className="Basic-Details">
