@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/homeContentCont.css';
+import '../styles/home.css';
 import ContentItem from './contentItem';
 
 export default function Home() {
@@ -40,7 +40,8 @@ export default function Home() {
 
   return (
     <div className="Container">
-      <div className="C overview">
+
+      <div className="CV overview">
         <div className="Avatar">
         </div>
         <div className="Basic-Details">
