@@ -18,9 +18,12 @@ export default function CurriculumVitae() {
           <p>LinkedIn: <span><a href="">Malebo Sambo</a></span></p>
         </div>
       </div>
-      <div className="cv-body">
+    
+      <div className="CV-Body-One">
+    
         <div className="column1">
           <div className="accordion" id="accordionColumn1">
+    
             <div className="accordion-item address-details">
               <h2 className="accordion-header">
                 <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapse one">Address Details</button>
@@ -40,6 +43,7 @@ export default function CurriculumVitae() {
                 </div>
               </div>
             </div>
+    
           </div>
         </div>
 
@@ -49,9 +53,9 @@ export default function CurriculumVitae() {
           <div className="specializations">
           </div>
         </div>
-        <div className="personal-profile">
-        </div>
+    
       </div>
+    
     </>
   )
 }
