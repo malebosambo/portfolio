@@ -49,12 +49,13 @@
 
   .Avatar {
     background-color: azure;
-    margin: 50px;
+    padding: 30px;
   }
 
   .CVoverview {
     display: flex;
     flex-direction: row;
+    padding: 20px;
   }
 
   .Footer {
@@ -62,21 +63,17 @@
   }
 
   .Header {
+    background-color: azure;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 30px;
     padding: 20px;
   }
 
-  .Logo button {
-    display: none;
-  }
-
-  .MenuOpen {
-    align-items: center;
-    display: flex;
-    justify-content: space-evenly;
+  .Menu, a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
   }
 
 }
