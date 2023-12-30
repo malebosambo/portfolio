@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function ContentItem(props) {
+export default function ContentItem( props ) {
 
 
- 
+
   return (
     <>
       <div className="card col-sm-2" style={{margin: "10px"}} key={props.id}>

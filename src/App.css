@@ -49,13 +49,13 @@
 
   .Avatar {
     background-color: azure;
-    padding: 30px;
+    padding: 60px;
   }
 
   .CVoverview {
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    padding: 50px;
   }
 
   .Footer {

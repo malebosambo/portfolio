@@ -15,7 +15,7 @@ export function App() {
     <div>
       <div className="Header">
         <div className="Logo">
-          <p>Malebo Sambo</p>
+          <h4>Malebo Sambo</h4>
         </div>
         <div>
           <Link to="/">Home</Link>
