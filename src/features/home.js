@@ -35,9 +35,6 @@ export default function Home() {
     }
   ];
 
-  const content = services.map((service) => <ContentItem content={service} />);
-  console.log(services);
-
   return (
     <div className="Container">
 
@@ -50,7 +47,7 @@ export default function Home() {
  
       <div className="container">
         <div className="row">
-          {content}
+          {services.map((service) => <ContentItem content={service} />)}
         </div>
       </div>
         
