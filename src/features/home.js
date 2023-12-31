@@ -48,7 +48,7 @@ export default function Home() {
  
       <div className="container">
         <div className="row">
-          {services.map((service) => <ContentItem key={service.id} content={service} />)}
+          {services.map((service) => <ContentItem key={service.id} image={service.imgUrl} name={service.name} link={service.url} />)}
         </div>
       </div>
         
