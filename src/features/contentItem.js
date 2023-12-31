@@ -7,7 +7,7 @@ export default function ContentItem({ id, imgUrl, name, url }) {
 
   return (
     <>
-      <div className="card col-sm-2" style={{margin: "10px"}} key={id}>
+      <div className="card col-lg-3" key={id}>
         <div className="Image">
           <img src={imgUrl} className="card-img-top img-responsive" alt={name} />
         </div>
