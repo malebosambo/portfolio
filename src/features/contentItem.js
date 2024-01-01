@@ -7,7 +7,7 @@ export default function ContentItem({ image, name, list, link }) {
     <>
       <div className="card col-lg-3" style={{margin: "10px"}}>
         <div className="Image">
-          <img src={image} className="card-img-top img-responsive" alt={name} />
+          <img src={image} className="card-img-top img-responsive img-thumbnail" alt={name} />
         </div>
         <div className="card-body">
           <div>
