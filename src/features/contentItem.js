@@ -5,11 +5,11 @@ export default function ContentItem({ image, name, list, link }) {
 
   return (
     <>
-      <div className="card col-lg-3" style={{margin: "10px"}}>
+      <div className="card col-lg-3" style={{margin: "10px", padding: "10px"}}>
         <div className="Image">
           <img src={image} className="card-img-top img-responsive img-thumbnail" alt={name} />
         </div>
-        <div className="card-body">
+        <div className="card-body" style={{margin: "15px"}}>
           <div>
             <h2 className="card-title">{name}</h2>
           </div>
@@ -21,7 +21,7 @@ export default function ContentItem({ image, name, list, link }) {
             </ul>
           </div>
         </div>
-        <div>
+        <div style={{marginLeft: "30px"}}>
           <Link className="btn btn-primary" to={link}>View more</Link>
         </div>
       </div>
