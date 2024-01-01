@@ -35,18 +35,8 @@ export function App() {
 export function CVresume() {
   return (
     <div>
-      <div className="Header">
-        <div className="Logo">
-          <p>Malebo Sambo</p>
-        </div>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/cv-resume">CV</Link>
-          <Link to="/repos">Repos</Link>
-          <Link to="/websites">Websites</Link>
-          <Link to="/apps">Apps</Link>
-          <Link to="/contacts">Contacts</Link>
-        </nav>
+      <div>
+        <Navbar />
       </div>
       <CurriculumVitae />
     </div>
