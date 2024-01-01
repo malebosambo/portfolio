@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function ContentItem({ key, image, name, link }) {
+export default function ContentItem({ image, name, list, link }) {
 
   return (
     <>
@@ -16,7 +16,9 @@ export default function ContentItem({ key, image, name, link }) {
           <hr/>
           <div>
             <p>Services:</p>
-            
+            <ul>
+            {list.map((op) => <li key={op}>{op}</li>)}
+            </ul>
           </div>
         </div>
         <div>
