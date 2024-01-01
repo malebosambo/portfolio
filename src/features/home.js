@@ -40,7 +40,7 @@ export default function Home() {
 
       <div className="CVoverview">
         <div className="Avatar">
-          <img src="./CVAvatar.jpg" alt="avatar" />
+          <img src="./CVAvatar.jpg" alt="avatar" className="img-circle" />
         </div>
         <div className="Basic-Details">
         </div>
