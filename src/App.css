@@ -47,11 +47,6 @@
     font-size: 50px;
   }
 
-  .Avatar {
-    background-color: azure;
-    padding: 60px;
-  }
-
   .CV-intro {
     display: flex;
     flex-direction: row;
