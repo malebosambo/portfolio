@@ -7,6 +7,7 @@ import Repositories from './features/repositories';
 import WebsiteApps from './features/websiteApps';
 import MobileApps from './features/mobileApps';
 import ContactUs from './features/contactUs';
+import Navbar from './components/navbar';
 import Footer from './components/footer';
 
 export function App() {
