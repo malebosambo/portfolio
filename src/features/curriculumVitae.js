@@ -1,14 +1,16 @@
-import React from 'react';
+import React from 'react'; 
+import '../styles/curriculumVitae.css';
+
 
 export default function CurriculumVitae() {
 
   return (
     <>
-      <div className="cv-intro">
+      <div className="CV-intro">
         <div className="avatar">
           <h1>Malebo Sambo</h1>
         </div>
-        <div className="contact-details">
+        <div className="Contact-details">
           <h4>Contact Details</h4><br/>
           <p>Preferred Method</p><br/>
           <p>Cellphone: 0630013711</p><br/>
@@ -19,7 +21,7 @@ export default function CurriculumVitae() {
         </div>
       </div>
     
-      <div className="CV-Body-One">
+      <div className="CV-Body-1">
     
         <div className="column1">
           <div className="accordion" id="accordionColumn1">

@@ -52,6 +52,11 @@
     padding: 60px;
   }
 
+  .CV-intro {
+    display: flex;
+    flex-direction: row;
+  }
+
   .CVoverview {
     display: flex;
     flex-direction: row;
