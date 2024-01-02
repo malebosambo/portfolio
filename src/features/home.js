@@ -9,14 +9,14 @@ export default function Home() {
       id: 1,
       name: "Curriculum Vitae",
       ops: ["Personal Details", "Education Details", "Skills", "Employment History"],
-      imgUrl: "",
+      imgUrl: "CVAvatar.jpg",
       url: "/cv-resume"
     },
     {
       id: 2,
       name: "Repositories",
       ops: ["Public Repos", "Issues", "Contributors", "Discussions"],
-      imgUrl: "./github.jpg",
+      imgUrl: "./GitHub.png",
       url: "/repos"
     },
     {
