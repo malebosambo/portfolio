@@ -50,6 +50,7 @@
   .CV-intro {
     display: flex;
     flex-direction: row;
+    padding: 20px;
   }
 
   .CVoverview {

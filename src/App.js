@@ -7,8 +7,9 @@ import Repositories from './features/repositories';
 import WebsiteApps from './features/websiteApps';
 import MobileApps from './features/mobileApps';
 import ContactUs from './features/contactUs';
-import Navbar from './components/navbar';
+
 import Footer from './components/footer';
+import { NavLink } from 'react-bootstrap';
 
 export function App() {
 
@@ -35,8 +36,16 @@ export function App() {
 export function CVresume() {
   return (
     <div>
-      <div>
-        <Navbar />
+      <div className="Header">
+        <div className="Logo">
+          <h4>Malebo Sambo</h4>
+        </div>
+        <div>
+          <Link to="/">Home</Link>
+          <Link to="/cv-resume">CV</Link>
+          <Link to="/repos">Repos</Link>
+          <Link to="/contacts">Contacts</Link>
+        </div>
       </div>
       <CurriculumVitae />
     </div>
@@ -54,8 +63,6 @@ export function Repos() {
           <Link to="/">Home</Link>
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
-          <Link to="/websites">Websites</Link>
-          <Link to="/apps">Apps</Link>
           <Link to="/contacts">Contacts</Link>
         </nav>
       </div>
@@ -64,47 +71,17 @@ export function Repos() {
   )
 }
 
-export function Websites() {
-  return (
-    <div>
-      <div className="Header">
-        <div className="Logo">
-          <p>Malebo Sambo</p>
-        </div>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/cv-resume">CV</Link>
-          <Link to="/repos">Repos</Link>
-          <Link to="/websites">Websites</Link>
-          <Link to="/apps">Apps</Link>
-          <Link to="/contacts">Contacts</Link>
-        </nav>
-      </div>
-      <WebsiteApps />
-    </div>
-  )
-}
 
-export function Apps() {
-  return (
-    <div>
-      <div className="Header">
-        <div className="Logo">
-          <p>Malebo Sambo</p>
-        </div>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/cv-resume">CV</Link>
-          <Link to="/repos">Repos</Link>
-          <Link to="/websites">Websites</Link>
-          <Link to="/apps">Apps</Link>
-          <Link to="/contacts">Contacts</Link>
-        </nav>
-      </div>
-      <MobileApps />
-    </div>
-  )
-}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -119,8 +96,7 @@ export function Contacts() {
           <Link to="/">Home</Link>
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
-          <Link to="/websites">Websites</Link>
-          <Link to="/apps">Apps</Link>
+
           <Link to="/contacts">Contacts</Link>
         </nav>
       </div>
