@@ -1,40 +1,57 @@
 import React from 'react';
 import './App.css';
 import { Link} from 'react-router-dom';
-import HomeContentCont from './components/homeContentCont';
-import LoginComp from './components/loginComp';
-import GithubContentCont from './components/githubContentCont';
-import WebsitesContentCont from './components/websitesContentCont';
-import AppsContentCont from './components/appsContentCont';
-import IoTContentCont from './components/iotContentCont';
-import NetworkContentCont from './components/networkContentCont';
-import ContactComp from './components/contactComp';
+import Home from './features/home';
+import CurriculumVitae from './features/curriculumVitae';
+import Repositories from './features/repositories';
+import WebsiteApps from './features/websiteApps';
+import MobileApps from './features/mobileApps';
+import ContactUs from './features/contactUs';
 
+import Footer from './components/footer';
+import { NavLink } from 'react-bootstrap';
 
-function Home() {
+export function App() {
+
   return (
     <div>
       <div className="Header">
         <div className="Logo">
-          <p>Malebo Sambo</p>
+          <h4>Malebo Sambo</h4>
         </div>
-        <nav>
-          <Link to="/home">Home</Link>
-          <Link to="/github-stats">GitHub</Link>
-          <Link to="/websites">Websites</Link>
-          <Link to="/apps">Apps</Link>
-          <Link to="/iot">IoT</Link>
-          <Link to="/network">Network</Link>
-          <Link to="/contact">Contact Us</Link>
-          <Link to="/login">Login</Link>
-        </nav>
+        <div>
+          <Link to="/">Home</Link>
+          <Link to="/cv-resume">CV</Link>
+          <Link to="/repos">Repos</Link>
+
+          <Link to="/contacts">Contacts</Link>
+        </div>  
+      </div> 
+      <Home />
+    </div>
+  )
+}
+
+export function CVresume() {
+  return (
+    <div>
+      <div className="Header">
+        <div className="Logo">
+          <h4>Malebo Sambo</h4>
+        </div>
+        <div>
+          <Link to="/">Home</Link>
+          <Link to="/cv-resume">CV</Link>
+          <Link to="/repos">Repos</Link>
+          <Link to="/contacts">Contacts</Link>
+        </div>
       </div>
-      <HomeContentCont />
+      <CurriculumVitae />
     </div>
   )
 }
     
-export function Github() {
+export function Repos() {
   return (
     <div>
       <div className="Header">
@@ -42,22 +59,18 @@ export function Github() {
           <p>Malebo Sambo</p>
         </div>
         <nav>
-          <Link to="/home">Home</Link>
-          <Link to="/github-stats">GitHub</Link>
-          <Link to="/websites">Websites</Link>
-          <Link to="/apps">Apps</Link>
-          <Link to="/iot">IoT</Link>
-          <Link to="/network">Network</Link>
-          <Link to="/contact">Contact Us</Link>
-          <Link to="/login">Login</Link>
+          <Link to="/">Home</Link>
+          <Link to="/cv-resume">CV</Link>
+          <Link to="/repos">Repos</Link>
+          <Link to="/contacts">Contacts</Link>
         </nav>
       </div>
-      <GithubContentCont />
+      <Repositories />
     </div>
   )
 }
 
-export function Websites() {
+export function Contacts() {
   return (
     <div>
       <div className="Header">
@@ -65,136 +78,13 @@ export function Websites() {
           <p>Malebo Sambo</p>
         </div>
         <nav>
-          <Link to="/home">Home</Link>
-          <Link to="/github">GitHub</Link>
-          <Link to="/websites">Websites</Link>
-          <Link to="/apps">Apps</Link>
-          <Link to="/iot">IoT</Link>
-          <Link to="/network">Network</Link>
-          <Link to="/contact">Contact Us</Link>
-          <Link to="/login">Login</Link>
+          <Link to="/">Home</Link>
+          <Link to="/cv-resume">CV</Link>
+          <Link to="/repos">Repos</Link>
+          <Link to="/contacts">Contacts</Link>
         </nav>
       </div>
-      <WebsitesContentCont />
+      <ContactUs />
     </div>
   )
-}
-
-export function Apps() {
-  return (
-    <div>
-      <div className="Header">
-        <div className="Logo">
-          <p>Malebo Sambo</p>
-        </div>
-        <nav>
-          <Link to="/home">Home</Link>
-          <Link to="/github">GitHub</Link>
-          <Link to="/websites">Websites</Link>
-          <Link to="/apps">Apps</Link>
-          <Link to="/iot">IoT</Link>
-          <Link to="/network">Network</Link>
-          <Link to="/contact">Contact Us</Link>
-          <Link to="/login">Login</Link>
-        </nav>
-      </div>
-      <AppsContentCont />
-    </div>
-  )
-}
-
-export function IoT() {
-  return (
-    <div>
-      <div className="Header">
-        <div className="Logo">
-          <p>Malebo Sambo</p>
-        </div>
-        <nav>
-          <Link to="/home">Home</Link>
-          <Link to="/github">GitHub</Link>
-          <Link to="/websites">Websites</Link>
-          <Link to="/apps">Apps</Link>
-          <Link to="/iot">IoT</Link>
-          <Link to="/network">Network</Link>
-          <Link to="/contact">Contact Us</Link>
-          <Link to="/login">Login</Link>
-        </nav>
-      </div>
-      <IoTContentCont />
-    </div>
-  )
-}
-
-export function Network() {
-  return (
-    <div>
-      <div className="Header">
-        <div className="Logo">
-          <p>Malebo Sambo</p>
-        </div>
-        <nav>
-          <Link to="/home">Home</Link>
-          <Link to="/github">GitHub</Link>
-          <Link to="/websites">Websites</Link>
-          <Link to="/apps">Apps</Link>
-          <Link to="/iot">IoT</Link>
-          <Link to="/network">Network</Link>
-          <Link to="/contact">Contact Us</Link>
-          <Link to="/login">Login</Link>
-        </nav>
-      </div>
-      <NetworkContentCont />
-    </div>
-  )
-}
-
-export function Contact() {
-  return (
-    <div>
-      <div className="Header">
-        <div className="Logo">
-          <p>Malebo Sambo</p>
-        </div>
-        <nav>
-          <Link to="/home">Home</Link>
-          <Link to="/github">GitHub</Link>
-          <Link to="/websites">Websites</Link>
-          <Link to="/apps">Apps</Link>
-          <Link to="/iot">IoT</Link>
-          <Link to="/network">Network</Link>
-          <Link to="/contact">Contact Us</Link>
-          <Link to="/login">Login</Link>
-        </nav>
-      </div>
-      <ContactComp />
-    </div>
-  )
-}
-
-export function Login() {
-  return (
-    <div>
-      <div className="Header">
-        <div className="Logo">
-          <p>Malebo Sambo</p>
-        </div>
-        <nav>
-          <Link to="/home">Home</Link>
-          <Link to="#">GitHub</Link>
-          <Link to="/websites">Websites</Link>
-          <Link to="/apps">Apps</Link>
-          <Link to="/iot">IoT</Link>
-          <Link to="/network">Network</Link>
-          <Link to="/contact">Contact Us</Link>
-          <Link to="/login">Login</Link>
-        </nav>
-      </div>
-      <LoginComp />
-    </div>
-  )
-}
-
-export function App() {
-  return <Home />
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import { App, Github, Websites, Apps, IoT, Network, Contact, Login } from './App';
+import { App, CVresume, Repos, Contacts } from './App';
 import {
   BrowserRouter,
   Routes,
@@ -16,13 +16,9 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/github-stats" element={<Github />} />
-        <Route path="/websites" element={<Websites />} />
-        <Route path="/apps" element={<Apps />} />
-        <Route path="/iot" element={<IoT />} />
-        <Route path="/network" element={<Network />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/cv-resume" element={<CVresume />} />
+        <Route path="/repos" element={<Repos />} />
+       <Route path="/contacts" element={<Contacts />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
