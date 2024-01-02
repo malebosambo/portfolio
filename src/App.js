@@ -28,7 +28,6 @@ export function App() {
         </div>  
       </div> 
       <Home />
-
     </div>
   )
 }
@@ -71,20 +70,6 @@ export function Repos() {
   )
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export function Contacts() {
   return (
     <div>
@@ -96,7 +81,6 @@ export function Contacts() {
           <Link to="/">Home</Link>
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
-
           <Link to="/contacts">Contacts</Link>
         </nav>
       </div>
