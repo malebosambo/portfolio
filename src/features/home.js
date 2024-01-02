@@ -43,6 +43,10 @@ export default function Home() {
           <img src="./CVAvatar.jpg" alt="avatar" className="img-circle" />
         </div>
         <div className="Basic-Details">
+          <h2>Malebo Sambo</h2><br />
+          <h5>Software Developer/Engineer, Entrepreneur, Business Analyst</h5><br />
+          <h6>Email: sambo.malebo96@gmail.com</h6><br />
+          <h6>Cell: +27630013711</h6>
         </div>
       </div>
  
