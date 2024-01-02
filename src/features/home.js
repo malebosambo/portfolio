@@ -7,31 +7,17 @@ export default function Home() {
   const services = [
     {
       id: 1,
-      name: "Curriculum Vitae",
-      ops: ["Personal Details", "Education Details", "Skills", "Employment History"],
-      imgUrl: "CVAvatar.jpg",
-      url: "/cv-resume"
-    },
-    {
-      id: 2,
-      name: "Repositories",
-      ops: ["Public Repos", "Issues", "Contributors", "Discussions"],
-      imgUrl: "./GitHub.png",
-      url: "/repos"
-    },
-    {
-      id: 3,
       name: "Web Apps",
       ops: ["Static", "Dynamic", "SPA", "PWA"],
       imgUrl: "./Web-App.jpg",
-      url: "/websites"
+      url: "/web-apps"
     },
     {
-      id: 4,
+      id: 2,
       name: "Mobile Apps",
-      ops: ["Android", "iOS", "App Gallery", "Community"],
+      ops: ["Android", "iOS", "App Gallery"],
       imgUrl: "./Mobile-App.png",
-      url: "/apps"
+      url: "/mobile-apps"
     }
   ];
 
