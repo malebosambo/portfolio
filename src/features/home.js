@@ -5,18 +5,6 @@ import RepoTable from './repoTable';
 
 export default function Home() {
 
-  const [repos,setRepos] = useState([]);
-
-  useEffect(() => {
-    const fetchRepos = async (username) => {
-      const response = await fetch(`https://api.github.com/users/${username}/repos`);
-      const data = await response.json();
-      setRepos(data);
-    };
-
-    fetchRepos('malebosambo');
-  }, []);
-
   const services = [
     {
       id: 1,
