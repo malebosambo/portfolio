@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/home.css';
 import ContentItem from './contentItem';
 
 export default function Home() {
+
+  const [repos,setRepos] = useState([]);
+
+  useEffect(() => {
+    const fetchRepos = async () => {
+      const response = await fetch(`https://api.github.com/users/${username}/repos`);
+      const data = await response.json();
+      setRepos(data);
+    };
+
+    fetchRepos();
+  }, []);
 
   const services = [
     {
