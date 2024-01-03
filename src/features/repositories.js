@@ -17,7 +17,7 @@ export default function Repositories() {
       </div>
 
       <div className="RepoTable">
-
+        <RepoTable />
       </div>
     </>
   )
