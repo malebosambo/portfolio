@@ -5,6 +5,18 @@ import '../App.css';
 
 export default function RepoTable() {
 
+  const [repos,setRepos] = useState([]);
+
+  useEffect(() => {
+    const fetchRepos = async (username) => {
+      const response = await fetch(`https://api.github.com/users/${username}/repos`);
+      const data = await response.json();
+      setRepos(data);
+    };
+
+    fetchRepos('malebosambo');
+  }, []);
+
   return (
     <>
       <div className="TableResponse">
@@ -13,7 +25,7 @@ export default function RepoTable() {
             <tr>
               <th>Name</th>
               <th>Description</th>
-              <th>Create Date</th>
+              <th>Created Date</th>
               <th>Topics</th>
             </tr>
           </thead>
