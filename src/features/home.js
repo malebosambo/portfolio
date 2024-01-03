@@ -53,6 +53,11 @@ export default function Home() {
           {services.map((service) => <ContentItem key={service.id} image={service.imgUrl} name={service.name} list={service.ops} link={service.url} />)}
         </div>
       </div>
+
+      <div className="Repo-List">
+        <ul>      {repos.map((repo) => (        <li key={repo.id}>              <h3>{repo.name}</h3>          <p>{repo.description}</p>          <a href={repo.html_url}>View on GitHub</a>
+         </li>))}</ul>
+      </div>
         
     </div>
   )
