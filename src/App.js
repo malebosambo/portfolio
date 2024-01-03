@@ -7,12 +7,10 @@ import Repositories from './features/repositories';
 import WebsiteApps from './features/websiteApps';
 import MobileApps from './features/mobileApps';
 import ContactUs from './features/contactUs';
-
 import Footer from './components/footer';
 import { NavLink } from 'react-bootstrap';
 
 export function App() {
-
   return (
     <div>
       <div className="Header">
