@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/home.css';
 import ContentItem from './contentItem';
+import RepoTable from './repoTable';
 
 export default function Home() {
 
@@ -55,8 +56,7 @@ export default function Home() {
       </div>
 
       <div className="Repo-List">
-        <ul>      {repos.map((repo) => (        <li key={repo.id}>              <h3>{repo.name}</h3>          <p>{repo.description}</p>          <a href={repo.html_url}>View on GitHub</a>
-         </li>))}</ul>
+        <RepoTable />
       </div>
         
     </div>

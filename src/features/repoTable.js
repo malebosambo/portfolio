@@ -12,13 +12,13 @@ export default function RepoTable() {
           <thead>
             <tr>
               <th>Name</th>
-               <th>Description</th>
+              <th>Description</th>
               <th>Create Date</th>
               <th>Topics</th>
             </tr>
           </thead>
           <tbody>
-          
+            {repos.map((repo) => <RepoItem key={repo.id} name={repo.name} description={repo.description} date={repo.created_at} topics={repo.topics} />)}
           </tbody>
         </table>
       </div>
