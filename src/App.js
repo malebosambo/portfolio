@@ -56,7 +56,7 @@ export function Repos() {
     <div>
       <div className="Header">
         <div className="Logo">
-          <p>Malebo Sambo</p>
+          <h4>Malebo Sambo</h4>
         </div>
         <nav>
           <Link to="/">Home</Link>
@@ -75,7 +75,7 @@ export function Contacts() {
     <div>
       <div className="Header">
         <div className="Logo">
-          <p>Malebo Sambo</p>
+          <h4>Malebo Sambo</h4>
         </div>
         <nav>
           <Link to="/">Home</Link>
