@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <div className="Container">
 
-      <div className="CVoverview">
+      <div className="CV-Overview">
         <div className="Avatar">
           <img src="./CVAvatar.jpg" alt="avatar" className="img-circle" />
         </div>
@@ -44,6 +44,7 @@ export default function Home() {
       </div>
 
       <div className="Repo-List">
+        <div style={{paddingBottom: "30px", textAlign: "center"}}><h1>Repositories</h1></div>
         <RepoTable />
       </div>
         

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect} from 'react';
 import RepoItem from './repoItem';
 import '../styles/latestIssues.css';
 import '../App.css';

@@ -11,6 +11,13 @@ body {
   width: 100%;
 }
 
-.CVoverview {
+.CV-Overview {
   background-color: white;
+  margin-bottom: 50px;
+}
+
+.Repo-List {
+  background-color: white;
+  margin-top: 50px;
+  padding: 30px 10px;
 }

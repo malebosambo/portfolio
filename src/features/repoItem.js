@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function RepoItem({ name, description, date, topics }) {
+export default function RepoItem({ id, name, description, date, topics }) {
 
   return (
     <>
