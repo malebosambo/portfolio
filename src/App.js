@@ -7,7 +7,6 @@ import Repositories from './features/repositories';
 import WebsiteApps from './features/websiteApps';
 import MobileApps from './features/mobileApps';
 import ContactUs from './features/contactUs';
-
 import Footer from './components/footer';
 import { NavLink } from 'react-bootstrap';
 
@@ -23,7 +22,6 @@ export function App() {
           <Link to="/">Home</Link>
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
-
           <Link to="/contacts">Contacts</Link>
         </div>  
       </div> 
@@ -32,7 +30,8 @@ export function App() {
   )
 }
 
-export function CVresume() {
+export function CurriculumVitae() {
+
   return (
     <div>
       <div className="Header">
@@ -44,8 +43,8 @@ export function CVresume() {
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
           <Link to="/contacts">Contacts</Link>
-        </div>
-      </div>
+        </div>  
+      </div> 
       <CurriculumVitae />
     </div>
   )
