@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import IssueItem from './issueItem';
 
-export default function IssueTable( repo ) {
+export default function IssueTable() {
 
   const [issues,setIssues] = useState([]);
 
