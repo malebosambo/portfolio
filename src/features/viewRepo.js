@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import IssueTable from './issueTable';
 
 export function viewRepo() {
 
@@ -9,8 +10,11 @@ export function viewRepo() {
 
   useEffect(() => {
     const fetchRepo = async (username, reponame) => {
+
       const repoResponse = await fetch(`https://api.github.com/repos/${username}/${reponame}`);
+
       const repoData = await response.json();
+
       setRepo(repoData);
     };
 
@@ -23,5 +27,9 @@ export function viewRepo() {
       <div>
         <h1>{name}</h1>
       </div>
+      <div>
+        <IssueTable />
+      </div>
+    </>
   )
 }
