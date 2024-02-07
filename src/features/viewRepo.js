@@ -4,27 +4,24 @@ import { useParams } from 'react-router-dom';
 export function viewRepo() {
 
   const [repo,setRepo] = useState({});
-  const [issues,setIssues] = useState([]);
-  const { repo } = useParams();
+  
+  const { name } = useParams();
 
   useEffect(() => {
-    const fetchRepo = async (username) => {
-      const repoResponse = await fetch(`https://api.github.com/users/${username}/repos`);
+    const fetchRepo = async (username, reponame) => {
+      const repoResponse = await fetch(`https://api.github.com/repos/${username}/${reponame}`);
       const repoData = await response.json();
       setRepo(repoData);
     };
 
-    const fetchRepoIssues = async (username, reponame) => {
-      const issueResponse = await fetch(`https://api.github.com/repos/${username}/${reponame}/issues`);
-      const issueData = await response.json();
-      setIssues(issueData);
-    };
-
-    fetchRepo('malebosambo');
-    fetchRepoIssues('malebosambo', repo);
-  }, []);  
+    fetchRepo('malebosambo', name);
+    
+  }, {});  
   
   return (
-
+    <>
+      <div>
+        <h1>{name}</h1>
+      </div>
   )
 }
