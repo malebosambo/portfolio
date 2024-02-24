@@ -4,6 +4,11 @@
     font-size: 30px;
   }
 
+  .Card-Container {
+    height: 288px;
+    width: 50%;
+  }
+
   .Header {
     background-color: azure;
     display: flex;
