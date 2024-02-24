@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import IssueTable from './issueTable';
 
-export function viewRepo() {
+export default function viewRepo() {
 
   const [repo,setRepo] = useState({});
   
