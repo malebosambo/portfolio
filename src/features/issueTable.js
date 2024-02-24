@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import IssueItem from './issueItem';
 
-export default function IssueTable() {
+export default function IssueTable({ name }) {
 
   const [issues,setIssues] = useState([]);
 
   useEffect(() => {
     const fetchRepoIssues = async (username, reponame) => {
 
-      const issueResponse = await fetch(`https://api.github.com/repos/${username}/${reponame}/issues`);
+      const response = await fetch(`https://api.github.com/repos/${username}/${reponame}/issues`);
 
       const issueData = await response.json();
 
       setIssues(issueData);
     };
 
-    fetchRepoIssues('malebosambo', repo);
+    fetchRepoIssues('malebosambo', name);
   }, []); 
 
 

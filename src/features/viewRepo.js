@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import IssueTable from './issueTable';
 
@@ -11,7 +11,7 @@ export default function viewRepo() {
   useEffect(() => {
     const fetchRepo = async (username, reponame) => {
 
-      const repoResponse = await fetch(`https://api.github.com/repos/${username}/${reponame}`);
+      const response = await fetch(`https://api.github.com/repos/${username}/${reponame}`);
 
       const repoData = await response.json();
 
@@ -28,7 +28,7 @@ export default function viewRepo() {
         <h1>{name}</h1>
       </div>
       <div>
-        <IssueTable />
+        <IssueTable name={name}/>
       </div>
     </>
   )
