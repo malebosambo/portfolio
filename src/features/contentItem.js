@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function ContentItem({ image, name, list, link }) {
 
   return (
-    <>
+    <div className"Card-Container">
       <div className="card" style={{margin: "10px", padding: "10px"}}>
         <div className="Image">
           <img src={image} className="card-img-top img-responsive img-thumbnail" alt={name} />
@@ -25,6 +25,6 @@ export default function ContentItem({ image, name, list, link }) {
           <Link className="btn btn-primary" to={link}>View more</Link>
         </div>
       </div>
-    </>
+    </div>
   )
 }
