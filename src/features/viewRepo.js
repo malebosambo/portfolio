@@ -25,10 +25,10 @@ export default function viewRepo() {
   return (
     <>
       <div>
-        <h1>{name}</h1>
+        <h1>{repo.name}</h1>
       </div>
       <div>
-        <IssueTable name={name}/>
+        <IssueTable name={repo.name} />
       </div>
     </>
   )
