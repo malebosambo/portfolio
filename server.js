@@ -11,8 +11,9 @@ app.get("/repos", async (req, res) => {
   res.json({ "message": "OK" });
 });
 
-app.get("/repos/:name", async (req, res, next) => {
+app.get("/repos/:name", async (req, res) => {
   var name = req.params.name;
+  console.log(name);
 });
 
 
