@@ -15,7 +15,7 @@ export default function IssueTable({ name }) {
       setIssues(issueData);
     };
 
-    fetchRepoIssues('malebosambo', name);
+    fetchRepoIssues('malebosambo', 'portfolio');
   }, []); 
 
 

@@ -30,7 +30,7 @@ export default function ViewRepo() {
         <h1>Repo Name</h1>
       </div>
       <div>
-       /* <IssueTable name={repo.name} /> */
+       {/* <IssueTable name={repo.name} /> */}
       </div>
     </>
   )
