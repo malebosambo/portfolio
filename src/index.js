@@ -18,7 +18,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/cv-resume" element={<CVresume />} />
         <Route path="/repos" element={<Repos />} />
-        <Route path="/repos/:name" element={<ViewRepository />} />
+        <Route path="/repos/view-repo/:name" element={<ViewRepository />} />
         <Route path="/contacts" element={<Contacts />} />
       </Routes>
     </BrowserRouter>
