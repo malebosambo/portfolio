@@ -5,7 +5,7 @@ import Home from './features/home';
 import CurriculumVitae from './features/curriculumVitae'; 
 import Repositories from './features/repositories';
 import ViewRepo from './features/viewRepo';
-import Issues from './features/issuesTable';
+import Issues from './features/issueTable';
 import WebsiteApps from './features/websiteApps';
 import MobileApps from './features/mobileApps';
 import ContactUs from './features/contactUs';
