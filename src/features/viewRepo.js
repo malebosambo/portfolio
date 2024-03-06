@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import IssueTable from './issueTable';
 
-export default function viewRepo() {
+export default function ViewRepo() {
 
+  /*
   const [repo,setRepo] = useState({});
   
   const { name } = useParams();
@@ -21,14 +22,15 @@ export default function viewRepo() {
     fetchRepo('malebosambo', name);
     
   }, {});  
-  
+  */
+
   return (
     <>
       <div>
-        <h1>{repo.name}</h1>
+        <h1>Repo Name</h1>
       </div>
       <div>
-        <IssueTable name={repo.name} />
+       {/* <IssueTable name={repo.name} /> */}
       </div>
     </>
   )

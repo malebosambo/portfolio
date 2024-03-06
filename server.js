@@ -15,8 +15,8 @@ app.get("/repos", async (req, res) => {
   res.json({ "message": "OK" });
 });
 
-app.get("/repos/:name", async (req, res) => {
-  var name = req.params.name;
+app.get("/repos/view-repo", async (req, res) => {
+
   console.log(name);
 });
 
