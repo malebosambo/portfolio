@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import IssueItem from './issueItem';
 
-export default function IssueTable({ name }) {
+export default function IssueTable() {
 
-  const [issues,setIssues] = useState([]);
+  /*
+  const [issues,setIssues] = useState(issues);
 
   useEffect(() => {
     const fetchRepoIssues = async (username, reponame) => {
@@ -17,7 +18,7 @@ export default function IssueTable({ name }) {
 
     fetchRepoIssues('malebosambo', 'portfolio');
   }, []); 
-
+  */
 
   return (
     <>
@@ -32,7 +33,7 @@ export default function IssueTable({ name }) {
             </tr>
           </thead>
           <tbody>
-            {issues.map((issue) => <IssueItem key={issue.id} title={issue.title} description={issue.body} date={issue.created_at} status={issue.state} />)}
+            
           </tbody>
         </table>
       </div>
