@@ -1,25 +1,29 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import axios from 'axios';
+import { useState, useEffect } from 'react';
 
-export default function Login() {
+export default const requestAPI = (url) => {
+  const [data, setData] = useState([]);
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [error, setError] = useState(null);
 
-  return (
-    <>
-      <div>
-        <h1>Login</h1><br/>
-        <form onSubmit={() => this.onSubmit()}>
-          <div className="form-group">
-            <label htmlFor="username">Username</label>
-            <input type="text" name="username" />
-          </div>
-          <div className="form-group">
-            <label htmlFor="password">Password</label>
-            <input type="password" name="password" />
-          </div>
-          <button type="submit" className="btn btn-primary">Login</button>
-        </form>
-        <p>To reset your password, please click <span><Link to="/reset">here</Link></span></p>
-      </div>
-    </>
-  )
-}
+  useEffect(() => {
+    const fetchData = () => {
+      setIsLoaded(true);
+      
+      axios.get(url).then((response) => {
+        setData(response.data);
+
+        setIsLoaded(false);
+      })
+       .catch((error) => {
+         setError(error.message);
+
+         setIsLoaded(false);
+      });
+    };
+
+    fetchData();
+  }, [url]);
+
+  return { data, isLoaded, error };
+};
