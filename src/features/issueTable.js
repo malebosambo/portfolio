@@ -43,7 +43,7 @@ export default function IssueTable() {
               </tr>
             </thead>
             <tbody>
-              {data.map((issue) => {<IssueItem key={} title={} description={} date={} status={} />} )}
+              {data.map((issue) => <IssueItem key={issue.id} title={issue.title} description={issue.body} date={issue.created_at} status={issue.state} />)}
             </tbody>
           </table>
         </div>
