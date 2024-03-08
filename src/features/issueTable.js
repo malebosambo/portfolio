@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { requestAPI } from '../security/useRequestAPI';
 import IssueItem from './issueItem';
 
 export default function IssueTable() {
+
+  const { data, isLoaded, error } = requestAPI(
+    'https://api.github.com/repos/${username}/${reponame}/issues'
+  );
 
   /*
   const [issues,setIssues] = useState(issues);
@@ -19,24 +24,30 @@ export default function IssueTable() {
     fetchRepoIssues('malebosambo', 'portfolio');
   }, []); 
   */
-
-  return (
-    <>
-      <div className="TableResponse">
-        <table>
-          <thead>
-            <tr>
-              <th>Title</th>
-              <th>Description</th>
-              <th>Created Date</th>
-              <th>Status</th>
-            </tr>
-          </thead>
-          <tbody>
-            
-          </tbody>
-        </table>
-      </div>
-    </>
-  )
+  
+  if (error) {
+    return <div>Error: {error}</div>;
+  } else if (isLoaded) {
+    return <div>Loading...</div>;
+  } else {
+    return (
+      <>
+        <div className="TableResponse">
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Created Date</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              {data.map((issue) => {<IssueItem key={} title={} description={} date={} status={} />} )}
+            </tbody>
+          </table>
+        </div>
+      </>
+    )
+  }
 }
