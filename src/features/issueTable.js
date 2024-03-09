@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { requestAPI } from '../security/useRequestAPI';
+import { useRequestAPI } from '../security/useRequestAPI';
 import IssueItem from './issueItem';
 
 export default function IssueTable() {
 
-  const { data, isLoaded, error } = requestAPI(
+  const { data, isLoaded, error } = useRequestAPI(
     'https://api.github.com/repos/${username}/${reponame}/issues'
   );
 

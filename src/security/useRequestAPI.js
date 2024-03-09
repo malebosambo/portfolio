@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 
-export default const requestAPI = (url) => {
+export default function useRequestAPI(url) {
   const [data, setData] = useState([]);
   const [isLoaded, setIsLoaded] = useState(false);
   const [error, setError] = useState(null);
@@ -27,3 +27,4 @@ export default const requestAPI = (url) => {
 
   return { data, isLoaded, error };
 };
+
