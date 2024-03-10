@@ -16,6 +16,10 @@ app.get("/repos", async (req, res) => {
   res.json({ "message": "OK" });
 });
 
+app.get("/issues", async (req, res) => {
+  res.json({ "message": "OK" });
+});
+
 app.get("/view-repo", async (req, res) => {
   res.json({ "message": "OK" });
 });

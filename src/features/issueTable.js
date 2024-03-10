@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useRequestAPI } from '../security/useRequestAPI';
 import IssueItem from './issueItem';
 
 export default function IssueTable() {
 
   const { data, isLoaded, error } = useRequestAPI(
-    'https://api.github.com/repos/malebosambo/portfolio/issues'
+    'https://api.github.com/repos/malebosambo/nava/issues'
   );
 
   /*
