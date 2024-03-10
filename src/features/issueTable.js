@@ -5,7 +5,7 @@ import IssueItem from './issueItem';
 export default function IssueTable() {
 
   const { data, isLoaded, error } = useRequestAPI(
-    'https://api.github.com/repos/${username}/${reponame}/issues'
+    'https://api.github.com/repos/malebosambo/portfolio/issues'
   );
 
   /*
