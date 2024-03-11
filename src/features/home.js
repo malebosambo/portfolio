@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/home.css';
 import ContentItem from './contentItem';
+import RepoTable from './repoTable';
 
 export default function Home() {
 
@@ -24,7 +25,7 @@ export default function Home() {
   return (
     <div className="Container">
 
-      <div className="CVoverview">
+      <div className="CV-Overview">
         <div className="Avatar">
           <img src="./CVAvatar.jpg" alt="avatar" className="img-circle" />
         </div>
@@ -40,6 +41,11 @@ export default function Home() {
         <div className="row">
           {services.map((service) => <ContentItem key={service.id} image={service.imgUrl} name={service.name} list={service.ops} link={service.url} />)}
         </div>
+      </div>
+
+      <div className="Repo-List">
+        <div style={{paddingBottom: "30px", textAlign: "center"}}><h1>Repositories</h1></div>
+        <RepoTable />
       </div>
         
     </div>
