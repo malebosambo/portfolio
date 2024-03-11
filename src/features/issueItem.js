@@ -1,16 +1,14 @@
 import React from 'react';
 
-export default function IssueItem(props) {
+export default function IssueItem({ id, title, description, date, status }) {
 
   return (
     <>
-      <tr key={issue.id}>
-        <td>{issue.title}</td>
-         <td>{issue.description}</td>
-          <td>{issue.collaborator}</td>
-          <td>{issue.status}</td>
-          <td>{issue.project}</td>
-          <td>{issue.type}</td>
+      <tr key={id}>
+        <td>{title}</td>
+        <td>{description}</td>
+        <td>{date}</td>
+        <td>{status}</td>
       </tr>
     </>
   )
