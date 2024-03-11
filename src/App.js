@@ -10,7 +10,6 @@ import WebsiteApps from './features/websiteApps';
 import MobileApps from './features/mobileApps';
 import ContactUs from './features/contactUs';
 import Footer from './components/footer';
-import { NavLink } from 'react-bootstrap';
 
 export function App() {
   return (
@@ -28,12 +27,12 @@ export function App() {
         </div>  
       </div> 
       <Home />
+      <Footer />
     </div>
   )
 }
 
 export function CVresume() {
-
     return (
       <div>
         <div className="Header">
@@ -49,6 +48,7 @@ export function CVresume() {
           </div>  
         </div> 
       <CurriculumVitae />
+      <Footer />
     </div>
   )                                          
 }
@@ -57,7 +57,6 @@ export function CVresume() {
 
 
 export function Repos() {
-
   return (
     <div>
       <div className="Header">
@@ -68,16 +67,17 @@ export function Repos() {
           <Link to="/">Home</Link>
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
+          <Link to"/issues">Issues</Link>
           <Link to="/contacts">Contacts</Link>
         </nav>
       </div>
       <Repositories />
+      <Footer />
     </div>
   )
 }
 
 export function Web() {
-
   return (
     <div>
       <div className="Header">
@@ -88,17 +88,17 @@ export function Web() {
           <Link to="/">Home</Link>
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
+          <Link to="/issues">Issues</Link>
           <Link to="/contacts">Contacts</Link>
         </nav>
       </div>
       <WebsiteApps />
+      <Footer />
     </div>
   )
 }
 
 export function Apps() {
-
-
   return (
     <div>
       <div className="Header">
@@ -114,6 +114,7 @@ export function Apps() {
         </nav>
       </div>
       <MobileApps />
+      <Footer />
     </div>
   )
 }
@@ -134,6 +135,7 @@ export function ViewRepository() {
         </div>  
       </div> 
       <ViewRepo />
+      <Footer />
     </div>
   )
 }
@@ -154,13 +156,13 @@ export function IssuesTable() {
         </div>  
       </div> 
       <Issues />
+      <Footer />
     </div>
   )
 }
 
 
 export function Contacts() {
-
   return (
     <div>
       <div className="Header">
@@ -176,6 +178,7 @@ export function Contacts() {
         </nav>
       </div>
       <ContactUs />
+      <Footer />
     </div>
   )
 }
