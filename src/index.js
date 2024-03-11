@@ -18,11 +18,8 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/cv-resume" element={<CVresume />} />
         <Route path="/repos" element={<Repos />} />
-
-        <Route path="/repos/view-repo" element={<ViewRepository />} />
+        <Route path="/view-repo" element={<ViewRepository />} />
         <Route path="/issues" element={<IssuesTable />} />
-
-
         <Route path="/contacts" element={<Contacts />} />
       </Routes>
     </BrowserRouter>
