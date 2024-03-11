@@ -67,7 +67,7 @@ export function Repos() {
           <Link to="/">Home</Link>
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
-          <Link to"/issues">Issues</Link>
+          <Link to="/issues">Issues</Link>
           <Link to="/contacts">Contacts</Link>
         </nav>
       </div>
