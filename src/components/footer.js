@@ -7,8 +7,9 @@ export default function Footer() {
     <>
       <div className="Footer">
         <div >
+          <p>Copyright © 2024</p>
           <p>Malebo Sambo</p>
-          <p>© All rights reserved.</p>
+          <p>All rights reserved.</p>
         </div>
         <div>
           <p>Email: help@malebo.sambo.com</p>
