@@ -28,6 +28,9 @@ export default function CurriculumVitae() {
           <div className="CV-section1">
             <div className="CV-about">
               <h6>Personal Summary</h6>
+              <p>I am a professional with experience in Software and Mobile App Development, Business Analysis, Research & Development, and SMME Operations Management. The experience and learnings that I have acquired, gives me the skills and knowledge to conduct quality work.<span><br /></span>
+
+I possess great personal characteristics that assist me to work with diverse and incredible private and public sector individuals to deliver projects and initiatives.<p>
             </div>
             <div className="CV-education">
               <h6>Education</h6>
