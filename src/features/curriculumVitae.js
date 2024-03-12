@@ -26,17 +26,35 @@ export default function CurriculumVitae() {
 
         <div>
           <div className="CV-section1">
-            <div className="CV-about"></div>
-            <div className="CV-education"></div>
-            <div className="CV-softskills"></div> 
+            <div className="CV-about">
+              <h6>Personal Summary</h6>
+            </div>
+            <div className="CV-education">
+              <h6>Education</h6>
+            </div>
+            <div className="CV-softskills">
+              <h6>Soft Skills</h6>
+            </div> 
           </div>
+
           <div className="CV-section2">
-            <div className="CV-avatar"></div>
-            <div className="CV-hardskills"></div>
+            <div className="CV-avatar">
+              <img src="" alt="" />
+              <h5>Malebo Sambo</h5>
+              <h6>Software Developer</h6>
+            </div>
+            <div className="CV-hardskills">
+              <h6>Hard Skills</h6>
+            </div>
           </div>
+
           <div className="CV-section3">
-            <div className="CV-employment"></div>
-            <div className="CV-achievements"></div>
+            <div className="CV-employment">
+              <h6>Experience</h6>
+            </div>
+            <div className="CV-achievements">
+              <h6>Achievements</h6>
+            </div>
           </div>
         </div>
       </div>
