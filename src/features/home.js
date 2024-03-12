@@ -34,6 +34,7 @@ export default function Home() {
           <h5>Software Developer/Engineer, Entrepreneur, Business Analyst</h5><br />
           <h6>Email: sambo.malebo96@gmail.com</h6><br />
           <h6>Cell: +27630013711</h6>
+          <h6>Location: JHB/CPT/Remote</h6>
         </div>
       </div>
  
