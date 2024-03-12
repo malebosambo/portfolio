@@ -7,12 +7,12 @@ export default function CurriculumVitae() {
       <div>
         <div>
           <div className="CV-email">
-            <img src="" alt="" />
+            <img alt="" />
             <h6>Email</h6>
             <p>sambo.malebo96@gmail.com</p>
           </div>
-          <div className="CV-phone>
-            <img src="" alt="" />
+          <div className="CV-phone">
+            <img alt="" />
             <h6>Phone Number</h6>
             <p>+27 63 001 3711</p>
           </div>
@@ -28,9 +28,11 @@ export default function CurriculumVitae() {
           <div className="CV-section1">
             <div className="CV-about">
               <h6>Personal Summary</h6>
-              <p>I am a professional with experience in Software and Mobile App Development, Business Analysis, Research & Development, and SMME Operations Management. The experience and learnings that I have acquired, gives me the skills and knowledge to conduct quality work.<span><br /></span>
+              <p>I am a professional with experience in Software and Mobile App Development, Business Analysis, Research & Development, and SMME Operations Management. The experience and learnings that I have acquired, gives me the skills and knowledge to conduct quality work.</p><br />
 
-I possess great personal characteristics that assist me to work with diverse and incredible private and public sector individuals to deliver projects and initiatives.<p>
+
+
+              <p>I possess great personal characteristics that assist me to work with diverse and incredible private and public sector individuals to deliver projects and initiatives.</p>
             </div>
             <div className="CV-education">
               <h6>Education</h6>
