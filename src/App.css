@@ -1,4 +1,26 @@
-@media (max-width: 768px) {  /* styles for devices with max width of 768px */
+@media only screen and (max-width: 600px) { /* styles for devices with max width of 600px */
+
+  .CV-overview {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .Footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .TableResponse {
+    overflow-x: auto;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {  /* styles for devices with max width of 768px */
   
   h1 {
     font-size: 30px;
@@ -46,7 +68,7 @@
 
 @media only screen and (max-width: 992px) {  /* styles for devices with max width of 992px */}
 
-@media (max-width: 1200px) {  /* styles for devices with max width of 1200px */
+@media only screen and (max-width: 1200px) {  /* styles for devices with max width of 1200px */
 
   h1 {
     font-size: 50px;
