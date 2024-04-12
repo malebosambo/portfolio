@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRequestAPI } from '../security/useRequestAPI';
 import IssueItem from './issueItem';
+import '../styles/tableDesign.css';
 
 export default function IssueTable() {
 
