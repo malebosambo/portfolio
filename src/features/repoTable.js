@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from 'react';
 import RepoItem from './repoItem';
-import '../styles/latestIssues.css';
+import '../styles/tableDesign.css';
 import '../App.css';
 
 export default function RepoTable() {
