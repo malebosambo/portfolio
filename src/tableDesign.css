@@ -1,10 +1,7 @@
-caption {
-  padding: 10px;
-}
-
 table {
-  border-collapse: collapse;
   border: 1px solid grey;
+  border-collapse: collapse;
+  border-radius: 50px;
   letter-spacing: 1px;
 }
 
@@ -18,9 +15,5 @@ th {
 }
 
 td {
-  background-color: lightgrey;
-}
-
-.Section h1 {
-  margin-bottom: 20px;
+  background-color: azure;
 }
