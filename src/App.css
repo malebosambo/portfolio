@@ -4,11 +4,15 @@
     font-size: 14px;
   }
 
+  .CV {
+    padding: 20px;
+  }
+
   .CV-Overview {
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 20px;
   }
 
   .Footer {
@@ -16,6 +20,15 @@
     display: flex;
     flex-direction: column;
     padding: 50px;
+  }
+
+  .Hero-Banner {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .RepoTable {
+    padding: 20px;
   }
 
   .TableResponse {
@@ -39,11 +52,15 @@
     width: 50%;
   }
 
+  .CV {
+    padding: 30px;
+  }
+
   .CV-Overview {
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 30px;
   }
 
   .Header {
@@ -51,6 +68,11 @@
     display: flex;
     flex-direction: column;
     padding: 5px;
+  }
+
+  .Hero-Banner {
+    padding: 30px;
+    text-align: center;
   }
 
   .Logo, p {
@@ -75,6 +97,10 @@
     padding: 5px;
   }
 
+  .RepoTable {
+    padding: 30px;
+  }
+
   .Repo-List {
     overflow-x: auto;
   }
@@ -86,12 +112,40 @@
 
   p {
     font-size: 18px;
+  } 
+
+  .CV {
+    padding: 40px;
+  } 
+
+  .CV-Contacts {
+    padding: 10px 0;
+  }
+
+  .CV-Hardskills {
+    padding: 15px;
   }
 
   .CV-Overview {
     display: flex;
     flex-direction: row;
-    padding: 50px;
+    padding: 40px;
+  }
+
+  .CV-Section1 {
+    padding: 15px;
+  }
+
+  .CV-Section3 {
+    padding: 15px;
+  }
+
+  .Hero-Banner {
+    padding: 40px;
+  }
+
+  .RepTable {
+    padding: 40px;
   }
 
 }
@@ -102,10 +156,30 @@
     font-size: 50px;
   }
 
+  .CV {
+    padding: 50px;
+  }
+
+  .CV-Contacts {
+    padding: 20px 0;
+  }
+
+  .CV-Hardskills {
+    padding: 25px;
+  }
+
   .CV-Overview {
     display: flex;
     flex-direction: row;
     padding: 50px;
+  }
+
+  .CV-Section1 {
+    padding: 25px;
+  }
+
+  .CV-Section3 {
+    padding: 25px;
   }
 
   .Footer {
@@ -120,10 +194,17 @@
     padding: 20px;
   }
 
+  .Hero-Banner {
+    padding: 50px;
+  }
+
   .Menu, a {
     color: black;
     padding: 5px;
     text-decoration: none;
   }
+
+  .RepoTable {
+    padding: 50px;
 
 }
