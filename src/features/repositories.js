@@ -6,7 +6,7 @@ export default function Repositories() {
   return (
     <>
       <div>
-        <div>
+        <div className="Hero-Banner">
           <h1>GitHub Repos</h1>
         </div>
 
