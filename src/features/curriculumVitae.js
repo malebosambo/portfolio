@@ -4,7 +4,7 @@ import '../styles/curriculumVitae.css';
 export default function CurriculumVitae() {
   return (
     <>
-      <div>
+      <div className="CV">
         <div>
           <div className="CV-email">
             <img alt="" />
