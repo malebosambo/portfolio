@@ -5,7 +5,7 @@ export default function CurriculumVitae() {
   return (
     <>
       <div className="CV">
-        <div>
+        <div className="CV-Contacts>
           <div className="CV-email">
             <img alt="" />
             <h6>Email</h6>
