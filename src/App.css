@@ -5,6 +5,8 @@
   }
 
   .CV {
+    display: flex;
+    flex-direction: column;
     padding: 20px;
   }
 
@@ -53,6 +55,8 @@
   }
 
   .CV {
+    display: flex;
+    flex-direction: column;
     padding: 30px;
   }
 
@@ -118,6 +122,10 @@
     padding: 40px;
   } 
 
+  .CV-Body {
+    width: 100%;
+  }
+
   .CV-Contacts {
     padding: 10px 0;
   }
@@ -134,10 +142,16 @@
 
   .CV-Section1 {
     padding: 15px;
+    width: 30%;
+  }
+
+  .CV-Section2 {
+    width: 40%;
   }
 
   .CV-Section3 {
     padding: 15px;
+    width: 30%;
   }
 
   .Hero-Banner {
@@ -160,6 +174,10 @@
     padding: 50px;
   }
 
+  .CV-Body {
+    width: 100%;
+  }
+
   .CV-Contacts {
     padding: 20px 0;
   }
@@ -176,10 +194,16 @@
 
   .CV-Section1 {
     padding: 25px;
+    width: 30%;
+  }
+
+  .CV-Section2 {
+    width: 40%;
   }
 
   .CV-Section3 {
     padding: 25px;
+    width: 30%;
   }
 
   .Footer {
