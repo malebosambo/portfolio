@@ -4,6 +4,10 @@
     font-size: 14px;
   }
 
+  .Basic-Details {
+    padding: 10px 0;
+  }
+
   .CV {
     display: flex;
     flex-direction: column;
@@ -33,8 +37,9 @@
     padding: 20px;
   }
 
-  .TableResponse {
+  .Repo-List {
     overflow-x: auto;
+    padding: 20px;
   }
 
 }
@@ -47,6 +52,10 @@
 
   p {
     font-size: 17px;
+  }
+
+  .Basic-Details {
+    padding: 20px 0;
   }
 
   .Card-Container {
@@ -107,6 +116,7 @@
 
   .Repo-List {
     overflow-x: auto;
+    padding: 30px;
   }
 
 }
@@ -158,7 +168,11 @@
     padding: 40px;
   }
 
-  .RepTable {
+  .RepoTable {
+    padding: 40px;
+  }
+
+  .Repo-List {
     padding: 40px;
   }
 
@@ -230,5 +244,10 @@
 
   .RepoTable {
     padding: 50px;
+  }
+
+  .Repo-List {
+    padding: 50px;
+  }
 
 }
