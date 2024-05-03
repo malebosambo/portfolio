@@ -38,9 +38,11 @@ export default function Home() {
         </div>
       </div>
  
-      <div className="container">
-        <div className="row">
+      <div className="Content">
+        <div className="container">
+          <div className="row">
           {services.map((service) => <ContentItem key={service.id} image={service.imgUrl} name={service.name} list={service.ops} link={service.url} />)}
+          </div>
         </div>
       </div>
 

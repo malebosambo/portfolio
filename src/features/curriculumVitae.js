@@ -5,7 +5,8 @@ export default function CurriculumVitae() {
   return (
     <>
       <div className="CV">
-        <div className="CV-Contacts>
+
+        <div className="CV-Contacts">
           <div className="CV-email">
             <img alt="" />
             <h6>Email</h6>
@@ -24,7 +25,7 @@ export default function CurriculumVitae() {
           </div>
         </div>
 
-        <div>
+        <div className="CV-Body">
           <div className="CV-section1">
             <div className="CV-about">
               <h6>Personal Summary</h6>
@@ -65,7 +66,7 @@ export default function CurriculumVitae() {
               <ul>
                 <li>OutSystems Reactive Developer</li>
                 <li>MERN/Next.js Developer</li>
-                <li>C# Developer (Blazor)<li>
+                <li>C# Developer (Blazor)</li>
                 <li>WordPress Developer</li>
                 <li>Flutter Mobile App Developer</li>
               </ul>
