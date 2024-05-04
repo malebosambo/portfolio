@@ -4,6 +4,11 @@
     font-size: 14px;
   }
 
+  .Avatar {
+    height: 70px;
+    width: 60px;
+  }
+
   .Basic-Details {
     padding: 10px 0;
   }
@@ -56,6 +61,11 @@
 
   p {
     font-size: 17px;
+  }
+
+  .Avatar {
+    height: 60px;
+    width: 50px;
   }
 
   .Basic-Details {
@@ -136,6 +146,11 @@
     font-size: 18px;
   } 
 
+  .Avatar {
+    height: 45px;
+    width: 45px;
+  }
+
   .Content {
     padding: 50px 0;
   }
@@ -202,6 +217,11 @@
 
   h3 {
     font-size: 30px;
+  }
+
+  .Avatar {
+    height: 35px;
+    width: 35px;
   }
 
   .Content {
