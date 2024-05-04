@@ -6,6 +6,11 @@ export default function CurriculumVitae() {
     <>
       <div>
         <div>
+          <div className="CV-avatar">
+            <img src="./CVAvatar.jpg" alt="avatar" className="Avatar-Mobile" />
+            <h5>Malebo Sambo</h5>
+            <h6>Software Developer</h6>
+          </div>
           <div className="CV-email">
             <img alt="" />
             <h6>Email</h6>
@@ -55,7 +60,7 @@ export default function CurriculumVitae() {
 
           <div className="CV-section2">
             <div className="CV-avatar">
-              <img src="" alt="" />
+              <img src="./CVAvatar.jpg" alt="avatar" className="Avatar" />
               <h5>Malebo Sambo</h5>
               <h6>Software Developer</h6>
             </div>
