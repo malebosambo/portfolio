@@ -30,11 +30,11 @@ export default function Home() {
           <img src="./CVAvatar.jpg" alt="avatar" className="img-circle" />
         </div>
         <div className="Basic-Details">
-          <h2>Malebo Sambo</h2><br />
-          <h5>Software Developer/Engineer, Entrepreneur, Business Analyst</h5><br />
-          <h6>Email: sambo.malebo96@gmail.com</h6><br />
-          <h6>Cell: +27630013711</h6>
-          <h6>Location: JHB/CPT/Remote</h6>
+          <h1>Malebo Sambo</h1><br />
+          <h3>Software Developer/Engineer, Entrepreneur, Business Analyst</h3><br />
+          <h5>Email: sambo.malebo96@gmail.com</h5><br />
+          <h5>Cell: +27630013711</h5><br />
+          <h5>Location: JHB/CPT/Remote</h5>
         </div>
       </div>
  
