@@ -1,18 +1,17 @@
 @media only screen and (max-width: 600px) { /* styles for devices with max width of 600px */
-
-  .Avatar {
-    width: 50%;
-  }
-
+  
   .Avatar-Mobile {
     height: 200px;
     margin-bottom: 15px;
     width: 100%;
   }
 
+  .Avatar-Home {
+    width: 100%;
+  }
+
   .Basic-Details {
     padding: 10px 0;
-    width: 50%;
   }
 
   .Content {
@@ -25,17 +24,23 @@
     padding: 20px;
   }
 
+  .CV > .CV-About, .CV-Education, .CV-Softskills, .CV-Hardskills, .CV-Experience {
+    margin-bottom: 30px;
+  }
+
+  .CV-Avatar {
+    display: none;
+  }
+
   .CV-Contacts {
     margin-bottom: 50px;
   }
-
 
   .CV-Overview {
     align-items: center;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    width: 100%;
   }
 
   .Footer {
@@ -43,6 +48,11 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
+  }
+
+  .Footer > .Legal, .Socials {
+    display: flex;
+    flex-direction: row;
   }
 
   .Hero-Banner {
@@ -55,7 +65,6 @@
   }
 
   .Repo-List {
-
     padding: 10px;
   }
 
@@ -75,18 +84,8 @@
     font-size: 17px;
   }
 
-  .Avatar {
-    height: 60px;
-    width: 50px;
-  }
-
   .Basic-Details {
     padding: 20px 0;
-  }
-
-  .Card-Container {
-    height: 288px;
-    width: 50%;
   }
 
   .Content {
@@ -97,6 +96,18 @@
     display: flex;
     flex-direction: column;
     padding: 30px;
+  }
+
+  .CV > .CV-About, .CV-Education, .CV-Softskills, .CV-Hardskills, .CV-Experience {
+    margin-bottom: 40px;
+  }
+
+  .CV-Avatar {
+    display: none;
+  }
+
+  .CV-Contacts {
+    margin-bottom: 60px;
   }
 
   .CV-Overview {
@@ -145,8 +156,11 @@
   }
 
   .Repo-List {
-    overflow-x: auto;
     padding: 30px;
+  }
+
+  .TableResponse {
+    overflow-x: auto;
   }
 
 }
@@ -159,8 +173,11 @@
   } 
 
   .Avatar {
-    height: 45px;
-    width: 45px;
+    width: 30%;
+  }
+
+  .Basic-Details {
+    width: 70%;
   }
 
   .Content {
@@ -171,7 +188,7 @@
     padding: 40px;
   } 
 
-  .CV-avatar-Mobile {
+  .CV-Avatar-Mobile {
     display: none;
   }
 
@@ -181,6 +198,11 @@
 
   .CV-Contacts {
     padding: 10px 0;
+    width: 100%;
+  }
+
+  .CV-Contacts > .CV-Email, .CV-Phone, .CV-Socials {
+    width: 30%;
   }
 
   .CV-Hardskills {
@@ -206,6 +228,17 @@
     padding: 15px;
     width: 30%;
   }
+
+  .Footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .Footer > .Legal, .Contacts, .Socials {
+    padding: 10px;
+    width: 30%;
+    }
 
   .Hero-Banner {
     padding: 40px;
@@ -236,8 +269,11 @@
   }
 
   .Avatar {
-    height: 35px;
-    width: 35px;
+    width: 35%;
+  }
+
+  .Basic-Details {
+    width: 65%;
   }
 
   .Content {
@@ -248,16 +284,25 @@
     padding: 50px;
   }
 
-  .CV-avatar-Mobile {
+  .CV-Avatar-Mobile {
     display: none;
   }
 
   .CV-Body {
+    display: flex;
+    flex-direction: row;
     width: 100%;
   }
 
   .CV-Contacts {
+    display: flex;
+    flex-direction: row;
     padding: 20px 0;
+    width: 100%;
+  }
+
+  .CV-Contacts > .CV-Email, .CV-Phone, .CV-Socials {
+    width: 30%;
   }
 
   .CV-Hardskills {
@@ -268,6 +313,7 @@
     display: flex;
     flex-direction: row;
     padding: 50px;
+    width: 100%;
   }
 
   .CV-Section1 {
@@ -286,7 +332,13 @@
 
   .Footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .Footer > .Legal, .Contacts, .Socials {
+    padding: 20px;
+    width: 30%;
   }
 
   .Header {
