@@ -24,5 +24,9 @@ app.get("/view-repo", async (req, res) => {
   res.json({ "message": "OK" });
 });
 
+app.get("api/repo/:id", async (req, res) => {
+  res.render("./views/repo/page");
+});
+
 
 app.listen(port, console.log(`Server started on ${port}`));
