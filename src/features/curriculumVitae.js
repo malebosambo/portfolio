@@ -7,14 +7,19 @@ export default function CurriculumVitae() {
       <div className="CV">
 
         <div className="CV-Contacts">
+          <div className="CV-avatar-Mobile">
+            <img src="./CVAvatar" alt="avatar" className="Avatar-Mobile" />
+            <h1>Malebo Sambo</h1>
+            <h3>Software Developer/Engineer</h3>
+          </div>
           <div className="CV-email">
             <img alt="" />
-            <h6>Email</h6>
+            <h5>Email</h5>
             <p>sambo.malebo96@gmail.com</p>
           </div>
           <div className="CV-phone">
             <img alt="" />
-            <h6>Phone Number</h6>
+            <h5>Phone Number</h5>
             <p>+27 63 001 3711</p>
           </div>
           <div className="CV-socials">
@@ -28,13 +33,13 @@ export default function CurriculumVitae() {
         <div className="CV-Body">
           <div className="CV-section1">
             <div className="CV-about">
-              <h6>Personal Summary</h6>
+              <h5>Personal Summary</h5>
               <p>I am a professional with experience in Software and Mobile App Development, Business Analysis, Research & Development, and SMME Operations Management. The experience and learnings that I have acquired, gives me the skills and knowledge to conduct quality work.</p><br />
 
               <p>I possess great personal characteristics that assist me to work with diverse and incredible private and public sector individuals to deliver projects and initiatives.</p>
             </div>
             <div className="CV-education">
-              <h6>Education</h6>
+              <h5>Education</h5>
               <div>
                 <p>2010-2014</p>
                 <p>National Senior Certificate</p>
@@ -47,7 +52,7 @@ export default function CurriculumVitae() {
               </div>
             </div>
             <div className="CV-softskills">
-              <h6>Soft Skills</h6>
+              <h5>Soft Skills</h5>
               <ul>
                 <li>Communication (Verbal/Written)</li>
                 <li>Collaborator</li>
@@ -58,11 +63,11 @@ export default function CurriculumVitae() {
           <div className="CV-section2">
             <div className="CV-avatar">
               <img src="" alt="" />
-              <h5>Malebo Sambo</h5>
-              <h6>Software Engineer</h6>
+              <h1>Malebo Sambo</h1>
+              <h3>Software Developer/Engineer</h3>
             </div>
             <div className="CV-hardskills">
-              <h6>Hard Skills</h6>
+              <h5>Hard Skills</h5>
               <ul>
                 <li>OutSystems Reactive Developer</li>
                 <li>MERN/Next.js Developer</li>
@@ -75,7 +80,7 @@ export default function CurriculumVitae() {
 
           <div className="CV-section3">
             <div className="CV-employment">
-              <h6>Experience</h6>
+              <h5>Experience</h5>
               <div>
                 <p>2021-2022</p>
                 <p>Social Impact Platform Specialist</p>
@@ -108,7 +113,7 @@ export default function CurriculumVitae() {
               </div>              
             </div>
             <div className="CV-achievements">
-              <h6>Achievements</h6>
+              <h5>Achievements</h5>
               <div>
                 <p>2016</p>
                 <p>2nd Place Winners</p>
