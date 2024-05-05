@@ -36,6 +36,12 @@ export default function Home() {
           <h5>Cell: +27630013711</h5><br />
           <h5>Location: JHB/CPT/Remote</h5>
         </div>
+        <div className="Socials">
+          <a href="www.malebosambo.github.app"><img src="" alt="portfolio" /></a>
+          <a href="www.linkedin.com/malebosambo"><img src="" alt="LinkedIn" /></a>
+          <a href="www.github.com/sambomalebo"><img src="" alt="GitHub" /></a>
+          <a href="www.twitter.com/lovais000"><img src="" alt="Twitter" /></a>
+        </div>
       </div>
  
       <div className="Content">
