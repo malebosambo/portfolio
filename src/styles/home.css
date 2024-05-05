@@ -11,6 +11,10 @@ body {
   background-color: white;
 }
 
+.CV-Overview > h1 {
+  font-family: Pacifico;
+}
+
 .Repo-List {
   background-color: white;
 }
