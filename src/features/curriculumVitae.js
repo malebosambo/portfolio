@@ -86,18 +86,19 @@ export default function CurriculumVitae() {
                 <p>Social Impact Platform Specialist</p>
                 <p>ExoFutures</p>
               </div>
+              <hr />
               <div>
                 <p>2020-2021</p>
                 <p>Tester/Business Analyst/Mobile Developer</p>
                 <p>ExoSystems</p>
               </div>
+              <hr />
               <div>
                 <p>2019-2020</p>
                 <p>OutSystems Platform Internship Trainee</p>
                 <p>ExoSystems</p>
               </div>
               <hr />
-
               <div>
                 <p>2018</p>
                 <p>Operations Manager</p>
