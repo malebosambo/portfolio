@@ -60,6 +60,11 @@
     text-align: center;
   }
 
+  .Logo {
+    height: 60px;
+    
+  }
+
   .RepoTable {
     padding: 10px;
   }
@@ -243,6 +248,10 @@
     padding: 40px;
   }
 
+  .Mobile-Menu, .Mobile-Menu-Close {
+    display: none;
+  }
+
   .RepoTable {
     padding: 40px;
   }
@@ -360,6 +369,10 @@
     color: black;
     padding: 5px;
     text-decoration: none;
+  }
+
+  .Mobile-Menu, .Mobile-Menu-Close {
+    display: none;
   }
 
   .RepoTable {
