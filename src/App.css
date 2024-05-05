@@ -15,7 +15,7 @@
   }
 
   .Content {
-    margin: 30px;
+    margin: 15px;
   }
 
   .CV {
@@ -40,7 +40,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
   }
 
   .Footer {
@@ -114,7 +114,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 20px;
   }
 
   .Header {
@@ -167,7 +167,6 @@
 
 @media only screen and (max-width: 992px) {  /* styles for devices with max width of 992px */
 
-
   p {
     font-size: 18px;
   } 
@@ -177,7 +176,7 @@
   }
 
   .Basic-Details {
-    width: 70%;
+    width: 60%;
   }
 
   .Content {
@@ -252,6 +251,10 @@
     padding: 40px;
   }
 
+  .Socials {
+    width: 10%;
+  }
+
 }
 
 @media only screen and (max-width: 1200px) {  /* styles for devices with max width of 1200px */
@@ -273,7 +276,7 @@
   }
 
   .Basic-Details {
-    width: 65%;
+    width: 50%;
   }
 
   .Content {
@@ -365,6 +368,10 @@
 
   .Repo-List {
     padding: 50px;
+  }
+
+  .Socials {
+    width: 15%;
   }
 
 }
