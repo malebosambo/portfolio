@@ -2,12 +2,15 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {
+
+  const { mobileMenu, setMobileMenu } = useState(false);
+
   return (
     <>
       <div className="Logo">
         <img src="./Malebo-Sambo-Logo.jpeg" atl="malebo-sambo-logo" className="Logo" />
-        <button className="Mobile-Menu"><img src="" alt="mobile-menu" /></button>
-        <button className="Mobile-Menu-Close"><img src="" alt="mobile-menu-close" /></button>
+        <button className="Mobile-Menu"><i className="bi bi-list"></i></button>
+        <button className="Mobile-Menu-Close"><i className="bi bi-x"></i></button>
       </div>
       <div className="Menu">
         <Link to="/">Home</Link>
