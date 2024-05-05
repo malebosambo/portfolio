@@ -9,7 +9,7 @@ export default function Home() {
     {
       id: 1,
       name: "Web Apps",
-      ops: ["Static", "Dynamic", "SPA", "PWA"],
+      ops: ["Static", "Dynamic", "SPA/PWA/EDA"],
       imgUrl: "./Web-App.jpg",
       url: "/web-apps"
     },
