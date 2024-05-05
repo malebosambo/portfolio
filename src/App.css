@@ -1,16 +1,18 @@
 @media only screen and (max-width: 600px) { /* styles for devices with max width of 600px */
 
-  p {
-    font-size: 14px;
+  .Avatar {
+    width: 50%;
   }
 
-  .Avatar {
-    height: 70px;
-    width: 60px;
+  .Avatar-Mobile {
+    height: 200px;
+    margin-bottom: 15px;
+    width: 100%;
   }
 
   .Basic-Details {
     padding: 10px 0;
+    width: 50%;
   }
 
   .Content {
@@ -23,18 +25,24 @@
     padding: 20px;
   }
 
+  .CV-Contacts {
+    margin-bottom: 50px;
+  }
+
+
   .CV-Overview {
     align-items: center;
     display: flex;
     flex-direction: column;
     padding: 20px;
+    width: 100%;
   }
 
   .Footer {
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 20px;
   }
 
   .Hero-Banner {
@@ -43,12 +51,16 @@
   }
 
   .RepoTable {
-    padding: 20px;
+    padding: 10px;
   }
 
   .Repo-List {
+
+    padding: 10px;
+  }
+
+  .TableResponse {
     overflow-x: auto;
-    padding: 20px;
   }
 
 }
@@ -159,6 +171,10 @@
     padding: 40px;
   } 
 
+  .CV-avatar-Mobile {
+    display: none;
+  }
+
   .CV-Body {
     width: 100%;
   }
@@ -230,6 +246,10 @@
 
   .CV {
     padding: 50px;
+  }
+
+  .CV-avatar-Mobile {
+    display: none;
   }
 
   .CV-Body {

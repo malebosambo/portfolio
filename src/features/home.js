@@ -27,13 +27,13 @@ export default function Home() {
 
       <div className="CV-Overview">
         <div className="Avatar">
-          <img src="./CVAvatar.jpg" alt="avatar" className="img-circle" />
+          <img src="./CVAvatar.jpg" alt="avatar" className="" />
         </div>
         <div className="Basic-Details">
           <h1>Malebo Sambo</h1><br />
           <h3>Software Developer/Engineer, Entrepreneur, Business Analyst</h3><br />
           <h5>Email: sambo.malebo96@gmail.com</h5><br />
-          <h5>Cell: +27630013711</h5>
+          <h5>Cell: +27630013711</h5><br />
           <h5>Location: JHB/CPT/Remote</h5>
         </div>
       </div>
