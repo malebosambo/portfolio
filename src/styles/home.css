@@ -1,20 +1,12 @@
-body {
-  background-color: silver;
-}
-
 .Container {
   margin: 0 auto;
   width: 100%;
 }
 
-.CV-Overview {
-  background-color: white;
+.Content {
+  background-color: Azure;
 }
 
 .CV-Overview > h1 {
   font-family: Pacifico;
-}
-
-.Repo-List {
-  background-color: white;
 }
