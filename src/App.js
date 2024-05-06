@@ -9,8 +9,6 @@ import Issues from './features/issueTable';
 import WebsiteApps from './features/websiteApps';
 import MobileApps from './features/mobileApps';
 import ContactUs from './features/contactUs';
-import Footer from './components/footer';
-import { NavLink } from 'react-bootstrap';
 
 export function App() {
   return (
@@ -53,9 +51,6 @@ export function CVresume() {
   )                                          
 }
 
-
-
-
 export function Repos() {
 
   return (
@@ -97,7 +92,6 @@ export function Web() {
 }
 
 export function Apps() {
-
 
   return (
     <div>
@@ -157,7 +151,6 @@ export function IssuesTable() {
     </div>
   )
 }
-
 
 export function Contacts() {
 
