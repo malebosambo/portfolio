@@ -25,7 +25,7 @@ app.get("/view-repo", async (req, res) => {
 });
 
 app.get("api/repo/:id", async (req, res) => {
-  res.render("./views/repo/page");
+  res.render("./views/repo");
 });
 
 

@@ -15,6 +15,7 @@
     "file-uri-to-path": "1.0.0",
     "nan": "2.17.0",
     "octokit": "^3.1.1",
+    "pug": "^3.0.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
