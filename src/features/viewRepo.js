@@ -8,7 +8,11 @@ export default function ViewRepo() {
   
   const { name } = useParams();
 
-  useEffect(() => {
+  const { data, isLoaded, error } = useRequestAPI(
+    `https://api.github.com/repos/malebosambo/${name}`
+  );
+
+  /*useEffect(() => {
     const fetchRepo = async (username, reponame) => {
 
       const response = await fetch(`https://api.github.com/repos/${username}/${reponame}`);
@@ -20,8 +24,13 @@ export default function ViewRepo() {
 
     fetchRepo('malebosambo', name);
     
-  }, {});  
-
+  }, {});*/
+  
+  if (error) {
+    return <div>Error: {error}</div>
+  } else if (isLoaded) {
+    return <div>Loading...</div>
+  }  else { 
   return (
     <>
       <div>
