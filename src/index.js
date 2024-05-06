@@ -19,7 +19,7 @@ root.render(
         <Route path="/cv-resume" element={<CVresume />} />
         <Route path="/repos" element={<Repos />} />
 
-        <Route path="/repos/view-repo" element={<ViewRepository />} />
+        <Route path="/repo/:name" element={<ViewRepository />} />
         <Route path="/issues" element={<IssuesTable />} />
 
 
