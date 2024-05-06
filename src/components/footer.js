@@ -13,12 +13,12 @@ export default function Footer() {
           <p>All rights reserved.</p>
         </div>
         <div className="Shortlinks">
-          <h5><span><i className="bi bi-file-person"></></span>Contacts</h5><br />
+          <h5><span><i className="bi bi-file-person"></i></span>Contacts</h5><br />
           <p>Email: help@malebo.sambo.com</p>
           <p>Cell: +27630013711</p>
         </div>
         <div className="Socials">
-          <h5><span><i className="bi bi-file-person"></></span>Socials</h5><br />
+          <h5><span><i className="bi bi-file-person"></i></span>Socials</h5><br />
           <a href="www.malebosambo.github.app"><img src="" alt="portfolio" /></a>
           <a href="www.linkedin.com/malebosambo"><img src="" alt="LinkedIn" /></a>
           <a href="www.github.com/sambomalebo"><img src="" alt="GitHub" /></a>
