@@ -1,6 +1,10 @@
-var express = require('express');
+const express = require('express');
+const app = express();
+const pug = require('pug');
 
-var app = express();
+app.set('view engine', 'pug');
+app.set('views', path.join(__dirname, 'views')); 
+
 const port = 4000;
 
 app.use(bodyParser.json());
@@ -20,12 +24,8 @@ app.get("/issues", async (req, res) => {
   res.json({ "message": "OK" });
 });
 
-app.get("/view-repo", async (req, res) => {
-  res.json({ "message": "OK" });
-});
-
-app.get("api/repo/:id", async (req, res) => {
-  res.render("./views/repo");
+app.get("/repo/:name", async (req, res) => {
+  res.render('viewRepo', { name: req.params.reponame });
 });
 
 
