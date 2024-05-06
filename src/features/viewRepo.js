@@ -25,7 +25,7 @@ export default function ViewRepo() {
   return (
     <>
       <div>
-        <h1></h1>
+        <h1>{repo.name}</h1>
       </div>
       <div>
        
