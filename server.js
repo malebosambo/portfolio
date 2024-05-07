@@ -25,7 +25,7 @@ app.get("/issues", async (req, res) => {
 });
 
 app.get("/repo/:name", async (req, res) => {
-  res.render('viewRepo', { name: req.params.reponame });
+  res.render('repo', { name: req.params.reponame });
 });
 
 
