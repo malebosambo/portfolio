@@ -16,7 +16,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Router>
-      <Switch>
+     
         <Route path="/" element={<App />} />
         <Route path="/cv-resume" element={<CVresume />} />
         <Route path="/repos" element={<Repos />} />
@@ -26,7 +26,7 @@ root.render(
 
 
         <Route path="/contacts" element={<Contacts />} />
-      </Switch>
+   
       </Router>
     </BrowserRouter>
   </React.StrictMode>
