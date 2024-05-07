@@ -1,5 +1,5 @@
 import React from 'react';
-import { useRequestAPI } from '../security/useRequestAPI';
+import { useReqObjAPI } from '../security/useReqObjAPI';
 import { useParams } from 'react-router-dom';
 import IssueTable from './issueTable';
 
@@ -9,7 +9,7 @@ export default function ViewRepo() {
   
   const { name } = useParams();
 
-  const { data, isLoaded, error } = useRequestAPI(
+  const { data, isLoaded, error } = useReqObjAPI(
     `https://api.github.com/repos/malebosambo/${name}`
   );
 
