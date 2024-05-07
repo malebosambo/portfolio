@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { useRequestAPI } from '../security/useRequestAPI';
 import { useParams } from 'react-router-dom';
 import IssueTable from './issueTable';
 
 export default function ViewRepo() {
 
-  const [repo,setRepo] = useState({});
+
   
   const { name } = useParams();
 
@@ -27,18 +28,18 @@ export default function ViewRepo() {
   }, {});*/
   
   if (error) {
-    return <div>Error: {error}</div>
+    return <div>Error: {error}</div>;
   } else if (isLoaded) {
-    return <div>Loading...</div>
+    return <div>Loading...</div>;
   }  else { 
   return (
     <>
       <div>
-        <h1>{repo.name}</h1>
+        <h1>{data.name}</h1>
       </div>
       <div>
        
       </div>
     </>
-  )
+  )}
 }
