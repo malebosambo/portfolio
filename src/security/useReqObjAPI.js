@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 
 export function useRequestAPI(url) {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState({});
   const [isLoaded, setIsLoaded] = useState(false);
   const [error, setError] = useState(null);
 
