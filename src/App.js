@@ -4,7 +4,7 @@ import { Link} from 'react-router-dom';
 import Home from './features/home';
 import CurriculumVitae from './features/curriculumVitae'; 
 import Repositories from './features/repositories';
-import ViewRepo from './features/viewRepo';
+import ViewRepo from './views/repo';
 import Issues from './features/issueTable';
 import WebsiteApps from './features/websiteApps';
 import MobileApps from './features/mobileApps';
