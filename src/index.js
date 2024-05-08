@@ -4,8 +4,7 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { App, CVresume, Repos, ViewRepository, IssuesTable, Contacts } from './App';
 import {
-  BrowserRouter,
-  Router,
+  BrowserRouter as Router,
   Switch,
   Route
 } from 'react-router-dom';
@@ -14,9 +13,8 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Router>
-     
+    <Router>
+      <Switch>
         <Route path="/" element={<App />} />
         <Route path="/cv-resume" element={<CVresume />} />
         <Route path="/repos" element={<Repos />} />
@@ -26,9 +24,8 @@ root.render(
 
 
         <Route path="/contacts" element={<Contacts />} />
-   
-      </Router>
-    </BrowserRouter>
+      </Switch>
+    </Router>
   </React.StrictMode>
 );
 
