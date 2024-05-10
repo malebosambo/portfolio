@@ -45,6 +45,7 @@ export default function Home() {
       </div>
  
       <div className="Content">
+        <div style={{paddingBottom: "30px", textAlign: "center"}}><h1>Services</h1></div>
         <div className="container">
           <div className="row">
           {services.map((service) => <ContentItem key={service.id} image={service.imgUrl} name={service.name} list={service.ops} link={service.url} />)}

@@ -12,3 +12,7 @@ code {
 img {
   height: auto;
 }
+
+.Footer {
+  background-color: darkgrey;
+}

@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import { Link} from 'react-router-dom';
 import Home from './features/home';
 import CurriculumVitae from './features/curriculumVitae'; 
 import Repositories from './features/repositories';
@@ -10,7 +9,6 @@ import WebsiteApps from './features/websiteApps';
 import MobileApps from './features/mobileApps';
 import ContactUs from './features/contactUs';
 import Nav from './components/navbar';
-
 import Footer from './components/footer';
 
 export function App() {
@@ -18,58 +16,39 @@ export function App() {
     <div>
       <div className="Header">
         <Nav />
-
-
-
-
       </div> 
       <Home />
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </div>
   )
 }
 
 export function CVresume() {
-    return (
-      <div>
-        <div className="Header">
-          <div className="Logo">
-            <h4>Malebo Sambo</h4>
-          </div>
-          <div>
-            <Link to="/">Home</Link>
-            <Link to="/cv-resume">CV</Link>
-            <Link to="/repos">Repos</Link>
-            <Link to="/issues">Issues</Link>
-            <Link to="/contacts">Contacts</Link>
-          </div>  
-        </div> 
+  return (
+    <div>
+      <div className="Header">
+        <Nav /> 
+      </div> 
       <CurriculumVitae />
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </div>
   )                                          
 }
-
-
-
 
 export function Repos() {
   return (
     <div>
       <div className="Header">
-        <div className="Logo">
-          <h4>Malebo Sambo</h4>
-        </div>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/cv-resume">CV</Link>
-          <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
-          <Link to="/contacts">Contacts</Link>
-        </nav>
+        <Nav />
       </div>
       <Repositories />
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </div>
   )
 }
@@ -78,19 +57,12 @@ export function Web() {
   return (
     <div>
       <div className="Header">
-        <div className="Logo">
-          <h4>Malebo Sambo</h4>
-        </div>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/cv-resume">CV</Link>
-          <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
-          <Link to="/contacts">Contacts</Link>
-        </nav>
+        <Nav />
       </div>
       <WebsiteApps />
-      <Footer />
+      <div>
+        <Footer />
+      </div>  
     </div>
   )
 }
@@ -99,19 +71,12 @@ export function Apps() {
   return (
     <div>
       <div className="Header">
-        <div className="Logo">
-          <h4>Malebo Sambo</h4>
-        </div>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/cv-resume">CV</Link>
-          <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
-          <Link to="/contacts">Contacts</Link>
-        </nav>
+        <Nav />
       </div>
       <MobileApps />
-      <Footer />
+      <div>
+        <Footer />
+      </div>  
     </div>
   )
 }
@@ -120,62 +85,40 @@ export function ViewRepository() {
   return (
     <div>
       <div className="Header">
-        <div className="Logo">
-          <h4>Malebo Sambo</h4>
-        </div>
-        <div>
-          <Link to="/">Home</Link>
-          <Link to="/cv-resume">CV</Link>
-          <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
-          <Link to="/contacts">Contacts</Link>
-        </div>  
+        <Nav /> 
       </div> 
       <ViewRepo />
-      <Footer />
+      <div>
+        <Footer />
+      </div>  
     </div>
   )
 }
 
-export function IssuesTable() {
+export function RepoIssues() {
   return (
     <div>
       <div className="Header">
-        <div className="Logo">
-          <h4>Malebo Sambo</h4>
-        </div>
-        <div>
-          <Link to="/">Home</Link>
-          <Link to="/cv-resume">CV</Link>
-          <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
-          <Link to="/contacts">Contacts</Link>
-        </div>  
+        <Nav />
       </div> 
       <Issues />
-      <Footer />
+      <div>
+        <Footer />
+      </div>  
     </div>
   )
 }
-
 
 export function Contacts() {
   return (
     <div>
       <div className="Header">
-        <div className="Logo">
-          <h4>Malebo Sambo</h4>
-        </div>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/cv-resume">CV</Link>
-          <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
-          <Link to="/contacts">Contacts</Link>
-        </nav>
+        <Nav />
       </div>
       <ContactUs />
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </div>
   )
 }
