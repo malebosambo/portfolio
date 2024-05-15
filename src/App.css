@@ -55,6 +55,12 @@
     flex-direction: row;
   }
 
+  .Header {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
   .Hero-Banner {
     padding: 20px;
     text-align: center;
@@ -62,6 +68,21 @@
 
   .Logo {
     height: 60px;
+  }
+
+  .Menu {
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+    position: fixed;
+    transition: right 0.4s;
+  }
+
+  .Mobile-Menu {
+
+  }
+
+  .Mobile-Menu-Close {
     
   }
 
@@ -123,10 +144,9 @@
   }
 
   .Header {
-    
     display: flex;
     flex-direction: column;
-    padding: 5px;
+    padding: 15px;
   }
 
   .Hero-Banner {
@@ -136,7 +156,14 @@
 
   .Logo {
     height: 50px;
-   
+  }
+
+  .Menu {
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+    position: fixed;
+    transition: right 0.4s;
   }
 
   .Menu, a {
@@ -145,15 +172,12 @@
     text-decoration: none;
   }
 
-  .MenuOpen {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+  .Mobile-Menu {
+    
   }
 
-  .MobileButton {
-    border: 2px solid black;
-    padding: 5px;
+  .Mobile-Menu-Close {
+    
   }
 
   .RepoTable {
