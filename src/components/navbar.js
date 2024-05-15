@@ -5,12 +5,14 @@ export default function Navbar() {
 
   const { mobileMenu, setMobileMenu } = useState(false);
 
+  const showMenu = () => setMobileMenu(!mobileMenu);
+
   return (
     <>
       <div className="Logo">
-        <img src="./Malebo-Sambo-Logo.jpeg" atl="malebo-sambo-logo" className="Logo" />
-        <button className="Mobile-Menu"><i className="bi bi-list"></i></button>
-        <button className="Mobile-Menu-Close"><i className="bi bi-x"></i></button>
+        <img src="./Malebo-Sambo-Logo-Transp.png" atl="malebo-sambo-logo" className="Logo" />
+        <button onClick={showMenu} className="Mobile-Menu"><i className="bi bi-list"></i></button>
+        <button onClick={showMenu} className="Mobile-Menu-Close"><i className="bi bi-x"></i></button>
       </div>
       <div className="Menu">
         <Link to="/">Home</Link>

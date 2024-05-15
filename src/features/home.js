@@ -31,7 +31,7 @@ export default function Home() {
         </div>
         <div className="Basic-Details">
           <h1>Malebo Sambo</h1><br />
-          <h3>Software Developer/Engineer, Entrepreneur, Business Analyst</h3><br />
+          <h4>Software Developer/Engineer, Entrepreneur, Business Analyst</h4><br />
           <h5>Email: sambo.malebo96@gmail.com</h5><br />
           <h5>Cell: +27630013711</h5><br />
           <h5>Location: JHB/CPT/Remote</h5>
