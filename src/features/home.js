@@ -25,18 +25,18 @@ export default function Home() {
   return (
     <div className="Container">
 
-      <div className="CV-Overview">
-        <div className="Avatar">
-          <img src="./CVAvatar.jpg" alt="avatar" className="" />
+      <div className="Overview">
+        <div className="Avatar-Home">
+          <img src="./CVAvatar.jpg" alt="avatar" className="Avatar" />
         </div>
-        <div className="Basic-Details">
+        <div className="Profile">
           <h1>Malebo Sambo</h1><br />
           <h4>Software Developer/Engineer, Entrepreneur, Business Analyst</h4><br />
           <h5>Email: sambo.malebo96@gmail.com</h5><br />
           <h5>Cell: +27630013711</h5><br />
           <h5>Location: JHB/CPT/Remote</h5>
         </div>
-        <div className="Socials">
+        <div className="Online">
           <a href="www.malebosambo.github.app"><img src="" alt="portfolio" /></a>
           <a href="www.linkedin.com/malebosambo"><img src="" alt="LinkedIn" /></a>
           <a href="www.github.com/sambomalebo"><img src="" alt="GitHub" /></a>

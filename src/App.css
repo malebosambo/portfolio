@@ -6,8 +6,10 @@
     width: 100%;
   }
 
-  .Avatar-Home {
-    width: 100%;
+  .Avatar {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
   }
 
   .Basic-Details {
@@ -38,8 +40,6 @@
 
   .CV-Overview {
     align-items: center;
-    display: flex;
-    flex-direction: column;
     padding: 10px;
   }
 
@@ -86,6 +86,20 @@
     
   }
 
+  .Online {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .Overview {
+    margin-bottom: 15px;
+  }
+
+  .Profile {
+    padding: 10px;
+    text-align: center;
+  }
+
   .RepoTable {
     padding: 10px;
   }
@@ -108,6 +122,12 @@
 
   p {
     font-size: 17px;
+  }
+
+  .Avatar {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
   }
 
   .Basic-Details {
@@ -138,8 +158,6 @@
 
   .CV-Overview {
     align-items: center;
-    display: flex;
-    flex-direction: column;
     padding: 20px;
   }
 
@@ -178,6 +196,20 @@
 
   .Mobile-Menu-Close {
     
+  }
+
+  .Online {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .Overview {
+    margin-bottom: 20px;
+  }
+
+  .Profile {
+    padding: 15px;
+    text-align: center;
   }
 
   .RepoTable {
@@ -308,12 +340,8 @@
     font-size: 30px;
   }
 
-  .Avatar {
+  .Avatar-Home {
     width: 35%;
-  }
-
-  .Basic-Details {
-    width: 50%;
   }
 
   .Content {
@@ -347,13 +375,6 @@
 
   .CV-Hardskills {
     padding: 25px;
-  }
-
-  .CV-Overview {
-    display: flex;
-    flex-direction: row;
-    padding: 50px;
-    width: 100%;
   }
 
   .CV-Section1 {
@@ -407,16 +428,29 @@
     display: none;
   }
 
+  .Online {
+    padding: 10px;
+    text-align: center;
+    width: 10%;
+  }
+
+  .Overview {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    width: 100%;
+  }
+
+  .Profile {
+    width: 50%;
+  }
+
   .RepoTable {
     padding: 50px;
   }
 
   .Repo-List {
     padding: 50px;
-  }
-
-  .Socials {
-    width: 15%;
   }
 
 }
