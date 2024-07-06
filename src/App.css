@@ -41,7 +41,7 @@
         margin: 0 auto;
     }
     
-    .CV-Overview {
+    .Overview {
         align-items: center;
         background-color: sandybrown;
         padding: 35px 30px;
@@ -90,9 +90,23 @@
 }
 
 @media only screen and (max-width: 992px) {  /* styles for devices with max width of 992px */
-
-    .CV-Overview {
+    
+    .Avatar {
+        width: 45%;
+    }
+    
+    .Overview {
+        background-color: sandybrown;
         padding: 40px;
+        width: 100%;
+    }
+
+    .Profile {
+        width: 35%;
+    }
+
+    .Socials {
+        width: 20%;
     }
 
     h1 {
@@ -126,9 +140,22 @@
 
 @media only screen and (max-width: 1400px) {
 
-    .CV-Overview {
+    .Avatar {
+        width: 50%;
+    }
+
+    .Overview {
         background-color: sandybrown;
         padding: 50px;
+        width: 100%;
+    }
+
+    .Profile {
+        width: 40%;
+    }
+
+    .Socials {
+        width: 10%;
     }
 
     .Repo-List {
