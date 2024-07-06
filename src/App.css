@@ -60,6 +60,42 @@
     }
 
     h1 {
+        font-size: 44px;
+    }
+
+    h2 {
+        font-size: 40px;
+    } 
+
+    h3 {
+        font-size: 36px;
+    }
+
+    h4 {
+        font-size: 32px;
+    }
+
+    h5 {
+        font-size: 28px;
+    }
+
+    h6 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+        
+}
+
+@media only screen and (max-width: 992px) {  /* styles for devices with max width of 992px */
+
+    .CV-Overview {
+        padding: 40px;
+    }
+
+    h1 {
         font-size: 48px;
     }
 
@@ -86,14 +122,6 @@
     p {
         font-size: 24px;
     }
-        
-}
-
-@media only screen and (max-width: 992px) {  /* styles for devices with max width of 992px */
-
-    .CV-Overview {
-        padding: 40px;
-    }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -105,5 +133,33 @@
 
     .Repo-List {
         padding: 50px;
+    }
+
+    h1 {
+        font-size: 52px;
+    }
+
+    h2 {
+        font-size: 48px;
+    } 
+
+    h3 {
+        font-size: 44px;
+    }
+
+    h4 {
+        font-size: 40px;
+    }
+
+    h5 {
+        font-size: 36px;
+    }
+
+    h6 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 28px;
     }
 }
