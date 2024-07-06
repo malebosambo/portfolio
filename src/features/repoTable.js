@@ -21,7 +21,7 @@ export default function RepoTable() {
   return (
     <>
       <div className="TableResponse">
-        <table>
+        <table className="table table-stripped">
           <thead>
             <tr>
               <th>Name</th>
