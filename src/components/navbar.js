@@ -10,9 +10,11 @@ export default function Navbar() {
   return (
     <>
       <div className="Logo">
-        <img src="./Malebo-Sambo-Logo-Transp.png" atl="malebo-sambo-logo" className="Logo" />
-        <button onClick={showMenu} className="Mobile-Menu"><i className="bi bi-list"></i></button>
-        <button onClick={showMenu} className="Mobile-Menu-Close"><i className="bi bi-x"></i></button>
+        <div><img src="./Malebo-Sambo-Logo-Transp.png" atl="malebo-sambo-logo" className="Logo" /></div>
+        <div>
+          <button onClick={showMenu} className="Mobile-Menu">=</button>
+          <button onClick={showMenu} className="Mobile-Menu-Close">X</button>
+        </div>  
       </div>
       <div className="Menu">
         <Link to="/">Home</Link>
