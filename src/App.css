@@ -93,6 +93,12 @@
     padding: 20px;
   }
 
+  .Online, a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+  }
+
   .Overview {
     margin-bottom: 15px;
   }
@@ -203,6 +209,12 @@
   .Online {
     text-align: center;
     padding: 20px;
+  }
+
+  .Online, a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
   }
 
   .Overview {
