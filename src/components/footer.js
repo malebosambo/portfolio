@@ -7,20 +7,18 @@ export default function Footer() {
     <>
       <div className="Footer">
         <div className="Legal">
-          <h5>Legal</h5><br />
-          <p>Copyright © 2024</p>
-          <p>Malebo Sambo</p>
-          <p>All rights reserved.</p>
+          <h3>Legal</h3><br />
+          <p>Copyright © 2024. Malebo Sambo. All rights reserved.</p><br />
         </div>
 
         <div className="Contacts">
-          <h5><span><i className="bi bi-file-person"></i></span>Contacts</h5><br />
+          <h3>Contacts</h3><br />
           <p>Email: help@malebo.sambo.com</p>
-          <p>Cell: +27630013711</p>
+          <p>Cell: +27630013711</p><br />
         </div>
 
         <div className="Socials">
-          <h5><span><i className="bi bi-file-person"></i></span>Socials</h5><br />
+          <h3>Socials</h3><br />
           <a href="www.malebosambo.github.app"><img src="" alt="portfolio" /></a>
           <a href="www.linkedin.com/malebosambo"><img src="" alt="LinkedIn" /></a>
           <a href="www.github.com/sambomalebo"><img src="" alt="GitHub" /></a>

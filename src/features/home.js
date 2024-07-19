@@ -26,7 +26,7 @@ export default function Home() {
     <div className="Container">
 
       <div className="Overview">
-        <div className="Avatar-Home">
+        <div className="Avatar">
           <img src="./CVAvatar.jpg" alt="avatar" className="Avatar" />
         </div>
         <div className="Profile">
