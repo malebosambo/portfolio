@@ -73,18 +73,13 @@
 
   .Menu {
     display: none;
+  }
+
+  .Menu-Visible {
     flex-direction: column;
     padding: 20px;
     position: fixed;
     transition: right 0.4s;
-  }
-
-  .Mobile-Menu {
-
-  }
-
-  .Mobile-Menu-Close {
-    display: none;
   }
 
   .Online {
