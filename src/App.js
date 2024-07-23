@@ -8,14 +8,14 @@ import Issues from './features/issueTable';
 import WebsiteApps from './features/websiteApps';
 import MobileApps from './features/mobileApps';
 import ContactUs from './features/contactUs';
-import Nav from './components/navbar';
+import Header from './components/header';
 import Footer from './components/footer';
 
 export function App() {
   return (
     <div>
-      <div className="Header">
-        <Nav />
+      <div>
+        <Header />
       </div> 
       <Home />
       <div>
@@ -28,8 +28,8 @@ export function App() {
 export function CVresume() {
   return (
     <div>
-      <div className="Header">
-        <Nav /> 
+      <div>
+        <Header /> 
       </div> 
       <CurriculumVitae />
       <div>
@@ -42,8 +42,8 @@ export function CVresume() {
 export function Repos() {
   return (
     <div>
-      <div className="Header">
-        <Nav />
+      <div>
+        <Header />
       </div>
       <Repositories />
       <div>
@@ -56,8 +56,8 @@ export function Repos() {
 export function Web() {
   return (
     <div>
-      <div className="Header">
-        <Nav />
+      <div>
+        <Header />
       </div>
       <WebsiteApps />
       <div>
@@ -70,8 +70,8 @@ export function Web() {
 export function Apps() {
   return (
     <div>
-      <div className="Header">
-        <Nav />
+      <div>
+        <Header />
       </div>
       <MobileApps />
       <div>
@@ -84,8 +84,8 @@ export function Apps() {
 export function ViewRepository() {
   return (
     <div>
-      <div className="Header">
-        <Nav /> 
+      <div>
+        <Header /> 
       </div> 
       <ViewRepo />
       <div>
@@ -98,8 +98,8 @@ export function ViewRepository() {
 export function RepoIssues() {
   return (
     <div>
-      <div className="Header">
-        <Nav />
+      <div>
+        <Header />
       </div> 
       <Issues />
       <div>
@@ -112,8 +112,8 @@ export function RepoIssues() {
 export function Contacts() {
   return (
     <div>
-      <div className="Header">
-        <Nav />
+      <div>
+        <Header />
       </div>
       <ContactUs />
       <div>
