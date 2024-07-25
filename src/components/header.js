@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Nav from "./navbar";
+import { Link } from 'react-router-dom';
 
 export default function Header() {
 
@@ -10,7 +11,9 @@ export default function Header() {
   return (
     <main className="Header">
       <div className="Logo">
-        <div><img src="./Malebo-Sambo-Logo-Transp.png" atl="malebo-sambo-logo" className="Logo" /></div>
+        <div>
+          <Link to="/"><img src="./Malebo-Sambo-Logo-Transp.png" atl="malebo-sambo-logo" style={{ height: "60px" }} /></Link>
+        </div>
         <div className="Mobile-Menu" style={{padding: "20px"}}>
           <button onClick={showMenu} className={ !mobileMenu ? "" : "Menu" }>=</button>
           <button onClick={showMenu} className={ mobileMenu ? "" : "Menu" }>X</button>

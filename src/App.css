@@ -1,11 +1,5 @@
 @media only screen and (max-width: 600px) { /* styles for devices with max width of 600px */
   
-  .Avatar-Mobile {
-    height: 200px;
-    margin-bottom: 15px;
-    width: 100%;
-  }
-
   .Avatar {
     display: block;
     margin: 0 auto;
@@ -67,7 +61,6 @@
 
   .Logo {
     display: flex;
-    height: 60px;
     justify-content: space-between;
   }
 
