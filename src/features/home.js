@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/home.css';
 import ContentItem from './contentItem';
 import RepoTable from './repoTable';
+import { SocialIcon } from 'react-social-icon/component';
 
 export default function Home() {
 
@@ -37,7 +38,7 @@ export default function Home() {
           <h5>Location: JHB/CPT/Remote</h5>
         </div>
         <div className="Online">
-          <a href="www.malebosambo.github.app"><img src="" alt="portfolio" /></a>
+          <SocialIcon network="github" url="www.github.com/malebosambo" />
           <a href="www.linkedin.com/malebosambo"><img src="" alt="LinkedIn" /></a>
           <a href="www.github.com/sambomalebo"><img src="" alt="GitHub" /></a>
           <a href="www.twitter.com/lovais000"><img src="" alt="Twitter" /></a>
