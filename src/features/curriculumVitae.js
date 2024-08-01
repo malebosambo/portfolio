@@ -8,40 +8,37 @@ export default function CurriculumVitae() {
 
         <div className="CV-Contacts">
           <div className="CV-Avatar-Mobile">
-            <img src="./CVAvatar.jpg" alt="avatar" className="Avatar" />
-            <div>
+            <img src="./Malebo-Sambo.png" alt="Malebo-Sambo-Avatar" className="Avatar" />
+            <div className="Profile">
               <h1>Malebo Sambo</h1>
               <h3>Software Developer/Engineer</h3>
             </div>  
           </div>
           <div className="CV-Email">
-            <img alt="email" />
             <h4>Email</h4>
             <p>sambo.malebo96@gmail.com</p>
           </div>
           <div className="CV-Phone">
-            <img alt="phone" />
             <h4>Phone Number</h4>
             <p>+27 63 001 3711</p>
           </div>
           <div className="CV-Socials">
-            <a href="www.malebosambo.github.app"><img src="" alt="portfolio" /></a>
-            <a href="www.linkedin.com/malebosambo"><img src="" alt="LinkedIn" /></a>
-            <a href="www.github.com/sambomalebo"><img src="" alt="GitHub" /></a>
-            <a href="www.twitter.com/lovais000"><img src="" alt="Twitter" /></a>
+            <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Social-Logo" /></a>
+            <a href="www.github.com/sambomalebo"><img src="./Github.png" alt="GitHub" className="Social-Logo" /></a>
+            <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter" className="Social-Logo" /></a>
           </div>
         </div>
 
         <div className="CV-Body">
           <div className="CV-Section1">
             <div className="CV-About">
-              <h4>Personal Summary</h4>
-              <p>I am a professional with experience in Software and Mobile App Development, Business Analysis, Research & Development, and SMME Operations Management. The experience and learnings that I have acquired, gives me the skills and knowledge to conduct quality work.</p><br />
-
+              <h4>Personal Summary</h4><br />
+              <p>I am an IT professional with experience in both Software and Mobile App Development, Quality Assuarance (QA), Research & Development (R&D) Analysis, and Business Analysis (BA). </p><br />
+              <p>I have skills and experience as a Operations Manager for SMMEs in the IT sector, I also provide organizational culture and business model development expertise.</p><br />
               <p>I possess great personal characteristics that assist me to work with diverse and incredible private and public sector individuals to deliver projects and initiatives.</p>
             </div>
             <div className="CV-Education">
-              <h4>Education</h4>
+              <h4>Education</h4><br />
               <div>
                 <p>2010-2014</p>
                 <p>National Senior Certificate</p>
@@ -54,7 +51,7 @@ export default function CurriculumVitae() {
               </div>
             </div>
             <div className="CV-Softskills">
-              <h4>Soft Skills</h4>
+              <h4>Soft Skills</h4><br />
               <ul>
                 <li>Communication (Verbal/Written)</li>
                 <li>Collaborator</li>
@@ -69,7 +66,7 @@ export default function CurriculumVitae() {
               <h3>Software Developer/Engineer</h3>
             </div>
             <div className="CV-Hardskills">
-              <h4>Hard Skills</h4>
+              <h4>Hard Skills</h4><br />
               <ul>
                 <li>OutSystems Reactive Developer</li>
                 <li>MERN/Next.js Developer</li>
@@ -82,7 +79,7 @@ export default function CurriculumVitae() {
 
           <div className="CV-Section3">
             <div className="CV-Employment">
-              <h4>Experience</h4>
+              <h4>Experience</h4><br />
               <div>
                 <p>2021-2022</p>
                 <p>Social Impact Platform Specialist</p>
@@ -120,7 +117,7 @@ export default function CurriculumVitae() {
               </div>              
             </div>
             <div className="CV-Achievements">
-              <h4>Achievements</h4>
+              <h4>Achievements</h4><br />
               <div>
                 <p>2016</p>
                 <p>2nd Place Winners</p>
