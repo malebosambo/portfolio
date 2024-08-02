@@ -30,7 +30,7 @@ export default function RepoTable() {
             </tr>
           </thead>
           <tbody>
-            {repos.map((repo) => <RepoItem key={repo.id} name={repo.name} description={repo.description} date={repo.created_at} topics={repo.topics} />)}
+            {repos.map((repo) => <RepoItem key={repo.id} name={repo.name} description={repo.description} date={repo.created_at} topics={repo.topics} link={repo.url} />)}
           </tbody>
         </table>
       </div>
