@@ -76,6 +76,7 @@
   }
 
   .Menu-Visible {
+    display: flex;
     flex-direction: column;
     padding: 20px;
     position: fixed;
@@ -103,7 +104,7 @@
   }
 
   .Repo-List {
-    padding: 30px 10px;
+    padding: 30px 30px;
   }
 
   .Social-Logo {
