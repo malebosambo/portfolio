@@ -6,7 +6,7 @@ export default function RepoItem({ id, name, description, date, topics, link }) 
   return (
     <>
       <tr key={id}>
-        <td><Link to={link}>{name}</Link></td>
+        <td><a target="_blank" href={link} >{name}</a></td>
         <td>{description}</td>
         <td>{date}</td>
         <td>{topics}</td>
