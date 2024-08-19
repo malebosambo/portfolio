@@ -1,9 +1,5 @@
 const express = require('express');
 const app = express();
-const pug = require('pug');
-
-app.set('view engine', 'pug');
-app.set('views', path.join(__dirname, 'views')); 
 
 const port = 4000;
 
@@ -24,10 +20,9 @@ app.get("/issues", async (req, res) => {
   res.json({ "message": "OK" });
 });
 
-app.get("/repo/:name", async (req, res) => {
-  var repoName = req.params.name;
+app.get("/repos/:name", async (req, res) => {
+  
 
-  res.render('repo', { name: repoName });
 });
 
 

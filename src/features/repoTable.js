@@ -5,7 +5,7 @@ import '../App.css';
 
 export default function RepoTable() {
 
-  const [repos,setRepos] = useState([]);
+  const [ repos, setRepos ] = useState([]);
 
   useEffect(() => {
     const fetchRepos = async (username) => {

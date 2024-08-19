@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { App, CVresume, Repos, ViewRepository, IssuesTable, Contacts } from './App';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route
 } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
@@ -14,17 +14,14 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-      <Switch>
+      <Routes>
         <Route path="/" element={<App />} />
         <Route path="/cv-resume" element={<CVresume />} />
         <Route path="/repos" element={<Repos />} />
-
         <Route path="/repo/:name" element={<ViewRepository />} />
         <Route path="/issues" element={<IssuesTable />} />
-
-
         <Route path="/contacts" element={<Contacts />} />
-      </Switch>
+      </Routes>
     </Router>
   </React.StrictMode>
 );
