@@ -21,9 +21,7 @@ app.get("/issues", async (req, res) => {
 });
 
 app.get("/repos/:name", async (req, res) => {
-  
-
+  res.json({ "message": "OK" });
 });
-
 
 app.listen(port, console.log(`Server started on ${port}`));

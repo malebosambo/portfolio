@@ -5,12 +5,12 @@ import Home from './features/home';
 import CurriculumVitae from './features/curriculumVitae'; 
 import Repositories from './features/repositories';
 import ViewRepo from './features/viewRepo';
-import Issues from './features/issueTable';
 import WebsiteApps from './features/websiteApps';
 import MobileApps from './features/mobileApps';
 import ContactUs from './features/contactUs';
 
 export function App() {
+  
   return (
     <div>
       <div className="Header">
@@ -21,7 +21,6 @@ export function App() {
           <Link to="/">Home</Link>
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
           <Link to="/contacts">Contacts</Link>
         </div>  
       </div> 
@@ -42,7 +41,6 @@ export function CVresume() {
             <Link to="/">Home</Link>
             <Link to="/cv-resume">CV</Link>
             <Link to="/repos">Repos</Link>
-            <Link to="/issues">Issues</Link>
             <Link to="/contacts">Contacts</Link>
           </div>  
         </div> 
@@ -103,7 +101,6 @@ export function Apps() {
           <Link to="/">Home</Link>
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
           <Link to="/contacts">Contacts</Link>
         </nav>
       </div>
@@ -113,6 +110,7 @@ export function Apps() {
 }
 
 export function ViewRepository() {
+
   return (
     <div>
       <div className="Header">
@@ -123,31 +121,10 @@ export function ViewRepository() {
           <Link to="/">Home</Link>
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
           <Link to="/contacts">Contacts</Link>
         </div>  
       </div> 
       <ViewRepo />
-    </div>
-  )
-}
-
-export function IssuesTable() {
-  return (
-    <div>
-      <div className="Header">
-        <div className="Logo">
-          <h4>Malebo Sambo</h4>
-        </div>
-        <div>
-          <Link to="/">Home</Link>
-          <Link to="/cv-resume">CV</Link>
-          <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
-          <Link to="/contacts">Contacts</Link>
-        </div>  
-      </div> 
-      <Issues />
     </div>
   )
 }
@@ -164,7 +141,6 @@ export function Contacts() {
           <Link to="/">Home</Link>
           <Link to="/cv-resume">CV</Link>
           <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
           <Link to="/contacts">Contacts</Link>
         </nav>
       </div>

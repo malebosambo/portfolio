@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useReqObjAPI } from '../security/useReqObjAPI';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
+import IssueTable from './issueTable';
 
 export default function ViewRepo() {
 
@@ -30,8 +31,11 @@ export default function ViewRepo() {
   return (
     <>
       <div>
-        <h1>{repo.name}</h1>
+        <h1>{repo.name}</h1><br />
       </div>
+      <div>
+        <IssueTable repoName={name} />
+      </div>  
     </>
   )
 }
