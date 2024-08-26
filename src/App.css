@@ -61,11 +61,6 @@
     padding: 10px;
   }
 
-  .Hero-Banner {
-    padding: 20px;
-    text-align: center;
-  }
-
   .Logo {
     display: flex;
     justify-content: space-between;
@@ -103,8 +98,13 @@
     text-align: center;
   }
 
+  .Repo-Banner {
+    padding: 20px;
+    text-align: center;
+  }
+
   .Repo-List {
-    padding: 30px 30px;
+    padding: 30px;
   }
 
   .Social-Logo {
@@ -211,11 +211,6 @@
     padding: 15px;
   }
 
-  .Hero-Banner {
-    padding: 30px;
-    text-align: center;
-  }
-
   .Logo {
     display: flex;
     height: 60px;
@@ -261,6 +256,11 @@
 
   .Profile {
     padding: 15px;
+    text-align: center;
+  }
+
+  .Repo-Banner {
+    padding: 30px;
     text-align: center;
   }
 
@@ -373,10 +373,6 @@
   .Footer > .Legal, .Contacts, .Socials {
     padding: 10px;
     width: 30%;
-    }
-
-  .Hero-Banner {
-    padding: 40px;
   }
 
   .Logo {
@@ -389,6 +385,10 @@
 
   .Online {
     width: 10%;
+  }
+
+  .Repo-Banner {
+    padding: 40px;
   }
 
   .Repo-List {
@@ -495,10 +495,6 @@
     padding: 10px 50px;
   }
 
-  .Hero-Banner {
-    padding: 50px;
-  }
-
   .Logo {
     height: 60px;
     width: 60px;
@@ -529,6 +525,10 @@
 
   .Profile {
     width: 50%;
+  }
+
+  .Repo-Banner {
+    padding: 50px;
   }
 
   .Repo-List {
