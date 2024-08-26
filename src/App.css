@@ -231,10 +231,6 @@
     text-decoration: none;
   }
 
-  .Mobile-Menu {
-    
-  }
-
   .Mobile-Menu-Close {
     display: none;
   }
@@ -375,16 +371,36 @@
     width: 30%;
   }
 
+  .Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
   .Logo {
     height: 60px;
   }
 
-  .Mobile-Menu, .Mobile-Menu-Close {
+  .Mobile-Menu {
     display: none;
+  }
+
+  .Menu, a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
   }
 
   .Online {
     width: 10%;
+  }
+
+  .Overview {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    width: 100%;
   }
 
   .Repo-Banner {
@@ -397,6 +413,10 @@
 
   .Socials {
     width: 10%;
+  }
+
+  .Social-Logo {
+    height: 50px;
   }
 
   p {
@@ -437,10 +457,6 @@
     padding: 50px;
   }
 
-  .CV-Avatar-Mobile {
-    display: none;
-  }
-
   .CV-Body {
     display: flex;
     flex-direction: row;
@@ -460,6 +476,10 @@
 
   .CV-Hardskills {
     padding: 25px;
+  }
+
+  .CV-Overview {
+    display: none;
   }
 
   .CV-Section1 {
@@ -492,7 +512,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px 50px;
+    padding: 10px;
   }
 
   .Logo {
@@ -533,6 +553,10 @@
 
   .Repo-List {
     padding: 50px;
+  }
+
+  .Social-Logo {
+    height: 50px;
   }
 
   table {
