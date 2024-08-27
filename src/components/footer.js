@@ -19,9 +19,9 @@ export default function Footer() {
 
         <div className="Socials">
           <h3>Socials</h3><br />
-          <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Social-Logo" /></a>
-          <a href="www.github.com/sambomalebo"><img src="./Github.png" alt="GitHub" className="Social-Logo" /></a>
-          <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter" className="Social-Logo" /></a>
+          <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Icon" /></a>
+          <a href="www.github.com/sambomalebo"><img src="./Github.png" alt="GitHub" className="Icon" /></a>
+          <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter" className="Icon" /></a>
         </div>
       </div>
     </>

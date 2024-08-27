@@ -23,9 +23,9 @@
     margin-bottom: 50px;
   }
 
-  .CV-Avatar-Mobile {
-    
-  }
+ 
+
+
 
   .CV-Email, .CV-Phone, .CV-Socials {
     text-align: center;
@@ -107,7 +107,7 @@
     padding: 30px;
   }
 
-  .Social-Logo {
+  .Icon {
     height: 40px;
   }
 
@@ -264,7 +264,7 @@
     padding: 40px 20px;
   }
 
-  .Social-Logo {
+  .Icon {
     height: 40px;
   }
 
@@ -415,7 +415,7 @@
     width: 10%;
   }
 
-  .Social-Logo {
+  .Icon {
     height: 50px;
   }
 
@@ -555,7 +555,7 @@
     padding: 50px;
   }
 
-  .Social-Logo {
+  .Icon {
     height: 50px;
   }
 

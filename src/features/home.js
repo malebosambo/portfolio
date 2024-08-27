@@ -33,17 +33,17 @@ export default function Home() {
         <div className="Profile">
           <h1>Malebo Sambo</h1><br />
           <h4>Software Developer/Engineer, Entrepreneur, Business Analyst</h4><br />
-          <img src="Email.png" />
+          <img src="Email.png" className="Icon" />
           <a href="mailto:sambo.malebo96@gmail.com"><h5>sambo.malebo96@gmail.com</h5></a><br />
-          <img src="./Telephone.png" />
+          <img src="./Telephone.png" className="Icon" />
           <a href="tel:+27630013711"><h5>+27630013711</h5></a><br />
-          <img src="./Location.png" />
+          <img src="./Location.png" className="Icon" />
           <h5>South Africa</h5>
         </div>
         <div className="Online">
-          <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Social-Logo" /></a>
-          <a href="www.github.com/sambomalebo"><img src="./Github.png" alt="GitHub" className="Social-Logo" /></a>
-          <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter" className="Social-Logo" /></a>
+          <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Icon" /></a>
+          <a href="www.github.com/sambomalebo"><img src="./Github.png" alt="GitHub" className="Icon" /></a>
+          <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter" className="Icon" /></a>
         </div>
       </div>
  
@@ -57,7 +57,7 @@ export default function Home() {
       </div>
 
       <div className="Repo-List">
-        <div style={{paddingBottom: "30px", textAlign: "center"}}><h1>Repositories</h1></div>
+        <div style={{paddingBottom: "30px", textAlign: "center", borderBottom: "1px solid grey", }}><h1>Repositories</h1></div>
         <RepoTable />
       </div>
         
