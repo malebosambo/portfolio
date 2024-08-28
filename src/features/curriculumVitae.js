@@ -7,20 +7,34 @@ export default function CurriculumVitae() {
       <div className="CV">
 
         <div className="CV-Contacts">
-          <div className="CV-Avatar-Mobile">
-            <img src="./Malebo-Sambo.png" alt="Malebo-Sambo-Avatar" className="Avatar" />
+          <div className="CV-Overview">
+            <div className="Avatar">
+              <img src="./Malebo-Sambo.png" alt="Malebo-Sambo-Avatar" className="Avatar" />
+            </div>
             <div className="Profile">
               <h1>Malebo Sambo</h1>
               <h3>Software Developer/Engineer</h3>
+              <img src="Email.png" className="Icon" />
+              <a href="mailto:sambo.malebo96@gmail.com"><h5>sambo.malebo96@gmail.com</h5></a><br />
+              <img src="./Telephone.png" className="Icon" />
+              <a href="tel:+27630013711"><h5>+27630013711</h5></a><br />
+              <img src="./Location.png" className="Icon" />
+              <h5>South Africa</h5>
             </div>  
           </div>
           <div className="CV-Email">
-            <h4>Email</h4>
-            <p>sambo.malebo96@gmail.com</p>
+            <img src="Email.png" className="Icon" />
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:sambo.malebo96@gmail.com"><p>sambo.malebo96@gmail.com</p></a>
+            </div>
           </div>
           <div className="CV-Phone">
-            <h4>Phone Number</h4>
-            <p>+27 63 001 3711</p>
+            <img src="Telephone.png" className="Icon" />
+            <div>
+              <h4>Phone Number</h4>
+              <a href="tel:+27630013711"><p>+27 63 001 3711</p></a>
+            </div>
           </div>
           <div className="CV-Socials">
             <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Social-Logo" /></a>
