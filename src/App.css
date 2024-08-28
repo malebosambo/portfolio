@@ -23,12 +23,8 @@
     margin-bottom: 50px;
   }
 
- 
-
-
-
   .CV-Email, .CV-Phone, .CV-Socials {
-    text-align: center;
+    display: none;
   }
 
   .CV-Avatar {
@@ -173,8 +169,8 @@
     padding: 30px;
   }
 
-  .CV > .CV-Email, .CV-Phone, .CV-Socials {
-    text-align: center;
+  .CV-Email, .CV-Phone, .CV-Socials {
+    display: none;
   }
 
   .CV > .CV-About, .CV-Education, .CV-Softskills, .CV-Hardskills, .CV-Experience {
@@ -318,10 +314,6 @@
     padding: 40px;
   } 
 
-  .CV-Avatar-Mobile {
-    display: none;
-  }
-
   .CV-Body {
     width: 100%;
   }
@@ -340,9 +332,7 @@
   }
 
   .CV-Overview {
-    display: flex;
-    flex-direction: row;
-    padding: 40px;
+    display: none;
   }
 
   .CV-Section1 {
