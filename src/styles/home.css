@@ -7,11 +7,6 @@
   background-color: silver;
 }
 
-.CV-Overview {
-  background-image: url("/Planet-Drawing.jpg");
-  background-repeat: no-repeat;
-}
-
 .CV-Overview > h1 {
   font-family: Pacifico;
 }

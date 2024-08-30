@@ -37,7 +37,6 @@
 
   .CV-Overview {
     align-items: center;
-    padding: 10px;
   }
 
   .Footer {
@@ -67,11 +66,12 @@
   }
 
   .Menu-Visible {
+    background-color: grey;
     display: flex;
     flex-direction: column;
+    margin-top: 80px;
     padding: 20px;
-    position: fixed;
-    transition: right 0.4s;
+    
   }
 
   .Online {

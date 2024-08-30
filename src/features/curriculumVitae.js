@@ -4,7 +4,7 @@ import '../styles/curriculumVitae.css';
 export default function CurriculumVitae() {
   return (
     <>
-      <div className="CV">
+      <main className="CV">
 
         <div className="CV-Contacts">
           <div className="CV-Overview">
@@ -12,14 +12,20 @@ export default function CurriculumVitae() {
               <img src="./Malebo-Sambo.png" alt="Malebo-Sambo-Avatar" className="Avatar" />
             </div>
             <div className="Profile">
-              <h1>Malebo Sambo</h1>
-              <h3>Software Developer/Engineer</h3>
+              <br />
+              <h1>Malebo Sambo</h1><br />
+              <h4>Software Developer/Engineer, Entrepreneur, Business Analyst</h4><br />
               <img src="Email.png" className="Icon" />
               <a href="mailto:sambo.malebo96@gmail.com"><h5>sambo.malebo96@gmail.com</h5></a><br />
               <img src="./Telephone.png" className="Icon" />
               <a href="tel:+27630013711"><h5>+27630013711</h5></a><br />
               <img src="./Location.png" className="Icon" />
-              <h5>South Africa</h5>
+              <h5>South Africa</h5><br />
+            </div>
+            <div className="Online">
+              <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Icon" /></a>
+              <a href="www.github.com/sambomalebo"><img src="./Github.png" alt="GitHub" className="Icon" /></a>
+              <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter" className="Icon" /></a>
             </div>  
           </div>
           <div className="CV-Email">
@@ -140,7 +146,7 @@ export default function CurriculumVitae() {
             </div>
           </div>
         </div>
-      </div>
+      </main>
     </>
   )
 }

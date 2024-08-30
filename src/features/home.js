@@ -24,13 +24,14 @@ export default function Home() {
   ];
 
   return (
-    <div className="Container">
+    <main className="Container">
 
       <div className="Overview">
         <div className="Avatar">
           <img src="./Malebo-Sambo.png" alt="avatar" className="Avatar" />
         </div>
         <div className="Profile">
+          <br />
           <h1>Malebo Sambo</h1><br />
           <h4>Software Developer/Engineer, Entrepreneur, Business Analyst</h4><br />
           <img src="Email.png" className="Icon" />
@@ -38,7 +39,7 @@ export default function Home() {
           <img src="./Telephone.png" className="Icon" />
           <a href="tel:+27630013711"><h5>+27630013711</h5></a><br />
           <img src="./Location.png" className="Icon" />
-          <h5>South Africa</h5>
+          <h5>South Africa</h5><br />
         </div>
         <div className="Online">
           <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Icon" /></a>
@@ -61,6 +62,6 @@ export default function Home() {
         <RepoTable />
       </div>
         
-    </div>
+    </main>
   )
 }
