@@ -16,11 +16,11 @@
   .CV {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
   }
 
   .CV-About, .CV-Education, .CV-Softskills, .CV-Hardskills, .CV-Employment, .CV-Achievements {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   .CV-Email, .CV-Phone, .CV-Socials {
@@ -140,14 +140,6 @@
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {  /* styles for devices with max width of 768px */
-  
-  h1 {
-    font-size: 30px;
-  }
-
-  p {
-    font-size: 17px;
-  }
 
   .Avatar {
     display: block;
@@ -173,8 +165,8 @@
     display: none;
   }
 
-  .CV > .CV-About, .CV-Education, .CV-Softskills, .CV-Hardskills, .CV-Experience {
-    margin-bottom: 50px;
+  .CV-About, .CV-Education, .CV-Softskills, .CV-Hardskills, .CV-Experience {
+    margin-bottom: 40px;
   }
 
   .CV-Avatar {
@@ -448,8 +440,6 @@
   }
 
   .CV-Body {
-    display: flex;
-    flex-direction: row;
     width: 100%;
   }
 
