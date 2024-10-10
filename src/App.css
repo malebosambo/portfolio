@@ -1,11 +1,8 @@
 @media only screen and (max-width: 600px) { /* styles for devices with max width of 600px */
   
-  .Avatar {
-    display: block;
-    margin: 0 auto;
-  }
 
-  .Basic-Details {
+
+  .Basic_Details {
     padding: 10px 0;
   }
 
@@ -19,23 +16,23 @@
     padding: 10px;
   }
 
-  .CV-About, .CV-Education, .CV-Softskills, .CV-Hardskills, .CV-Employment, .CV-Achievements {
+  .CV_About, .CV_Education, .CV_Softskills, .CV_Hardskills, .CV_Employment, .CV_Achievements {
     margin-bottom: 30px;
   }
 
-  .CV-Email, .CV-Phone, .CV-Socials {
+  .CV_Email, .CV_Phone, .CV_Socials {
     display: none;
   }
 
-  .CV-Avatar {
+  .CV_Avatar {
     display: none;
   }
 
-  .CV-Contacts {
+  .CV_Contacts {
     margin-bottom: 50px;
   }
 
-  .CV-Overview {
+  .CV_Overview {
     align-items: center;
   }
 
@@ -53,7 +50,10 @@
   .Header {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+  }
+
+  .Icon {
+    height: 40px;
   }
 
   .Logo {
@@ -65,13 +65,11 @@
     display: none;
   }
 
-  .Menu-Visible {
+  .Menu_Visible {
     background-color: grey;
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
     padding: 20px;
-    
   }
 
   .Online {
@@ -86,7 +84,7 @@
   }
 
   .Overview {
-    padding: 30px 0;
+    padding-bottom: 50px;
   }
 
   .Profile {
@@ -94,20 +92,20 @@
     text-align: center;
   }
 
-  .Repo-Banner {
+  .Repo_Banner {
     padding: 20px;
     text-align: center;
   }
 
-  .Repo-List {
+  .Repo_List {
+    padding: 20px;
+  }
+
+  .Repo_Table {
     padding: 30px;
   }
 
-  .Icon {
-    height: 40px;
-  }
-
-  .TableResponse {
+  .Table_Response {
     overflow-x: auto;
   }
 
@@ -121,16 +119,16 @@
 
   table {
     border-collapse: collapse;
-    border: 2px solid sandybrown;
+    border: 2px solid grey;
   }
 
   td, th {
-    border: 1px solid sandybrown;
+    border: 1px solid grey;
     padding: 10px 20px;
   }
 
   th {
-    background-color: sandybrown;
+    background-color: grey;
   }
 
   td {
@@ -142,12 +140,10 @@
 @media only screen and (min-width: 601px) and (max-width: 768px) {  /* styles for devices with max width of 768px */
 
   .Avatar {
-    display: block;
-    margin: 0 auto;
-    padding: 20px;
+    align-items: center;
   }
 
-  .Basic-Details {
+  .Basic_Details {
     padding: 20px 0;
   }
 
@@ -161,23 +157,23 @@
     padding: 30px;
   }
 
-  .CV-Email, .CV-Phone, .CV-Socials {
+  .CV_Email, .CV_Phone, .CV_Socials {
     display: none;
   }
 
-  .CV-About, .CV-Education, .CV-Softskills, .CV-Hardskills, .CV-Experience {
+  .CV_About, .CV_Education, .CV_Softskills, .CV_Hardskills, .CV_Experience {
     margin-bottom: 40px;
   }
 
-  .CV-Avatar {
+  .CV_Avatar {
     display: none;
   }
 
-  .CV-Contacts {
+  .CV_Contacts {
     margin-bottom: 60px;
   }
 
-  .CV-Overview {
+  .CV_Overview {
     align-items: center;
     padding: 20px;
   }
@@ -199,6 +195,10 @@
     padding: 15px;
   }
 
+  .Icon {
+    height: 40px;
+  }
+
   .Logo {
     display: flex;
     height: 60px;
@@ -207,20 +207,19 @@
 
   .Menu {
     display: none;
+  }
+
+  .Menu_Visible {
+    background-color: grey;
+    display: flex;
     flex-direction: column;
     padding: 20px;
-    position: fixed;
-    transition: right 0.4s;
   }
 
   .Menu, a {
     color: black;
     padding: 5px;
     text-decoration: none;
-  }
-
-  .Mobile-Menu-Close {
-    display: none;
   }
 
   .Online {
@@ -235,7 +234,7 @@
   }
 
   .Overview {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .Profile {
@@ -243,20 +242,16 @@
     text-align: center;
   }
 
-  .Repo-Banner {
+  .Repo_Banner {
     padding: 30px;
     text-align: center;
   }
 
-  .Repo-List {
+  .Repo_List {
     padding: 40px 20px;
   }
 
-  .Icon {
-    height: 40px;
-  }
-
-  .TableResponse {
+  .Table_Response {
     overflow-x: auto;
   }
 
@@ -270,16 +265,16 @@
 
   table {
     border-collapse: collapse;
-    border: 2px solid sandybrown;
+    border: 2px solid grey;
   }
 
   td, th {
-    border: 1px solid sandybrown;
+    border: 1px solid grey;
     padding: 10px 20px;
   }
 
   th {
-    background-color: sandybrown;
+    background-color: grey;
   }
 
   td {

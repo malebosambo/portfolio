@@ -13,8 +13,10 @@ export default function Footer() {
 
         <div className="Contacts">
           <h3>Contacts</h3><br />
-          <p>Email: help@malebo.sambo.com</p>
-          <p>Cell: +27630013711</p><br />
+          <img src="Email.png" className="Icon" />
+          <a href="mailto:sambo.malebo96@gmail.com"><p>sambo.malebo96@gmail.com</p></a>
+          <img src="./Telephone.png" className="Icon" />
+          <a href="tel:+27630013711"><p>+27630013711</p></a>
         </div>
 
         <div className="Socials">

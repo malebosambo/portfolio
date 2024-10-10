@@ -14,12 +14,12 @@ export default function Header() {
         <div>
           <Link to="/"><img src="./Malebo-Sambo-Logo-Transp.png" alt="malebo-sambo-logo" style={{ height: "60px" }} /></Link>
         </div>
-        <div className="Mobile-Menu" style={{padding: "20px"}}>
+        <div className="Mobile_Menu" style={{padding: "20px"}}>
           <button onClick={showMenu} className={ !mobileMenu ? "" : "Menu" }>=</button>
           <button onClick={showMenu} className={ mobileMenu ? "" : "Menu" }>X</button>
         </div>  
       </div>
-      <div className={ mobileMenu ? "Menu-Visible" : "Menu" }>
+      <div className={ mobileMenu ? "Menu_Visible" : "Menu" }>
         <Nav />
       </div>
     </main>    

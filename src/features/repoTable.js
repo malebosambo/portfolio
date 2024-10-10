@@ -19,7 +19,7 @@ export default function RepoTable() {
 
   return (
     <>
-      <div className="TableResponse">
+      <div className="Table_Response">
         <table>
           <thead>
             <tr>

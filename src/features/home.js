@@ -28,7 +28,7 @@ export default function Home() {
 
       <div className="Overview">
         <div className="Avatar">
-          <img src="./Malebo-Sambo.png" alt="avatar" className="Avatar" />
+          <img src="./Malebo-Sambo.png" alt="Avatar" />
         </div>
         <div className="Profile">
           <br />
@@ -57,7 +57,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="Repo-List">
+      <div className="Repo_List">
         <div style={{paddingBottom: "30px", textAlign: "center", borderBottom: "1px solid grey", }}><h1>Repositories</h1></div>
         <RepoTable />
       </div>
