@@ -289,7 +289,7 @@
     width: 30%;
   }
 
-  .Basic-Details {
+  .Basic_Details {
     width: 60%;
   }
 
@@ -301,37 +301,37 @@
     padding: 40px;
   } 
 
-  .CV-Body {
+  .CV_Body {
     width: 100%;
   }
 
-  .CV-Contacts {
+  .CV_Contacts {
     padding: 10px 0;
     width: 100%;
   }
 
-  .CV-Contacts > .CV-Email, .CV-Phone, .CV-Socials {
+  .CV_Contacts > .CV_Email, .CV_Phone, .CV_Socials {
     width: 30%;
   }
 
-  .CV-Hardskills {
+  .CV_Hardskills {
     padding: 15px;
   }
 
-  .CV-Overview {
+  .CV_Overview {
     display: none;
   }
 
-  .CV-Section1 {
+  .CV_Section1 {
     padding: 15px;
     width: 30%;
   }
 
-  .CV-Section2 {
+  .CV_Section2 {
     width: 40%;
   }
 
-  .CV-Section3 {
+  .CV_Section3 {
     padding: 15px;
     width: 30%;
   }
@@ -355,11 +355,15 @@
     padding: 10px;
   }
 
+  .Icon {
+    height: 50px;
+  }
+  
   .Logo {
     height: 60px;
   }
 
-  .Mobile-Menu {
+  .Mobile_Menu {
     display: none;
   }
 
@@ -380,11 +384,11 @@
     width: 100%;
   }
 
-  .Repo-Banner {
+  .Repo_Banner {
     padding: 40px;
   }
 
-  .Repo-List {
+  .Repo_List {
     padding: 40px;
   }
 
@@ -392,26 +396,26 @@
     width: 10%;
   }
 
-  .Icon {
-    height: 50px;
+  h1 {
+    font-size: 70px;
   }
 
   p {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   table {
     border-collapse: collapse;
-    border: 2px solid sandybrown;
+    border: 2px solid grey;
   }
 
   td, th {
-    border: 1px solid sandybrown;
+    border: 1px solid grey;
     padding: 10px 20px;
   }
 
   th {
-    background-color: sandybrown;
+    background-color: grey;
   }
 
   td {
@@ -422,7 +426,7 @@
 
 @media only screen and (min-width: 993px) and (max-width: 1400px) {  /* styles for devices with max width of 1200px */
 
-  .Avatar-Home {
+  .Avatar {
     width: 35%;
   }
 
@@ -434,39 +438,39 @@
     padding: 50px;
   }
 
-  .CV-Body {
+  .CV_Body {
     width: 100%;
   }
 
-  .CV-Contacts {
+  .CV_Contacts {
     display: flex;
     flex-direction: row;
     padding: 20px 0;
     width: 100%;
   }
 
-  .CV-Contacts > .CV-Email, .CV-Phone, .CV-Socials {
+  .CV_Contacts > .CV_Email, .CV_Phone, .CV_Socials {
     width: 30%;
   }
 
-  .CV-Hardskills {
+  .CV_Hardskills {
     padding: 25px;
   }
 
-  .CV-Overview {
+  .CV_Overview {
     display: none;
   }
 
-  .CV-Section1 {
+  .CV_Section1 {
     padding: 25px;
     width: 30%;
   }
 
-  .CV-Section2 {
+  .CV_Section2 {
     width: 40%;
   }
 
-  .CV-Section3 {
+  .CV_Section3 {
     padding: 25px;
     width: 30%;
   }
@@ -490,6 +494,10 @@
     padding: 10px;
   }
 
+  .Icon {
+    height: 50px;
+  }
+
   .Logo {
     height: 60px;
     width: 60px;
@@ -501,7 +509,7 @@
     text-decoration: none;
   }
 
-  .Mobile-Menu {
+  .Mobile_Menu {
     display: none;
   }
 
@@ -522,30 +530,34 @@
     width: 50%;
   }
 
-  .Repo-Banner {
+  .Repo_Banner {
     padding: 50px;
   }
 
-  .Repo-List {
+  .Repo_List {
     padding: 50px;
   }
 
-  .Icon {
-    height: 50px;
+  h1 {
+    font-size: 80px;
+  }
+
+  p {
+    font-size: 24px;
   }
 
   table {
     border-collapse: collapse;
-    border: 2px solid sandybrown;
+    border: 2px solid grey;
   }
 
   td, th {
-    border: 1px solid sandybrown;
+    border: 1px solid grey;
     padding: 10px 20px;
   }
 
   th {
-    background-color: sandybrown;
+    background-color: grey;
   }
 
   td {
