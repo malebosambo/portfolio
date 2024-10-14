@@ -5,11 +5,11 @@ export default function Navbar() {
 
   return (
     <>
-      <Link to="/">Home</Link>
-      <Link to="/cv-resume">CV</Link>
-      <Link to="/repos">Repos</Link>
-      <Link to="/issues">Issues</Link>
-      <Link to="/contacts">Contacts</Link>
+      <Link to="/"><h6>Home</h6></Link>
+      <Link to="/cv-resume"><h6>CV</h6></Link>
+      <Link to="/repos"><h6>Repos</h6></Link>
+      <Link to="/issues"><h6>Issues</h6></Link>
+      <Link to="/contacts"><h6>Contacts</h6></Link>
     </>       
   )
 }

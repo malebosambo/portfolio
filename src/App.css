@@ -496,7 +496,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 50px;
   }
 
   .Icon {
@@ -508,8 +508,14 @@
     width: 60px;
   }
 
+  .Menu {
+    display: flex;
+    flex-direction: row;
+  }
+
   .Menu, a {
     color: black;
+    margin-left: 10px;
     padding: 5px;
     text-decoration: none;
   }
