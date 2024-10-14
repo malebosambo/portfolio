@@ -34,11 +34,11 @@ export default function Home() {
           <br />
           <h1>Malebo Sambo</h1><br />
           <h4>Software Developer/Engineer, Entrepreneur, Business Analyst</h4><br />
-          <img src="Email.png" className="Icon" />
+          <img src="Email.png" alt="Email Icon" className="Icon" />
           <a href="mailto:sambo.malebo96@gmail.com"><h5>sambo.malebo96@gmail.com</h5></a><br />
-          <img src="./Telephone.png" className="Icon" />
+          <img src="./Telephone.png" alt="Telephone Icon" className="Icon" />
           <a href="tel:+27630013711"><h5>+27630013711</h5></a><br />
-          <img src="./Location.png" className="Icon" />
+          <img src="./Location.png" alt="Location Icon" className="Icon" />
           <h5 style={{ color: "black" }}>South Africa</h5><br />
         </div>
         <div className="Online">
