@@ -39,7 +39,7 @@ export default function Home() {
           <img src="./Telephone.png" className="Icon" />
           <a href="tel:+27630013711"><h5>+27630013711</h5></a><br />
           <img src="./Location.png" className="Icon" />
-          <h5>South Africa</h5><br />
+          <h5 style={{ color: "black" }}>South Africa</h5><br />
         </div>
         <div className="Online">
           <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Icon" /></a>
