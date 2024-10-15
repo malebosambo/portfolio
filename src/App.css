@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) { /* styles for devices with max width of 600px */
   
-
+  
 
   .Basic_Details {
     padding: 10px 0;
@@ -110,7 +110,7 @@
   }
 
   h1 {
-    font-size: 35px;
+    font-size: 50px;
   }
 
   p {
@@ -521,7 +521,7 @@
   .Menu {
     display: flex;
     flex-direction: row;
-    padding-top: 15px;
+    margin-top: 10px;
   }
 
   .Menu, a {
@@ -545,11 +545,11 @@
   .Overview {
     display: flex;
     flex-direction: row;
-    padding: 50px;
     width: 100%;
   }
 
   .Profile {
+    padding-left: 10px;
     width: 50%;
   }
 

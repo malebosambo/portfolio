@@ -13,9 +13,9 @@ export default function Footer() {
 
         <div className="Contacts">
           <h3>Contacts</h3><br />
-          <img src="Email.png" className="Icon" />
+          <img src="Email.png" alt="Email Icon" className="Icon" />
           <a href="mailto:sambo.malebo96@gmail.com"><p>sambo.malebo96@gmail.com</p></a>
-          <img src="./Telephone.png" className="Icon" />
+          <img src="./Telephone.png" alt="Telephone Icon" className="Icon" />
           <a href="tel:+27630013711"><p>+27630013711</p></a>
         </div>
 

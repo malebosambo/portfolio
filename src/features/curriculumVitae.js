@@ -15,28 +15,28 @@ export default function CurriculumVitae() {
               <br />
               <h1>Malebo Sambo</h1><br />
               <h4>Software Developer/Engineer, Entrepreneur, Business Analyst</h4><br />
-              <img src="Email.png" className="Icon" />
+              <img src="Email.png" alt="Email Icon" className="Icon" />
               <a href="mailto:sambo.malebo96@gmail.com"><h5>sambo.malebo96@gmail.com</h5></a><br />
-              <img src="./Telephone.png" className="Icon" />
+              <img src="./Telephone.png" alt="Telephone Icon" className="Icon" />
               <a href="tel:+27630013711"><h5>+27630013711</h5></a><br />
-              <img src="./Location.png" className="Icon" />
+              <img src="./Location.png" alt="Location Icon" className="Icon" />
               <h5>South Africa</h5><br />
             </div>
             <div className="Online">
-              <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Icon" /></a>
-              <a href="www.github.com/sambomalebo"><img src="./Github.png" alt="GitHub" className="Icon" /></a>
-              <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter" className="Icon" /></a>
+              <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn Icon" className="Icon" /></a>
+              <a href="www.github.com/sambomalebo"><img src="./Github.png" alt="GitHub Icon" className="Icon" /></a>
+              <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter Icon" className="Icon" /></a>
             </div>  
           </div>
           <div className="CV_Email">
-            <img src="Email.png" className="Icon" />
+            <img src="Email.png" alt="Email Icon" className="Icon" />
             <div>
               <h4>Email</h4>
               <a href="mailto:sambo.malebo96@gmail.com"><p>sambo.malebo96@gmail.com</p></a>
             </div>
           </div>
           <div className="CV_Phone">
-            <img src="Telephone.png" className="Icon" />
+            <img src="Telephone.png" alt="Telephone Icon" className="Icon" />
             <div>
               <h4>Phone Number</h4>
               <a href="tel:+27630013711"><p>+27 63 001 3711</p></a>

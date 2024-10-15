@@ -27,19 +27,19 @@ export default function Home() {
     <main className="Container">
 
       <div className="Overview">
-        <div className="Avatar">
-          <img src="./Malebo-Sambo.png" alt="Avatar" />
+        <div className="Avatar text-center">
+          <img src="./Malebo-Sambo.png" alt="Avatar" className="img-fluid" />
         </div>
         <div className="Profile">
           <br />
           <h1>Malebo Sambo</h1><br />
-          <h4>Software Developer/Engineer, Entrepreneur, Business Analyst</h4><br />
+          <h5>Software Developer/Engineer, Entrepreneur, Business Analyst</h5><br />
           <img src="Email.png" alt="Email Icon" className="Icon" />
-          <a href="mailto:sambo.malebo96@gmail.com"><h5>sambo.malebo96@gmail.com</h5></a><br />
+          <a href="mailto:sambo.malebo96@gmail.com"><h6>sambo.malebo96@gmail.com</h6></a><br />
           <img src="./Telephone.png" alt="Telephone Icon" className="Icon" />
-          <a href="tel:+27630013711"><h5>+27630013711</h5></a><br />
+          <a href="tel:+27630013711"><h6>+27630013711</h6></a><br />
           <img src="./Location.png" alt="Location Icon" className="Icon" />
-          <h5 style={{ color: "black" }}>South Africa</h5><br />
+          <h6 style={{ color: "black" }}>South Africa</h6><br />
         </div>
         <div className="Online">
           <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Icon" /></a>
