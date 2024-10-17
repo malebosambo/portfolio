@@ -300,14 +300,20 @@
   }
 
   .CV {
-    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
   } 
 
   .CV_Body {
+    display: flex;
+    flex-direction: row;
     width: 100%;
   }
-
+  
   .CV_Contacts {
+    display: flex;
+    flex-direction: row;
     padding: 10px 0;
     width: 100%;
   }
@@ -334,7 +340,6 @@
   }
 
   .CV_Section3 {
-    padding: 15px;
     width: 30%;
   }
 
@@ -450,10 +455,14 @@
   }
 
   .CV {
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
   }
 
   .CV_Body {
+    display: flex;
+    flex-direction: row;
     width: 100%;
   }
 
