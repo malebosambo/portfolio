@@ -8,8 +8,8 @@ export default function CurriculumVitae() {
 
         <div className="CV_Contacts">
           <div className="CV_Overview">
-            <div className="Avatar">
-              <img src="./Malebo-Sambo.png" alt="Avatar" className="Avatar" />
+            <div className="Avatar text-center">
+              <img src="./Malebo-Sambo.png" alt="Avatar" className="img-fluid" />
             </div>
             <div className="Profile">
               <br />
