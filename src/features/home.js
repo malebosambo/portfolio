@@ -73,8 +73,8 @@ export default function Home() {
 
       <div className="Repo_List">
         <div style={{paddingBottom: "30px", textAlign: "center", borderBottom: "1px solid grey", }}><h1>Repositories</h1></div>
-        <RepoTable />
-        {repos.map((repo) => <RepoCard name={repo.name} description={repo.description} link={repo.url} />)}
+        <div className="Repo_Table"><RepoTable /></div>
+        <div className="Repo_Cards">{repos.map((repo) => <RepoCard name={repo.name} description={repo.description} issues={repo.open_issues_count} link={repo.url} />)}</div>
       </div>
         
     </main>
