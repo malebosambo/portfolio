@@ -102,7 +102,7 @@
   }
 
   .Repo_Table {
-    padding: 30px;
+    display: none;
   }
 
   .Table_Response {
@@ -250,6 +250,10 @@
 
   .Repo_List {
     padding: 40px 20px;
+  }
+
+  .Repo_Table {
+    display: none;
   }
 
   .Table_Response {
@@ -405,6 +409,10 @@
 
   .Repo_Banner {
     padding: 40px;
+  }
+
+  .Repo_Cards {
+    display: none;
   }
 
   .Repo_List {
@@ -564,6 +572,10 @@
 
   .Repo_Banner {
     padding: 50px;
+  }
+
+  .Repo_Cards {
+    display: none;
   }
 
   .Repo_List {
