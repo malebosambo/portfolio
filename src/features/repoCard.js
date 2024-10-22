@@ -1,6 +1,6 @@
 import React from "react";
 
-export async function RepoCard({ name, description, issues, link, }) {
+export default function RepoCard({ name, description, issues, link, }) {
 
   return (
     <div className="card text-bg-warning mb-3">
