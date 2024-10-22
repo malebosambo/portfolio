@@ -1,10 +1,24 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/home.css';
 import ContentItem from './contentItem';
 import RepoTable from './repoTable';
+import RepoCard from './repoCard';
 
 
 export default function Home() {
+
+  const [repos,setRepos] = useState([]);
+
+  useEffect(() => {
+    const fetchRepos = async (username) => {
+      const response = await fetch(`https://api.github.com/users/${username}/repos`);
+
+      const data = await response.json();
+      setRepos(data);
+    };
+
+    fetchRepos('malebosambo');
+  }, []);
 
   const services = [
     {
@@ -60,6 +74,7 @@ export default function Home() {
       <div className="Repo_List">
         <div style={{paddingBottom: "30px", textAlign: "center", borderBottom: "1px solid grey", }}><h1>Repositories</h1></div>
         <RepoTable />
+        {repos.map((repo) => <RepoCard name={repo.name} description={repo.description} link={repo.url} />)}
       </div>
         
     </main>
