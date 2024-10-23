@@ -35,5 +35,5 @@ export default function Repositories() {
         <div className="Repo_Cards">{repos.map((repo) => <RepoCard name={repo.name} description={repo.description} issues={repo.open_issues_count} link={repo.url} />)}</div>  
       </div>
     </>
-  )
+  );
 }

@@ -16,11 +16,11 @@ export default function CurriculumVitae() {
               <h1>Malebo Sambo</h1><br />
               <h4>Software Developer/Engineer, Entrepreneur, Business Analyst</h4><br />
               <img src="Email.png" alt="Email Icon" className="Icon" />
-              <a href="mailto:sambo.malebo96@gmail.com"><h5>sambo.malebo96@gmail.com</h5></a><br />
+              <a href="mailto:sambo.malebo96@gmail.com"><p>sambo.malebo96@gmail.com</p></a><br />
               <img src="./Telephone.png" alt="Telephone Icon" className="Icon" />
-              <a href="tel:+27630013711"><h5>+27630013711</h5></a><br />
+              <a href="tel:+27630013711"><p>+27630013711</p></a><br />
               <img src="./Location.png" alt="Location Icon" className="Icon" />
-              <h5>South Africa</h5><br />
+              <p>South Africa</p><br />
             </div>
             <div className="Online">
               <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn Icon" className="Icon" /></a>
@@ -49,16 +49,19 @@ export default function CurriculumVitae() {
           </div>
         </div>
 
+        <hr />
+
         <div className="CV_Body">
           <div className="CV_Section1">
             <div className="CV_About">
-              <h4>Personal Summary</h4><br />
+              <h2>Personal Summary</h2><br />
               <p>I am an IT professional with experience in both Software and Mobile App Development, Quality Assuarance (QA), Research & Development (R&D) Analysis, and Business Analysis (BA). </p><br />
               <p>I have skills and experience as a Operations Manager for SMMEs in the IT sector, I also provide organizational culture and business model development expertise.</p><br />
               <p>I possess great personal characteristics that assist me to work with diverse and incredible private and public sector individuals to deliver projects and initiatives.</p>
             </div>
+
             <div className="CV_Education">
-              <h4>Education</h4><br />
+              <h2>Education Background</h2><br />
               <div>
                 <p>2010-2014</p>
                 <p>National Senior Certificate</p>
@@ -70,11 +73,12 @@ export default function CurriculumVitae() {
                 <p>OutSystems</p>
               </div>
             </div>
+
             <div className="CV_Softskills">
-              <h4>Soft Skills</h4><br />
+              <h2>Soft Skills</h2><br />
               <ul>
-                <li>Communication (Verbal/Written)</li>
-                <li>Collaborator</li>
+                <li><p>Communication (Verbal/Written)</p></li>
+                <li><p>Collaborator</p></li>
               </ul>
             </div> 
           </div>
@@ -86,20 +90,20 @@ export default function CurriculumVitae() {
               <h3>Software Developer/Engineer</h3>
             </div>
             <div className="CV_Hardskills">
-              <h4>Hard Skills</h4><br />
+              <h2>Hard Skills</h2><br />
               <ul>
-                <li>OutSystems Reactive Developer</li>
-                <li>MERN/Next.js Developer</li>
-                <li>C# Developer (Blazor)</li>
-                <li>WordPress Developer</li>
-                <li>Flutter Mobile App Developer</li>
+                <li><p>OutSystems Reactive Developer</p></li>
+                <li><p>MERN/Next.js Developer</p></li>
+                <li><p>C# Developer (Blazor)</p></li>
+                <li><p>WordPress Developer</p></li>
+                <li><p>Flutter Mobile App Developer</p></li>
               </ul>
             </div>
           </div>
 
           <div className="CV_Section3">
             <div className="CV_Employment">
-              <h4>Experience</h4><br />
+              <h2>Employment Experience</h2><br />
               <div>
                 <p>2021-2022</p>
                 <p>Social Impact Platform Specialist</p>
@@ -137,7 +141,7 @@ export default function CurriculumVitae() {
               </div>              
             </div>
             <div className="CV-Achievements">
-              <h4>Achievements</h4><br />
+              <h2>Achievements</h2><br />
               <div>
                 <p>2016</p>
                 <p>2nd Place Winners</p>
