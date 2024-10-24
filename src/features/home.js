@@ -47,13 +47,13 @@ export default function Home() {
         <div className="Profile">
           <br />
           <h1>Malebo Sambo</h1><br />
-          <h5>Software Developer/Engineer, Entrepreneur, Business Analyst</h5><br />
+          <h5>Founder, CEO, CTO, Business Analyst</h5><br />
           <img src="Email.png" alt="Email Icon" className="Icon" />
-          <a href="mailto:sambo.malebo96@gmail.com"><h6>sambo.malebo96@gmail.com</h6></a><br />
+          <a href="mailto:sambo.malebo96@gmail.com"><p>sambo.malebo96@gmail.com</p></a><br />
           <img src="./Telephone.png" alt="Telephone Icon" className="Icon" />
-          <a href="tel:+27630013711"><h6>+27630013711</h6></a><br />
+          <a href="tel:+27630013711"><p>+27630013711</p></a><br />
           <img src="./Location.png" alt="Location Icon" className="Icon" />
-          <h6 style={{ color: "black" }}>South Africa</h6><br />
+          <p>South Africa</p><br />
         </div>
         <div className="Online">
           <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Icon" /></a>
@@ -72,7 +72,7 @@ export default function Home() {
       </div>
 
       <div className="Repo_List">
-        <div style={{paddingBottom: "30px", textAlign: "center", borderBottom: "1px solid grey", }}><h1>Repositories</h1></div>
+        <div style={{paddingBottom: "30px", textAlign: "center" }}><h1>Repositories</h1></div>
         <div className="Repo_Table"><RepoTable /></div>
         <div className="Repo_Cards">{repos.map((repo) => <RepoCard name={repo.name} description={repo.description} issues={repo.open_issues_count} link={repo.url} />)}</div>
       </div>

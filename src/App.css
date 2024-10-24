@@ -11,7 +11,6 @@
   .CV {
     display: flex;
     flex-direction: column;
-    padding: 10px;
   }
 
   .CV_About, .CV_Education, .CV_Softskills, .CV_Hardskills, .CV_Employment, .CV_Achievements {
@@ -31,7 +30,7 @@
   }
 
   .CV_Overview {
-    align-items: center;
+    
   }
 
   .Footer {
@@ -118,6 +117,22 @@
 
   h2 {
     font-size: 40px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 35px;
+  }
+
+  h5 {
+    font-size: 30px;
+  }
+
+  h6 {
+    font-size: 20px;
   }
 
   p {

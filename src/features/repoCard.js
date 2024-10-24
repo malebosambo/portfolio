@@ -9,7 +9,7 @@ export default function RepoCard({ name, description, issues, link, }) {
         <h5 className="card-title">{name}</h5>
         <p>Open Issues: {issues}</p>
         <p className="card-text">{description}</p>
-        <a target="_blank" rel="noopener noreferrer" href={link} className="btn btn-primary">View</a>
+        <a target="_blank" rel="noopener noreferrer" href={link} className="btn btn-secondary">View</a>
       </div>
     </div>
   );

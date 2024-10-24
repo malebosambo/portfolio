@@ -14,7 +14,7 @@ export default function CurriculumVitae() {
             <div className="Profile">
               <br />
               <h1>Malebo Sambo</h1><br />
-              <h4>Software Developer/Engineer, Entrepreneur, Business Analyst</h4><br />
+              <h4>Founder, CEO, CTO, Business Analyst</h4><br />
               <img src="Email.png" alt="Email Icon" className="Icon" />
               <a href="mailto:sambo.malebo96@gmail.com"><p>sambo.malebo96@gmail.com</p></a><br />
               <img src="./Telephone.png" alt="Telephone Icon" className="Icon" />
